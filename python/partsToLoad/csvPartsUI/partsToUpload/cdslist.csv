@@ -1,0 +1,14 @@
+name;description;type;lenghtBP;quantity;dp;p
+BBa_K2656013;sfGFP;;720;0;0.0063;3
+BBa_K2656014;mRFP;;678;0;0.0063;3
+BBa_K2656015;E protein from phage phiX174;;276;0;0.0063;3
+BBa_K2656016;LuxR;;756;0;0.0063;3
+BBa_K2656017;AraC;;879;0;0.0063;3
+BBa_K2656018;amilCP;;669;0;0.0063;3
+BBa_K2656019;LuxI;;585;0;0.0063;3
+BBa_K2656020;YFP_LVA;;753;0;0.0063;3
+BBa_K2656021;YFP;;720;0;0.0063;3
+BBa_K2656022;GFPmut3b;;720;0;0.0063;3
+BBa_K2656023;GFPmut3b_LVA;;753;0;0.0063;3
+BBa_K2656024;mRFP_LVA;;714;0;0.0063;3
+BBa_K2656025;SAM benzoic acid/salicylic acid carboxyl methyltransferase I. It gives wintergreen smell in presence of salicylic acid.;;1074;0;0.0063;3

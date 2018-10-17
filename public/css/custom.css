@@ -1,0 +1,551 @@
+/* ESTILOS DEL NAVBAR*/
+.bar .logo {
+  top: 0px;
+  max-height: 80px;
+}
+
+/* ESTILOS GENERALES */
+h1, h2, h3, h4, h5 {
+  margin-bottom: 5px !important;
+}
+hr{
+  margin-top: 2px !important;
+  margin-bottom: 5px !important;
+}
+.maindiv{
+  min-height: 100vh;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+td, th {
+  font-size: 0.8em;
+  padding: 2px 10px !important;
+}
+
+.disabled {
+  background-color: #DDDDDD !important;
+}
+
+
+
+/* ESTILOS IMPUTS */
+input[type], textarea, select{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ececec !important;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 0.85714286em !important
+}
+
+/* ESTILOS BOTONES */
+.btn-blue {
+  background: #3e90c5 !important;
+  border-color: #3e90c5 !important;
+}
+.btn-red {
+  background: #FB5058 !important;
+  border-color: #FB5058 !important;
+}
+.btn-yel {
+  background: #ffc600 !important;
+  border-color: #ffc600 !important;
+}
+.btn-box{
+  margin: 0px;
+  padding: 10px 15px;
+  background-color: #fafafa !important
+}
+.btn-help{
+  color: #fff !important;
+  font-size: 0.7em !important;
+  margin-top:10px;
+
+}
+
+.btn--primary, .btn--primary:visited{
+  background: #3e90c5 !important;
+  border-color: #3e90c5 !important;
+}
+
+/* OTROS ESTILOS */
+.boxheader{
+  padding-top: 5px;
+  text-align: center;
+}
+
+.boxed{
+  margin: 0px;
+  padding: 10px 15px;
+}
+
+
+.radiolabel{
+  margin-left: 10px;
+  vertical-align: top
+}
+
+
+
+
+/* ACORDEON */
+.card{
+  overflow:hidden;
+  border-radius: 0.4 rem;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+
+
+.cardSpan.collapsed:before{
+    font-family: "stack-interface";
+    content: '\e80d';
+    margin-right: 6px;
+}
+
+.cardSpan.expanded:before{
+    font-family: "stack-interface";
+    content: '\e80a';
+    margin-right: 6px;
+}
+
+.card-header{
+  cursor: pointer;
+  background: #3e90c5;
+  border: 0;
+}
+
+
+.cardText{
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  color: #fff;
+}
+
+.card-body{
+  padding: 1.2em 1.2em 1.2em 1.2em;
+  border: 1px solid rgba(0,0,0,.125);
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+
+/* TABLA HA */
+.tableHa{
+  border-collapse: collapse;
+  border: none !important;
+  box-shadow: 0 0 0 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.table--alternate-row tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.thHa{
+  padding-top: 1em !important;
+  border-right: 1px solid #fff;
+  padding-bottom: 1em !important;
+  font-size: 1em;
+}
+
+th:last-child{
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  font-size: 1em;
+}
+
+
+.tdHa{
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  font-size: 1em;
+}
+
+.tdHa2:last-child{
+  border-bottom: 2px solid #fff;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  font-size: 1em;
+  min-width: 95px;
+  min-height: 61px;
+}
+
+
+.iHa{
+  font-size:1.2em !important;
+}
+
+.aHa{
+  border-color: transparent !important;
+  opacity: 0.6;
+}
+
+.aHa:hover{
+  opacity: 1;
+  border-color: transparent !important;
+}
+
+.pFixed{
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+
+/* PRINT */
+
+@media print{
+  body{
+    width: auto; margin: 0 5% !important;
+    padding: 0 !important;
+    border: 0 !important;
+    float: none !important;
+    color: black !important;
+    background: transparent !important;
+  }
+
+  div{
+        page-break-inside: avoid;
+    }
+
+  .ng-hide {
+     display: none !important;
+   }
+
+}
+
+
+[aria-expanded="false"] > .expanded, [aria-expanded="true"] > .collapsed {display: none;}
+
+
+
+
+/* Modales */
+.modal-header,
+.modal-header button {
+  height: 50px;
+}
+.modal-header .close {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+/*FOOTER*/
+footer span {
+  font-size: 12px !important;
+  font-weight: 900;
+}
+
+
+/* DATE PICKER */
+
+.picker table td {
+  padding: 0.46428571em !important;
+  padding-top: 0 !important;
+  font-size: 1em !important;
+}
+
+.picker table th {
+  font-size: 1em !important;
+}
+
+/* RADIO BUTTONS */
+
+.input-radio input:checked + label { background-color: #3a90c5 !important;}
+
+
+
+
+
+
+/* RESPONSIVE FIXES */
+
+@media only screen and (max-width: 540px) {
+    .sbolRow {
+        display: grid;
+    }
+    .sbolElement{
+      margin-bottom: 1em !important;
+    }
+
+    .buttons{
+        text-align: center;
+        display: grid;
+    }
+}
+
+
+@media only screen and (max-width: 995px) {
+    .buttons{
+        text-align: center;
+        display: grid;
+        width: 30%;
+        margin: auto !important;
+        margin-bottom: 2em !important;
+    }
+    .tablePhones {
+           width:100%;
+           border: none !important;
+       }
+       table.tablePhones thead {
+           display: none;
+       }
+       table.tablePhones tr{
+        background-color: #fff;
+        border: none !important;
+        border-bottom: 1px solid #fff !important;
+       }
+       table.tablePhones tr:nth-of-type(2n) {
+       }
+       table.tablePhones tr td:first-child {
+           background: #3e90c5;
+           font-weight:bold;
+           font-size:1.3em;
+           color: white;
+       }
+       table.tablePhones tr:nth-child(even){
+        background-color: #fff !important;
+       }
+       table.tablePhones tbody td {
+           display: block;
+           text-align:center;
+           border: none !important;
+
+       }
+       table.tablePhones tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .buttons{
+        text-align: center;
+        display: grid;
+        width: 45%;
+        margin: auto !important;
+        margin-bottom: 2em !important;
+    }
+
+    .sbolRow {
+        display: grid;
+    }
+    .sbolElement{
+      margin-bottom: 1em !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .buttons{
+        text-align: center;
+        display: grid;
+        width: 65%;
+        margin: auto !important;
+        margin-bottom: 2em !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .graphs{
+      display: grid;
+      text-align: center;
+      margin: auto;
+    }
+}
+
+
+/* TOOLTIP */
+
+
+/* Tooltip container */
+.toolHec {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.toolHec .toolHecText {
+    visibility: hidden;
+    width: 300px;
+    background-color: #353535;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 20px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.toolHec .toolHecTextHa {
+    visibility: hidden;
+    width: 300px;
+    background-color: #353535;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 20px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.toolHec .toolHecText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #353535 transparent transparent transparent;
+}
+
+.toolHec .toolHecTextHa::after {
+    content: "";
+    position: absolute;
+    top: 93px;
+    left: 92%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #353535 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.toolHec:hover .toolHecText {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toolHec:hover .toolHecTextHa {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pToolHec{
+  
+}
+
+a { cursor: pointer; }
+
+
+
+/* RECUADROS DE PARTES */
+
+
+.indi-wrap {
+  padding-bottom: 10px;
+  display: block;
+}
+
+.indi-wrap > * {
+    display: inline-block !important;
+    max-width: 70%;
+    vertical-align: top;
+}
+
+
+/* TOGGLE */
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #3e90c5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3e90c5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

@@ -1,0 +1,75 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="profileController" ng-init="initController(#{JSON.stringify(user)})" ng-cloak)
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block
+              h3.type--uppercase Profile
+              hr
+      section(style="padding:0px;")
+        .row
+          .col-md-6.col-offset-md-3
+            h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right; padding-bottom: 1em;")
+              | Name
+            input(ng-disabled="editUser.username == 'admin'" ng-class="editUser.username == 'admin' ? 'disabled' : '' " style="display: inline-block; width: 85%;" type='text', ng-model="editUser.personalInfo.name" name='Name', placeholder='Name')
+          
+            h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right; padding-bottom: 1em;")
+              | Lastname
+            input(ng-disabled="editUser.username == 'admin'" ng-class="editUser.username == 'admin' ? 'disabled' : '' " style="display: inline-block; width: 85%;" type='text', ng-model="editUser.personalInfo.lastname" name='Lastname', placeholder='Lastname')
+          
+            h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right; padding-bottom: 1em;")
+              | Username
+            input(ng-disabled="editUser.username == 'admin'" ng-class="editUser.username == 'admin' ? 'disabled' : '' " style="display: inline-block; width: 85%;" type='text', ng-model="editUser.username" name='Username', placeholder='Username')
+          
+            h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right; padding-bottom: 1em;")
+              | Email
+            input(ng-disabled="editUser.username == 'admin'" ng-class="editUser.username == 'admin' ? 'disabled' : '' " style="display: inline-block; width: 85%;" type='text', ng-model="editUser.email" name='Email Address', placeholder='Email Address')
+          
+            h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right; padding-bottom: 1em;")
+              | Password
+            input(style="display: inline-block; width: 85%;" type='password', ng-model="newPassword" name='Password', placeholder='Password')
+
+            button.btn.btn--primary.type--uppercase(style="width: 30%;" type='submit' ng-click="save(editUser, newPassword)") UPDATE
+            
+          
+          //- .col-md-6
+          //-   img.img-fluid(src='/images/profile_banner.png', alt='Responsive image')
+    .container(style="margin-top:30px;")
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block
+              h3.type--uppercase(style="display: inline-block;") Configuration &nbsp;
+              h5(style="display: inline-block;") (default params)
+              hr
+      section(style="padding:0px;")
+        .row
+          .boxed.text-center.col-md-12(style='justify-content:center; display: flex; padding-bottom: 2em; padding-left:0')
+            i.fas.fa-snowflake(style='font-size: 30px;')
+            .col-md-3
+              h5  Cold zone temperature:
+              input(type='text', name='zona_fria', placeholder='ºC' ng-model="editUserConfiguration.configuration.coldzoneTemperature")
+            .col-md-2(style="margin-right: 40px;")
+              h5 Cold Zone Time:
+              input(placeholder="Minutes", name="zona_fria", type="text" ng-model="editUserConfiguration.configuration.coldzoneTime")
+            
+            i.fab.fa-hotjar(style='font-size: 30px')
+            .col-md-3
+              h5  Hot zone temperature:
+              input(type='text', name='zona_caliente', placeholder='ºC' ng-model="editUserConfiguration.configuration.hotzoneTemperature")
+            .col-md-2(style="margin-right: 40px;")
+              h5 Hot Zone Time:
+              input(placeholder="Minutes", name="zona_fria", type="text" ng-model="editUserConfiguration.configuration.hotzoneTime")
+        .row
+          .col-md-12
+              button.btn.btn--primary.type--uppercase(style="width: 15%;" type='submit' ng-click="saveConfiguration()") UPDATE
+
+
+block footerJS  
+  script(type="text/javascript" src="/js/services/user.js")
+  script(type="text/javascript" src="/js/controllers/profile/index.js")

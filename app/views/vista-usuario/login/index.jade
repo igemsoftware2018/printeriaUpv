@@ -1,0 +1,29 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  div(ng-controller='loginController' ng-init="init()" ng-cloak)
+    section.height-80.imagebg.text-center(data-overlay='4')
+      //- .background-image-holder(style='background: url("img/inner-6.jpg"); opacity: 1;')
+      .background-image-holder(style='background: url("imgages/HOME.jpg"); opacity: 1;')
+        img(alt='background', src='/images/HOME.jpg')
+      .container.pos-vertical-center
+        .row
+          .col-md-7.col-lg-5
+            h2 Login to continue
+            form
+              .row
+                .col-md-12
+                  input(type='text', ng-model="email" placeholder='Username')
+                .col-md-12
+                  input(type='password', ng-model="password" placeholder='Password')
+                .col-md-12
+                  button.btn.btn--primary.type--uppercase(type='submit' ng-click="login()" style="width: 30%") Login
+              // end of row
+            .alert.alert-mini.alert-danger.margin-bottom-30(ng-show="validUser === false", style="margin-top: 2em;")
+              strong Oh snap!
+              |  Login Incorrect!
+
+block footerJS
+  script(src='/js/controllers/login/index.js')

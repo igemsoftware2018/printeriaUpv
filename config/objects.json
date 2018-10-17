@@ -1,0 +1,13 @@
+{
+  "activities": "db",
+  "jobs": "db",
+  "jobs-recipes": "db",
+  "token": "db",
+  "user": "db",
+  "promoters": "db",
+  "cdss": "db",
+  "terminators" : "db",
+  "rbss" : "db",
+  "inventories" : "db",
+  "chassis" : "db"
+}

@@ -1,0 +1,29 @@
+#editUserPermission.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true')
+  .modal-dialog.modal-md
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+        h4#myModalLabel.modal-title Editar permisos
+      .modal-body.clearfix
+        .row
+          .col-md-12
+            label Nombre de usuario
+            input.form-control.typeahead.tt-input(
+              type="text" 
+              name="src" 
+              style="position: relative; vertical-align: top; background-color: transparent;"
+              ng-model="editableUser.username"
+              ng-disabled="true"
+              )
+            br
+          .col-md-12
+            label(class="checkbox")
+              input(type="checkbox" ng-value="true" ng-model="editableUser.admin" checked="checked")
+              i 
+              | Administrador
+            br
+      // Modal Footer
+      .modal-footer
+        button.btn.btn-default(type='button', data-dismiss='modal') Cancelar
+        button.btn.btn-primary(type='button', data-dismiss='modal', ng-click="updateUser(editableUser)") Aplicar

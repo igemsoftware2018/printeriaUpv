@@ -1,0 +1,217 @@
+extends ../../layout
+
+block subhead
+
+block content
+  .maindiv(ng-controller="historicalController" ng-init="init()" ng-cloak)
+    include ./sections/modal_cancel.jade
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3.type--uppercase Jobs in queue
+              .col-xs-12(style="padding:0px;")
+                hr
+                  
+      // SI NO HAY JOBS 
+      section.height-50.bg--dark.text-center(ng-show="allJobs.length == 0")
+        .container.pos-vertical-center
+          .row.mb20
+            .col-md-12
+              h1.h1--large JOBS
+              p.lead There are no jobs in the database
+              a.btn.btn--lg.btn-help.buttons(ng-click="getURLLogged('new-job')", style="cursor: pointer; font-size: 1em !important; padding-top: 0.58035714em; padding-bottom: 0.58035714em; padding-right: 3.48214286em; padding-left: 3.48214286em;") Send your first jobs to Printeria
+      
+      // SI HAY JOBS
+      section(style="padding:0px;" ng-show="allJobs.length != 0")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            div(style='margin-bottom: 15px;')
+              .row.col-md-12(style='display: flex; width: 100%;')
+                .col-md-4.col-lg-4(style="padding-right: 15px; padding-left: 15px")
+                  label(for="searchBar" , style="font-weight: 700; font-size: 1em;") Search
+                  input#searchBar.ng-pristine.ng-valid.ng-empty.ng-touched(type='text', placeholder='Search...', ng-change='search()', ng-model='searchValue', style='margin-right: 10px;')
+
+                .col-md-4.col-lg-4
+                 label(for="dateBar" , style="font-weight: 700; font-size: 1em;") Search By Date
+                 input#dateBar.datepicker(type='date', name="date" , ng-model="dateValue")
+
+
+                .col-md-1.col-lg-1(style='width: 100%; padding-right: 15px; padding-left: 15px; margin-right: 6.3em;')
+                  a.btn.btn--sm.btn-blue.btn-help(ng-click='searchDate()', style="top: 2em;")
+                    span.btn__text(style='font-size:1.3em; color: white; font-weight: 900;') Search
+
+                .col-md-2.col-lg-2(style='width: 100%; padding-right: 15px; padding-left: 15px')
+                  a.btn.btn-yel.btn-help(ng-click='show_avanzado = !show_avanzado', style="top: 1.8em;")
+                    span.btn__text(ng-show='show_avanzado', style='font-size:1.3em; color: white; font-weight: 900;') Simple Search
+                    span.btn__text.ng-hide(ng-show='!show_avanzado', style='font-size:1.3em; color: white; font-weight: 900;') Advanced Search
+
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            div(ng-show='show_avanzado' style="border: 1px solid #e8e8e8; padding: 2em 2em 2em 2em; border-radius: 15px;")
+              .container
+                .row.mb10
+                  .col-md-4
+                    h5 Experiment Name: 
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Experiment name', ng-model='advancedName')
+                    h5(style='padding-top: 10px;') Author: 
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Author of the experiment', ng-model='advancedAuthor')
+                  .col-md-8
+                    h5 Description:
+                    textarea.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(rows='5', type='text', placeholder='Description of your experiment', ng-model='advancedDescription')            
+                .row
+                  .col-md-3
+                    h5 Promoter:
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Promoter name', ng-model='advancedPromoter')
+                    h5(style='padding-top: 10px;')
+                      | Parameters
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='advancedPromoterCategory')
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedPromoterLengthBP')
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Type', ng-model='advancedPromoterType')
+                  .col-md-3
+                    h5 Rbs:
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Rbs name', ng-model='advancedRbs')
+                    h5(style='padding-top: 10px;')
+                      | Parameters
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='advancedRbsCategory')
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedRbsLengthBP')
+                  .col-md-3
+                    h5 Cds:
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Cds name', ng-model='advancedCds')
+                    h5(style='padding-top: 10px;')
+                      | Parameters
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Type', ng-model='advancedCdsType')
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedCdsLengthBP')
+                  .col-md-3
+                    h5 Terminator:
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Terminator name', ng-model='advancedTerminator')
+                    h5(style='padding-top: 10px;')
+                      | Parameters
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='advancedTerminatorCategory')
+                    input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedTerminatorLengthBP')
+                .row
+                  .col-md-12(style='text-align: center;')
+                    a.btn.btn--primary.btn--icon.btn-blue(ng-click='advancedSearch()', style='\
+                    width: 176px; line-height: 1.85714286em;')
+                      span.btn__text
+                        i.far.fa-search(style='\
+                        font-size: 15px;')
+                        | Search
+
+
+
+
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            div(style="display: flex; width: 100%")
+              table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+                thead
+                  tr
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Creation Date
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Finish Time
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Experiment
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Author
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Status
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Promoters
+                    th.thHa(style='background: #3e90c5; color: #ffffff') RBS
+                    th.thHa(style='background: #3e90c5; color: #ffffff') CDS
+                    th.thHa(style='background: #3e90c5; color: #ffffff') Terminators
+                    th(style='background: #3e90c5; color: #ffffff') Options
+
+                tbody
+                  tr.trHa(ng-repeat="job in visibleJobs | orderBy: getStatus" ng-show="job.status != 'cancelled' ")
+                    td.tdHa.tdHa2(style=" white-space: nowrap;") {{job.creationDate | date:'dd/MM HH:mm'}}
+                    td.tdHa.tdHa2(style=" white-space: nowrap;" ng-show="job.status == 'doing' || job.status == 'done'") {{job.finishTime | date:'dd/MM HH:mm'}}
+                    td.tdHa.tdHa2(style=" white-space: nowrap;" ng-show="job.status == 'toDo' || job.status == 'missing'") -
+                    td.tdHa {{job.name}}
+                    td.tdHa {{job.owner}}
+                    //-Status
+                    td.tdHa(ng-show="job.status=='toDo'") To Do
+                    td.tdHa(ng-show="job.status=='doing'") Doing
+                    td.tdHa(ng-show="job.status=='done'") Done
+                    td.tdHa(ng-show="job.status=='missing'") Missing
+                    td.tdHa(ng-show="job.status=='cancelled'") Cancelled
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.promoterObj.name}}
+                    //td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.promoterObj.name}} - {{job.promoterObj.category}} - {{job.promoterObj.lengthBP}} - {{job.promoterObj.type}} ({{job.promoterObj.quantity}})
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.rbsObj.name}}
+                    //td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.rbsObj.name}} - {{job.rbsObj.category}} - {{job.rbsObj.lengthBP}} ({{job.rbsObj.quantity}})
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.cdsObj.name}}
+                    //td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.cdsObj.name}} - {{job.cdsObj.lengthBP}} - {{job.cdsObj.type}} ({{job.cdsObj.quantity}})
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.terminatorObj.name}}
+                    //td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.terminatorObj.name}} - {{job.terminatorObj.category}} - {{job.terminatorObj.lengthBP}} ({{job.terminatorObj.quantity}})
+                    td.tdHa2.text-center
+                      div(ng-show="job.status == 'toDo' ")
+                        a.btn.aHa(ng-click="editJob(job._id)" style="padding: .125rem .4rem;")
+                          i.fas.fa-pen.iHa
+                        a.btn.aHa(ng-click="deleteJob(job._id)" style="padding: .125rem .4rem; margin-left: 1em;")
+                          i.fas.fa-trash-alt.iHa
+                      div(ng-show="job.status == 'doing' ")
+                        a.btn.aHa(style="padding: .125rem .4rem;" data-toggle='modal', data-target='#ModalCancel' ng-click="toCancel(job._id)")
+                          i.fas.fa-ban.iHa
+                      div(ng-show="job.status == 'done' ")
+                        a.btn.aHa(ng-click="showJob(job._id)" style="padding: .125rem .4rem;")
+                          i.fas.fa-chart-bar.iHa
+                      div(ng-show="job.status == 'missing' ")
+                        a.btn.aHa(ng-click="editJob(job._id)" style="padding: .125rem .4rem;")
+                          i.fas.fa-pen.iHa
+                        a.toolHec.btn.aHa(style="padding: .125rem .4rem; margin-left: 0.8em;" ng-click="getURLLogged('inventory')")
+                          i.fas.fa-exclamation-triangle.iHa
+                            div.toolHecTextHa(style="right: 0px; font-size: 1em; text-align: left; padding: 1em")
+                              h6(style="color: #fff; padding:0; margin: 0;") Some of the parts are not available
+                              h6(style="color: #fff;") in the inventory
+
+
+                  tr(ng-repeat="job in visibleJobs" ng-show="job.status == 'cancelled' " style="background-color: #fff1c0;")
+                    td.tdHa.tdHa2(style=" white-space: nowrap;") {{job.creationDate | date:'dd/MM HH:mm'}}
+                    td.tdHa.tdHa2(style=" white-space: nowrap;") -
+                    td.tdHa {{job.name}}
+                    td.tdHa {{job.owner}}
+                    td.tdHa {{job.status}}
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.promoterObj.name}} - {{job.promoterObj.category}} - {{job.promoterObj.lengthBP}} - {{job.promoterObj.type}} ({{job.promoterObj.quantity}})
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.rbsObj.name}} - {{job.rbsObj.category}} - {{job.rbsObj.lengthBP}} ({{job.rbsObj.quantity}})
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.cdsObj.name}} - {{job.cdsObj.lengthBP}} - {{job.cdsObj.type}} ({{job.cdsObj.quantity}})
+                    td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.terminatorObj.name}} - {{job.terminatorObj.category}} - {{job.terminatorObj.lengthBP}} ({{job.terminatorObj.quantity}})
+                    td.tdHa2.text-center
+
+        .row.mb20.justify-content-center          
+            .col-md-12.col-lg-12
+              center
+                .pagination.pFixed(style="justify-content: center;")
+                  a.pagination__prev(ng-click="changePage(actualPage - 1)", title='Previous Page' style="cursor: pointer; padding-right: 0.5em;") 
+                    i.fas.fa-angle-left
+                  ol
+                    li(ng-repeat="enum in numPages" ng-class="enum == actualPage ? 'pagination__current' : '' " style="cursor: pointer;" ng-click="changePage(enum)")
+                      a {{enum+1}}
+                  a.pagination__next(ng-click="changePage(actualPage + 1)", title='Next Page' style="cursor: pointer; padding-left: 0.5em;")
+                    i.fas.fa-angle-right  
+
+                    
+                
+block footerJS
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/services/promoters.js")
+  script(type="text/javascript" src="/js/services/rbss.js")
+  script(type="text/javascript" src="/js/services/cdss.js")
+  script(type="text/javascript" src="/js/services/terminators.js")
+  script(type="text/javascript" src="/js/controllers/historical-activities/index.js")
+  //- script(type="text/javascript" src='/js/services/datepicker.js')
+  //- script(src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js')
+  //- script(src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js')
+  //- link(href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css', rel='stylesheet')
+  //- link(href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.css', rel='stylesheet')
+  //- script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js')
+  //- script(src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js')
+  //- script(src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js')
+  //- script(type='text/javascript').
+  //-   $(function () {
+  //-     $('#datetimepicker1').datetimepicker({
+  //-                         format: 'DD-MM-YYYY'
+  //-                     });
+  //-   });
+
+
+
+
+

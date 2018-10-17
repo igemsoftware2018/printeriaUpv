@@ -1,0 +1,24 @@
+Name;Description;Promoter;RBS;CDS;Terminator
+BBa_K2656104;Very low expression of superfolder green fluorescent protein(2);BBa_K2656004;BBa_K2656012;BBa_K2656013;BBa_K2656026
+BBa_K2656105;High expression of green fluorescent protein;BBa_K2656004;BBa_K2656009;BBa_K2656022;BBa_K2656026
+BBa_K2656106;Very high expression of green fluorescent protein;BBa_K2656005;BBa_K2656009;BBa_K2656022;BBa_K2656026
+BBa_K2656107;Very high expression of green fluorescent protein (2);BBa_K2656007;BBa_K2656009;BBa_K2656022;BBa_K2656026
+BBa_K2656108;High expression of green fluorescent protein with quick degradation;BBa_K2656004;BBa_K2656009;Bba_K2656023;BBa_K2656026
+BBa_K2656109;High expression of red fluorescent protein;BBa_K2656004;BBa_K2656009;Bba_K2656014;BBa_K2656026
+BBa_K2656110;High expression of red fluorescent protein with quick degradation;BBa_K2656004;BBa_K2656009;Bba_K2656024;BBa_K2656026
+BBa_K2656111;High expression of yellow fluorescent protein with quick degradation;BBa_K2656004;BBa_K2656009;BBa_K2656020;BBa_K2656026
+BBa_K2656112;High expression of yellow fluorescent protein;BBa_K2656004;BBa_K2656009;BBa_K2656021;BBa_K2656026
+BBa_K2656113;High expression of blue chromoprotein;BBa_K2656004;BBa_K2656009;BBa_K2656018;BBa_K2656026
+BBa_K2656114;Constitutive expression of the LuxR transcription factor;BBa_K2656004;BBa_K2656009;BBa_K2656016;BBa_K2656026
+BBa_K2656115;Expression of green fluorescent protein induced by heat shocks;BBa_K2656001;BBa_K2656009;BBa_K2656022;BBa_K2656026
+BBa_K2656116;Expression of green fluorescent protein repressed by LuxR in pressence of AHL;BBa_K2656002;BBa_K2656009;BBa_K2656022;BBa_K2656026
+BBa_K2656117;Medium expression of green fluorescent protein ;BBa_K2656004;BBa_K2656011;BBa_K2656022;BBa_K2656026
+BBa_K2656118;Low expression of red fluorescent protein ;BBa_K2656004;BBa_K2656010;BBa_K2656014;BBa_K2656026
+BBa_K2656119;Medium expression of red fluorescent protein ;BBa_K2656004;BBa_K2656011;BBa_K2656014;BBa_K2656026
+BBa_K2656120;Medium expression of blue chromoprotein;BBa_K2656004;BBa_K2656011;BBa_K2656018;BBa_K2656026
+BBa_K2656121;Constitutive expression of the AraC transcription factor;BBa_K2656004;BBa_K2656011;BBa_K2656017;BBa_K2656026
+BBa_K2656122;Expression of green fluorescent protein induced by LuxR in pressence of AHL;BBa_K2656003;BBa_K2656011;BBa_K2656022;BBa_K2656026
+BBa_K2656123;Very high expression of green fluorescent protein in pressence of T7 phage polymerase;BBa_K2656000;BBa_K2656010;BBa_K2656022;BBa_K2656026
+BBa_K2656124;Very high expression of green fluorescent protein in pressence of T7 phage polymerase (2);BBa_K2656000;BBa_K2656011;BBa_K2656022;BBa_K2656026
+BBa_K2656125;Constitutive LuxI expression;BBa_K2656004;BBa_K2656009;BBa_K2656019;BBa_K2656026
+BBa_K2656126;Mint odor in presence of salycylic acid;BBa_K2656004;BBa_K2656009;BBa_K2656025;BBa_K2656026

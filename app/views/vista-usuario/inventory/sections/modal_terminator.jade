@@ -1,0 +1,34 @@
+// Modal
+#ModalAddTerminator.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Terminator
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        form
+            .row(style='margin-right: 10px; margin-left: 10px;')
+              .col-md-12
+                h5 Name:
+                input(type='text', placeholder='Name', ng-model='terminator.name')
+              .col-md-12
+                h5 Description:
+                textarea.form-control(rows='6' type='text',  placeholder='Part description' ng-model="terminator.description")
+              .col-md-6
+                .toolHec
+                  h5 Quantity: (µl)
+                  span.toolHecText Description about the constant
+                input(type='text', placeholder='Quantity' ng-model='terminator.quantity')
+              .col-md-6
+                .toolHec
+                  h5 Category:
+                  span.toolHecText Description about the constant
+                input(type='text', placeholder='Category' ng-model='terminator.category')
+              .col-md-6
+                .toolHec
+                  h5 Base pairs length (BP):
+                  span.toolHecText Description about the constant
+                input(type='text', placeholder='LengthBP' ng-model='terminator.lengthBP')
+      .modal-footer
+        button.btn.btn--primary.type--uppercase(type='button', data-dismiss='modal' ng-click='createTerminator()', style='color: white; font-weight: 900; min-width: 200px;') Create

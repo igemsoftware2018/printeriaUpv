@@ -1,0 +1,76 @@
+section(style='padding: 3em 3em; background-color:#fff; border-radius: 15px; border: 1px solid #e8e8e8', ng-show='show_avanzado')
+  .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+              h4 These are the advanced multicycle options. Here you can select the exact sequence of steps that the device would perform. In case you don't add any cycle, it will default to:
+              br
+              br
+            .col-md-4.col-lg-4
+              h4 Cycle 0 (Initial Digestion): 
+              br
+              h5 - Hot Zone Temperature: 37ºC
+              h5 - Hot Zone Time: 10 minutes
+              br
+            .col-md-4.col-lg-4
+              h4 Cycle 1 (Golden Gate Reaction): 
+              br
+              h5 - Hot Zone Temperature: 37ºC
+              h5 - Hot Zone Time: 3 minutes
+              h5 - Cold Zone Temperature: 16ºC
+              h5 - Cold Zone Time: 4 minutes
+              h5 - Repetitions: 25
+              br
+            .col-md-4.col-lg-4
+              h4 Cycle 2 (Final Digestion): 
+              br
+              h5 - Hot Zone Temperature: 50ºC
+              h5 - Hot Zone Time: 10 minutes
+              br
+
+            .col-md-12.col-lg-12
+              div
+                table.border--round.table--alternate-row.tableHa(style="overflow: hidden;")
+                  thead
+                    tr
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Cycles
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Hot Zone Temperature (ºC)
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Hot Zone Time (minutes)
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Cold Zone Temperature (ºC)
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Cold Zone Time (minutes)
+                      th(style='background: #3e90c5; color: #ffffff') Repetitions
+
+                  tbody
+                    tr(ng-repeat="cycle in job.multicycle", ng-model='cycle[$index]', placeholder='cycle:')
+                      td.tdHa.tdHa2 cycle {{$index}}
+                      td.tdHa 
+                        input(ng-model='cycle.hotzoneTemperature', type='number', style="width:50%; margin: auto;", ng-show="cycle.cycleType == 'full' || cycle.cycleType == 'hot'" min="25")
+                      td.tdHa 
+                        input(ng-model='cycle.hotzoneTime', type='number', style="width:50%; margin: auto;", ng-show="cycle.cycleType == 'full' || cycle.cycleType == 'hot'")
+                      td.tdHa
+                        input(ng-model='cycle.coldzoneTemperature', type='number', style="width:50%; margin: auto;", ng-show="cycle.cycleType == 'full' || cycle.cycleType == 'cold'" max="25")
+                      td.tdHa
+                        input(ng-model='cycle.coldzoneTime', type='number', style="width:50%; margin: auto;", ng-show="cycle.cycleType == 'full' || cycle.cycleType == 'cold'")
+                      td.tdHa
+                        div
+                          input(ng-model='cycle.repetitions', type='number', style="width:50%; margin: auto;", ng-show="cycle.cycleType == 'full'")
+
+            .col-md-12.col-lg-12
+              .row(style="justify-content: center;")
+                div(style="text-align: right; color: #fff; padding-left: 1em; padding-right: 1em;")
+                   a.btn.btn--primary.buttons(style="font-weight: 700;", ng-click='addToMulticycle()')
+                    span.btn__text
+                    |  Add Complete Cycle
+                div(style="text-align: right; color: #fff; padding-left: 1em; padding-right: 1em;")
+                   a.btn.btn--primary.buttons(style="font-weight: 700;", ng-click='addToMulticycleSimpleCold()')
+                    span.btn__text
+                    |  Add Cold Cycle
+                div(style="text-align: right; color: #fff; padding-left: 1em; padding-right: 1em;")
+                   a.btn.btn--primary.buttons(style="font-weight: 700;", ng-click='addToMulticycleSimpleHot()')
+                    span.btn__text
+                    |  Add Hot Cycle
+              br
+              br
+              .row(style="justify-content: center; position: relative; left: 1.5em;")
+                div(style="color: #fff; padding-left: 1em; padding-right: 1em;")
+                  a.btn.btn--primary.btn-red.buttons(ng-click="deleteFromMulticycle()" style="background: #FB5058 !important; border-color: #FB5058 !important;")
+                    span.btn__text
+                      | Delete cycle

@@ -1,0 +1,28 @@
+// Modal
+#ModalAddChassis.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Chassis
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        form.ng-pristine.ng-valid
+          .row(style='margin-right: 10px; margin-left: 10px;')
+            .col-md-12
+              h5 Name:
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Name', ng-model='chassis.name')
+            .col-md-12
+              h5 Description:
+              textarea.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(rows='6', type='text', placeholder='Part description', ng-model='chassis.description')
+            .col-md-12
+              .toolHec
+                h5 Genotype:
+                span.toolHecText Description about the constant
+                button.btn.btn-yel.type--uppercase(ng-click='addToGenotype()', style="padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0.5em;padding-right: 0.5em; margin-bottom: 0.5em; color: #fff") Add Genotype
+              input(ng-repeat='mutation in chassis.genotype track by $index', type='text', ng-model='chassis.genotype[$index]', placeholder='Mutation:', style="padding-top: 0.5em")
+              br
+              br
+
+        button.btn.btn--primary.type--uppercase(type='button', data-dismiss='modal', ng-click='createChassis()', style='color: white; font-weight: 900; min-width: 200px;') Create
+

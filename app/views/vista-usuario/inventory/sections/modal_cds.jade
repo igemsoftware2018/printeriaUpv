@@ -1,0 +1,46 @@
+// Modal
+#ModalAddCds.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title CDS
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        form
+          .row(style='margin-right: 10px; margin-left: 10px')
+            .col-md-12
+              h5 Name: 
+              input(type='text', placeholder='Name', ng-model='cds.name')
+            .col-md-12
+              h5 Description:
+              textarea.form-control(rows='6' type='text',  placeholder='Part description' ng-model="cds.description")
+            .col-md-6
+              .toolHec
+                h5 Quantity: (µl)
+                span.toolHecText Description about the constant
+              input(type='number', placeholder='Quantity' ng-model='cds.quantity')
+            .col-md-6
+              .toolHec
+                h5 Type:
+                span.toolHecText Description about the constant 
+              input(type='text', placeholder='Type' ng-model='cds.type')
+            .col-md-6
+              .toolHec
+                h5 Base pairs length (BP):
+                span.toolHecText Description about the constant
+              input(type='number', placeholder='lengthBP' ng-model='cds.lengthBP')
+            .col-md-12
+              .toolHec
+                h5 Protein degradation rate d<sub>p</sub> (min<sup>-1</sup>):
+                span.toolHecText Description about the constant
+              .col-md-6(style="padding: 0")  
+                input.ng-pristine.ng-untouched.ng-valid.ng-not-empty(type='number', placeholder='dp', ng-model='cds.dp')
+            .col-md-12
+              .toolHec
+                h5 Translation rate p (min<sup>-1</sup>):
+                span.toolHecText Description about the constant 2
+              .col-md-6(style="padding: 0")
+                input.ng-pristine.ng-untouched.ng-valid.ng-not-empty(type='number', placeholder='p', ng-model='cds.p')
+      .modal-footer
+        button.btn.btn--primary.type--uppercase(type='button', data-dismiss='modal' ng-click='createCds()', style='color: white; font-weight: 900; min-width: 200px;') Create

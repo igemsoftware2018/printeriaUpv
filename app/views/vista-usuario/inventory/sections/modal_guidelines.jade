@@ -1,0 +1,260 @@
+// Modal
+style.
+  .pG strong{
+    color:#353535 !important;
+    font-size: 1.05em;
+  }
+#ModalGuidelines.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', style='display: none;', aria-hidden='true')
+  .modal-dialog(role='document' style="max-width: 920px;")
+    div(style='position: relative; display: -ms-flexbox; display: flex;-ms-flex-direction: column;flex-direction: column; width: 100%; pointer-events: auto; background-color: #fff; border: 1px solid rgba(0,0,0,.2); border-radius: .3rem; outline: 0;')
+      .modal-header(style="border: none; justify-content: center; padding-top: 2em; padding-bottom: 4em;")
+        //- BOTON DE NUEVA PESTANYA
+        //a(ng-click="getURLLogged('')")
+          button.close(type='button', data-dismiss='modal', aria-label='Close', style='right: 780px;padding: 0;text-align: left;top: 10px;')
+            span(aria-hidden='true', style='font-size: 1rem;text-align: left;') Open in a new tab
+        h5.type--uppercase(style="text-align: center; font-size: 17px;") Format Guidelines for uploading .csv files
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+
+      .tabs-container(data-content-align='left' style="padding-left: 30px; padding-right: 30px;")
+        ul.tabs(style="margin:0; border: 1px solid #6666; border-bottom: 0; border-radius: 0;border-top-left-radius: 5px; border-top-right-radius: 5px;")
+          li.active(style="border-right: 1px solid #6666")
+            .tab__title
+              span.h5 Uploading
+            .tab__content
+              .col-md-12(style="padding: 0; padding-bottom: 2em;")
+                div(style='height: 100%;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 500px; padding: 2em; border: 1px solid #6666; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;;')
+                    p.pG(style="font-size: 1.2em;") For uploading multiple parts or recipes, we provide an #[strong automatic uploading tool] that reads .csv files and translates them into parts (promoter, rbs, cds, terminator) or recipes. These are the guidelines to properly format the .csv files so that there are no problems during the uploading process.
+
+                    p.pG In order to start uploading your .csv files, you would have to follow these steps:
+                    ol(style="padding-left: 2em;")
+                      li.pG Decide which part or recipe to choose and check its structure
+                      a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                        img(alt='image', src='/images/guidelines/promoter1.png')
+                      li.pG Fill an Excel spreadsheet, following the structure provided.
+                        div(style="padding-left: 0em; padding-right: 7em; padding-top: 2em; margin-left: -3px;")
+                          p.pG #[strong Example: Promoters&#39; structure]
+                          p.pG Here you can fill every column, but in case you don not know which value to put on a colum, take this into account:
+                          ul(style="padding-left: 1.5em; list-style: circle")
+                            li.pG Values that are meant to be String, can be either a String or left blank
+                            li.pG Values that are meant to be a Number, can either be a Number or are supposed to be filled with the specific values defined for each part or recipe
+                          br
+                          a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                            img(alt='image', src='/images/guidelines/promoter1.png')
+                        //- br
+                          | BBa_K2656001;HSP promoter. The activity of this promoter increases with heat shock temperature.; ;mi;98;0;600;0.247
+                          | BBa_K2656002;Inducible promoter. This promoter is negative regulated by LuxR when it is responding to Acyl-homoserine-lactone produced by LuxI .; ;mi_luxR;30;0;600;0.247
+                          | BBa_K2656003;Inducible promoter. This promoter is negative regulated by LuxR when it is responding to Acyl-homoserine-lactone produced by LuxI .; ;mi_luxR;61;0;600;0.247
+                          | BBa_K2656004;Constitutive promoter.; ;mc;35;0;600;0.247
+                          | BBa_K2656005;Constitutive promoter.; ;mc;35;0;600;0.247
+                          | BBa_K2656006;Inducible promoter. This promoter is positively regulated by AraC when it reacts to L-arabinose.; ;mi_araC;303;0;600;0.247
+                          | BBa_K2656007;Constitutive promoter.; ;mc;35;0;600;0.247
+
+                      li.pG Export that Excel file in .csv format:  #[strong File &gt; Save as &gt; Select File Type: CSV (comma delimited)]
+                        div(style="padding-left: 0em; padding-right: 5em; padding-top: 1em; margin-left: -3px;")
+                          p.pG Open the saved file with a text editor and you will see something like this:
+                          textarea.form-control(rows='10' type='text' style="color: #000 !important; font-size: 12px !important; padding: 1em;") name;description;category;type;lenghtBP;quantity;r;dm
+                            | BBa_K2656000;Constitutive promoter derived from the T7 bacteriophage... ; ;mc;23;0;600;0.247
+                            | BBa_K2656001;HSP promoter. The activity of this promoter increases... ; ;mi;98;0;600;0.247
+                            | BBa_K2656002;Inducible promoter. This promoter is negative regulated by LuxR when... ; ;mi_luxR;30;0;600;0.247
+                            | BBa_K2656003;Inducible promoter. This promoter is negative regulated by LuxR when... ; ;mi_luxR;61;0;600;0.247
+                            | BBa_K2656004;Constitutive promoter.; ;mc;35;0;600;0.247
+                            |BBa_K2656005;Constitutive promoter.; ;mc;35;0;600;0.247
+                            | BBa_K2656006;Inducible promoter. This promoter is positively regulated by AraC when... ; ;mi_araC;303;0;600;0.247
+                            | BBa_K2656007;Constitutive promoter.; ;mc;35;0;600;0.247
+                          p.pG 
+                          | If that is not the case, check that the csv file is exported with a semicolon ";" as the delimiter. Sometimes, depending on the region, Excel exports it with a comma "," instead. For more information, visit: 
+                          div(style="text-align: center; padding-top: 1em;")
+                            a.pG(href="https://en.wikipedia.org/wiki/Comma-separated_values") https://en.wikipedia.org/wiki/Comma-separated_values
+
+                      li.pG Now you are ready to upload your file to the repository. In order to do so, simply click on the corresponding #[strong "Select file"] button, and select the file from your local storage.
+                      a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                        img(alt='image', src='/images/guidelines/botonSeleccionar.png' width="384px" height="55px")
+                      br
+                      br
+                      li.pG Finally, click on the #[strong "Upload your csv"] button in order to upload the file.
+                      a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                        img(alt='image', src='/images/guidelines/botonUpload.png' width="186px" height="83px")
+                      br
+                      br
+                      p.pG After a few moments, you will see an alert like this one: 
+
+                      p.pG
+                        | That means that the uploading process has been successful. Now you can use those parts in the 
+                        a.pG New Job tab
+                        |  or check the recipes in the 
+                        a.pG Recipes tab
+
+          li(style="border-right: 1px solid #6666")
+            .tab__title
+              span.h5 Promoters
+            .tab__content
+              .col-md-12(style="padding: 0; padding-bottom: 2em;")
+                div(style='height: 100%;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 500px; padding: 2em; border: 1px solid #6666; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;;')
+                    p.pG(style="font-size: 1.2em;") Here you would find the detailed structure in order to upload #[strong Promoters]
+                    p.pG Example of a Promoter csv file in Excel:
+                    br
+                    a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                      img(alt='image', src='/images/guidelines/promoter1.png')
+                    br
+                    br
+                    p.pG #[strong Elements:]
+                    ol
+                      li.pG Name:
+                        p.pG Name for the Promoter (String)
+                      li.pG Description:
+                        p.pG Description for the Promoter (String)
+                      li.pG Category:
+                        p.pG Category in to which is possible to classify a promoter (String)
+                      li.pG Type:
+                        p.pG Promoter type. For this software tool, it can take 4 different values. Here you have the type and the String you have to write in order to assign that type to your promoter:
+                        ol
+                          li.pG Constitutive = "mc"
+                          li.pG Inducible = "mi"
+                          li.pG Inducible araC = "mi_araC"
+                          li.pG Inducible luxR = "mi_luxR"
+                      p.pG Note that, depending on the value of the type, it will be possible to do a simulation of the experiment or not. For now, the only value for which it is not possible is: #[strong Inducible ("mi")]
+
+
+                    
+          li(style="border-right: 1px solid #6666")
+            .tab__title
+              span.h5 RBSs
+            .tab__content
+              .col-md-12(style="padding: 0; padding-bottom: 2em;")
+                div(style='height: 100%;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 500px; padding: 2em; border: 1px solid #6666; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;;')
+                    p.pG(style="font-size: 1.2em;") Here you would find the detailed structure in order to upload #[strong RBSs]
+                    p.pG Example of a Promoter csv file in Excel:
+                    br
+                    a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                      img(alt='image', src='/images/guidelines/rbs1.png')
+                    br
+                    br
+                    p.pG #[strong Elements:]
+                    ol
+                      li.pG Name:
+                        p.pG Name for the Promoter (String)
+                      li.pG Description:
+                        p.pG Description for the Promoter (String)
+                      li.pG Category:
+                        p.pG Category in to which is possible to classify a promoter (String)
+                      li.pG Type:
+                        p.pG Promoter type. For this software tool, it can take 4 different values. Here you have the type and the String you have to write in order to assign that type to your promoter:
+                        ol
+                          li.pG Constitutive = "mc"
+                          li.pG Inducible = "mi"
+                          li.pG Inducible araC = "mi_araC"
+                          li.pG Inducible luxR = "mi_luxR"
+                      p.pG Note that, depending on the value of the type, it will be possible to do a simulation of the experiment or not. For now, the only value for which it is not possible is: #[strong Inducible ("mi")]
+
+
+          li(style="border-right: 1px solid #6666")
+            .tab__title
+              span.h5 CDSs
+            .tab__content
+              .col-md-12(style="padding: 0; padding-bottom: 2em;")
+                div(style='height: 100%;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 500px; padding: 2em; border: 1px solid #6666; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;;')
+                    p.pG(style="font-size: 1.2em;") Here you would find the detailed structure in order to upload #[strong CDSs]
+                    p.pG Example of a Promoter csv file in Excel:
+                    br
+                    a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                      img(alt='image', src='/images/guidelines/cds1.png')
+                    br
+                    br
+                    p.pG #[strong Elements:]
+                    ol
+                      li.pG Name:
+                        p.pG Name for the Promoter (String)
+                      li.pG Description:
+                        p.pG Description for the Promoter (String)
+                      li.pG Category:
+                        p.pG Category in to which is possible to classify a promoter (String)
+                      li.pG Type:
+                        p.pG Promoter type. For this software tool, it can take 4 different values. Here you have the type and the String you have to write in order to assign that type to your promoter:
+                        ol
+                          li.pG Constitutive = "mc"
+                          li.pG Inducible = "mi"
+                          li.pG Inducible araC = "mi_araC"
+                          li.pG Inducible luxR = "mi_luxR"
+                      p.pG Note that, depending on the value of the type, it will be possible to do a simulation of the experiment or not. For now, the only value for which it is not possible is: #[strong Inducible ("mi")]
+
+
+          li(style="border-right: 1px solid #6666")
+            .tab__title
+              span.h5 Terminators
+            .tab__content
+              .col-md-12(style="padding: 0; padding-bottom: 2em;")
+                div(style='height: 100%;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 500px; padding: 2em; border: 1px solid #6666; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;;')
+                    p.pG(style="font-size: 1.2em;") Here you would find the detailed structure in order to upload #[strong Terminators]
+                    p.pG Example of a Promoter csv file in Excel:
+                    br
+                    a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                      img(alt='image', src='/images/guidelines/terminator1.png')
+                    br
+                    br
+                    p.pG #[strong Elements:]
+                    ol
+                      li.pG Name:
+                        p.pG Name for the Promoter (String)
+                      li.pG Description:
+                        p.pG Description for the Promoter (String)
+                      li.pG Category:
+                        p.pG Category in to which is possible to classify a promoter (String)
+                      li.pG Type:
+                        p.pG Promoter type. For this software tool, it can take 4 different values. Here you have the type and the String you have to write in order to assign that type to your promoter:
+                        ol
+                          li.pG Constitutive = "mc"
+                          li.pG Inducible = "mi"
+                          li.pG Inducible araC = "mi_araC"
+                          li.pG Inducible luxR = "mi_luxR"
+                      p.pG Note that, depending on the value of the type, it will be possible to do a simulation of the experiment or not. For now, the only value for which it is not possible is: #[strong Inducible ("mi")]
+
+          li
+            .tab__title
+              span.h5 Recipes
+            .tab__content
+              .col-md-12(style="padding: 0; padding-bottom: 2em;")
+                div(style='height: 100%;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 500px; padding: 2em; border: 1px solid #6666; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;;')
+                    p.pG(style="font-size: 1.2em;") Here you would find the detailed structure in order to upload #[strong Recipes]
+                    p.pG Example of a Promoter csv file in Excel:
+                    br
+                    a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+                      img(alt='image', src='/images/guidelines/recipe1.png')
+                    br
+                    br
+                    p.pG #[strong Elements:]
+                    ol
+                      li.pG Name:
+                        p.pG Name for the Promoter (String)
+                      li.pG Description:
+                        p.pG Description for the Promoter (String)
+                      li.pG Category:
+                        p.pG Category in to which is possible to classify a promoter (String)
+                      li.pG Type:
+                        p.pG Promoter type. For this software tool, it can take 4 different values. Here you have the type and the String you have to write in order to assign that type to your promoter:
+                        ol
+                          li.pG Constitutive = "mc"
+                          li.pG Inducible = "mi"
+                          li.pG Inducible araC = "mi_araC"
+                          li.pG Inducible luxR = "mi_luxR"
+                      p.pG Note that, depending on the value of the type, it will be possible to do a simulation of the experiment or not. For now, the only value for which it is not possible is: #[strong Inducible ("mi")]
+
+
+
+
+
+
+            //- h5 #[strong Promoters:]
+            //-     div(style="padding: 2em")
+            //-       a.pG(href="/images/guidelines/promoter1.png" target="_blank")
+            //-         img(alt='image', src='/images/guidelines/promoter1.png')
+
+
+
+

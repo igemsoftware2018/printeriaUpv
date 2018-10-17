@@ -1,0 +1,168 @@
+extends ../../layout
+
+block subhead
+
+block content
+  .maindiv(ng-controller="recipesController" ng-init="init()" ng-cloak)
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3.type--uppercase Recipes
+              .col-xs-12(style="padding:0px;")
+                hr
+                  
+      // SI NO HAY RECETAS 
+      section.height-50.bg--dark.text-center(ng-show="allRecipes.length == 0")
+        .container.pos-vertical-center
+          .row.mb20
+            .col-md-12
+              h1.h1--large Recipes
+              p.lead There are no recipes in the database
+              a.btn.btn--lg.btn-help.buttons(ng-click="getURLLogged('new-job')", style="cursor: pointer; font-size: 1em !important; padding-top: 0.58035714em; padding-bottom: 0.58035714em; padding-right: 3.48214286em; padding-left: 3.48214286em;") Send your first recipes to Printeria
+      
+      // SI HAY RECETAS
+      section(style="padding:0px;" ng-show="allRecipes.length != 0")
+        .row.mb20.justify-content-center
+          .col-md-8.col-lg-8(style="margin-bottom: 1em;")
+            div(style="width: 100%;")
+              h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right")
+                | Search
+              div(style="display: inline-block; width: 85%;")
+                input(type='text', placeholder='Search...', ng-change="search()", ng-model='searchValue')
+        .row(style='padding-left: 13.5em; margin: 0;')
+          // Rounded switch
+          p(style='padding-top: 0.25em;' ng-show="!state") Registry Number
+          p(style='padding-top: 0.25em;' ng-show="state") Short Description
+          div(style='padding-left: 1em;')
+            label.switch(style='')
+              input(type='checkbox', ng-click='state = !state')
+              span.slider.round(data-children='0')
+                 
+        .row.mb20.justify-content-center(ng-show="!state")          
+          .col-md-8.col-lg-8
+            div(style="justify-content: center")
+              #accordion
+                .card(ng-repeat="p in visibleRecipes | orderBy: 'name'" class="ng-scope")
+                  .card-header.card-link.collapsed(data-toggle='collapse', href='#m{{$index}}', aria-expanded='false', aria-controls='m{{$index}}')
+                    span.cardSpan.collapsed.cardText  
+                    span.cardSpan.expanded.cardText  
+                    h5.cardText(style="display: inline;") {{p.name}}
+                  .collapse(id="m{{$index}}")
+                    .card-body
+                      .container
+                        .row
+                          .col-xs-12
+                            strong Description: &nbsp;
+                            em {{p.description}}
+                        .row(style="padding-top: 1.5em; padding-bottom: 1.5em;")
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/promoterIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong Promoter: &nbsp;
+                            em {{p.promoterObj.name}}
+                            br
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/rbsIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong RBS: &nbsp;
+                            em {{p.rbsObj.name}}
+                            br
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/cdsIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong CDS: &nbsp;
+                            em {{p.cdsObj.name}}
+                            br
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/terminatorIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong Terminator: &nbsp;
+                            em {{p.terminatorObj.name}}
+                        .row(style="padding-top: 2em; justify-content: center;")
+                          .col-xs-12
+                            .container(style='padding-top: 20px; padding-bottom: 20px;')
+                                a.btn.btn--primary.btn--icon.btn-yel(ng-click="showRecipe(p._id)")
+                                  span.btn__text(style='font-size: 12px;')
+                                    i.fas.fa-info-circle
+                                    | Show details
+                                a.btn.btn--primary.btn--icon.btn-red(ng-click="printRecipe(p._id)")
+                                  span.btn__text(style='font-size: 12px;')
+                                    i.fas.fa-palette
+                                    | Print recipe
+                                a.btn.btn--icon.btn-red(ng-click="deleteJob(p._id)")
+                                  span.btn__text(style='font-size: 12px; color: #fff')
+                                    i.fas.fa-palette(style="color: #fff")
+                                    | Delete Recipe
+                br
+        .row.mb20.justify-content-center(ng-show="state")          
+          .col-md-8.col-lg-8
+            div(style="justify-content: center")
+              #accordion
+                .card(ng-repeat="p in visibleRecipes" class="ng-scope")
+                  .card-header.card-link.collapsed(data-toggle='collapse', href='#m{{$index}}', aria-expanded='false', aria-controls='m{{$index}}')
+                    span.cardSpan.collapsed.cardText  
+                    span.cardSpan.expanded.cardText  
+                    h5.cardText(style="display: inline;") {{p.description}}
+                  .collapse(id="m{{$index}}")
+                    .card-body
+                      .container
+                        .row
+                          .col-xs-12
+                            strong Description: &nbsp;
+                            em {{p.description}}
+                        .row(style="padding-top: 1.5em; padding-bottom: 1.5em;")
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/promoterIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong Promoter: &nbsp;
+                            em {{p.promoterObj.name}}
+                            br
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/rbsIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong RBS: &nbsp;
+                            em {{p.rbsObj.name}}
+                            br
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/cdsIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong CDS: &nbsp;
+                            em {{p.cdsObj.name}}
+                            br
+                          .col-sm-3(style="text-align: center;")
+                            img(alt='logo', src='/images/terminatorIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+                            strong Terminator: &nbsp;
+                            em {{p.terminatorObj.name}}
+                        .row(style="padding-top: 2em; justify-content: center;")
+                          .col-xs-12
+                            .container(style='padding-top: 20px; padding-bottom: 20px;')
+                                a.btn.btn--primary.btn--icon.btn-yel(ng-click="showRecipe(p._id)")
+                                  span.btn__text(style='font-size: 12px;')
+                                    i.fas.fa-info-circle
+                                    | Show details
+                                a.btn.btn--primary.btn--icon.btn-red(ng-click="printRecipe(p._id)")
+                                  span.btn__text(style='font-size: 12px;')
+                                    i.fas.fa-palette
+                                    | Print recipe
+                                a.btn.btn--icon.btn-red(ng-click="deleteJob(p._id)")
+                                  span.btn__text(style='font-size: 12px; color: #fff')
+                                    i.fas.fa-palette(style="color: #fff")
+                                    | Delete Recipe
+
+                br
+        .row.mb20.justify-content-center          
+          .col-md-12.col-lg-12
+            center
+              .pagination.pFixed(style="justify-content: center;")
+                a.pagination__prev(ng-click="changePage(actualPage - 1)", title='Previous Page' style="cursor: pointer; padding-right: 0.5em;") 
+                  i.fas.fa-angle-left
+                ol
+                  li(ng-repeat="enum in numPages" ng-class="enum == actualPage ? 'pagination__current' : '' " style="cursor: pointer;" ng-click="changePage(enum)")
+                    a {{enum+1}}
+                a.pagination__next(ng-click="changePage(actualPage + 1)", title='Next Page' style="cursor: pointer; padding-left: 0.5em;")
+                  i.fas.fa-angle-right
+
+
+
+
+
+block footerJS
+  script(type="text/javascript" src="/js/services/job-recipes.js")
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/controllers/recipe/index.js")

@@ -1,0 +1,54 @@
+// Modal
+#ModalAddPromoter.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header(style="justify-content: center; padding-top: 1em; padding-bottom: 3em;")
+        h5#exampleModalLabel.modal-title(style="text-align: center; font-size: 17px;") Promoters
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        form.ng-pristine.ng-valid
+          .row(style='margin-right: 10px; margin-left: 10px;')
+            .col-md-12
+              h5 Name:
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Name', ng-model='promoter.name')
+            .col-md-12
+              h5 Description:
+              textarea.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(rows='6', type='text', placeholder='Part description', ng-model='promoter.description')
+            .col-md-6
+              .toolHec
+                h5 Quantity: (µl)
+                span.toolHecText Description about the constant
+              input.ng-pristine.ng-untouched.ng-valid.ng-not-empty(type='number', placeholder='Quantity', ng-model='promoter.quantity')
+            .col-md-6
+              .toolHec
+                h5 Category:
+                span.toolHecText Description about the constant
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='promoter.category')
+            .col-md-6
+              .toolHec
+                h5 Base pairs length (BP):
+                span.toolHecText Description about the constant
+              input.ng-pristine.ng-untouched.ng-valid.ng-not-empty(type='number', placeholder='LengthBP', ng-model='promoter.lengthBP')
+            .col-md-6
+              .toolHec
+                h5 Type:
+                span.toolHecText Description about the constant
+              select.ng-pristine.ng-untouched.ng-valid.ng-not-empty(type='text', placeholder='Type', ng-model='promoter.type')
+                option(value='mc') Constitutive
+                option(value='mi') Inducible
+                option(value='mi_araC') Inducible araC
+                option(value='mi_luxR') Inducible luxR
+            .col-md-12
+              .toolHec
+                h5 mRNA degradation rate d<sub>m</sub> (min<sup>-1</sup>):
+                span.toolHecText Description about the constant
+              .col-md-6(style="padding: 0")
+                input.ng-pristine.ng-untouched.ng-valid.ng-not-empty(type='number', placeholder='Dm', ng-model='promoter.dm')
+      .modal-footer(style='justify-content: center')
+        //- section(style="padding:10px 0px;" ng-show="show_error2")
+        //- .alert.alert-mini.alert-danger.margin-bottom-30
+        //-   strong Oh snap!
+        //-   |   Incorrect!
+        button.btn.btn--primary.type--uppercase(type='button', data-dismiss='modal', ng-click='createPromoter()', style='color: white; font-weight: 900; min-width: 200px;') Create
+

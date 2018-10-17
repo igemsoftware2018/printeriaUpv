@@ -1,0 +1,288 @@
+<!doctype html>
+
+<style type="text/css">
+/**
+ * Position icons into circle (SO)
+ * http://stackoverflow.com/q/12813573/1397351 
+ */
+.circle-container {
+  position: relative;
+  width: 30em;
+  height: 30em;
+  padding: 2.8em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
+  /*border: dashed 1px;*/
+  background-color: #595959;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+}
+.circle-container a {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 2em; height: 2em;
+  margin: -1em; /* 2em = 4em/2 */ /* half the width */
+}
+.circle-container img { display: block; width: 50%; }
+.deg0 { transform: rotate(0deg) translate(12em) rotate(-0deg); } /* 12em = half the width of the wrapper */
+.deg14-4 { transform: rotate(14.4deg) translate(12em) rotate(-14.4deg); }
+.deg28-8 { transform: rotate(28.8deg) translate(12em) rotate(-28.8deg); }
+.deg43-2 { transform: rotate(43.2deg) translate(12em) rotate(-43.2deg); }
+.deg57-6 { transform: rotate(57.6deg) translate(12em) rotate(-57.6deg); }
+.deg72 { transform: rotate(72deg) translate(12em) rotate(-72deg); }
+.deg86-4 { transform: rotate(86.4deg) translate(12em) rotate(-86.4deg); }
+.deg100-8 { transform: rotate(100.8deg) translate(12em) rotate(-100.8deg); }
+.deg115-2 { transform: rotate(115.2deg) translate(12em) rotate(-115.2deg); }
+.deg129-6 { transform: rotate(129.6deg) translate(12em) rotate(-129.6deg); }
+.deg144 { transform: rotate(144deg) translate(12em) rotate(-144deg); }
+.deg158-4 { transform: rotate(158.4deg) translate(12em) rotate(-158.4deg); }
+.deg172-8 { transform: rotate(172.8deg) translate(12em) rotate(-172.8deg); }
+.deg187-2 { transform: rotate(187.2deg) translate(12em) rotate(-187.2deg); }
+.deg201-6 { transform: rotate(201.6deg) translate(12em) rotate(-201.6deg); }
+.deg216 { transform: rotate(216deg) translate(12em) rotate(-216deg); }
+.deg230-4 { transform: rotate(230.4deg) translate(12em) rotate(-230.4deg); }
+.deg244-8 { transform: rotate(244.8deg) translate(12em) rotate(-244.8deg); }
+.deg259-2 { transform: rotate(259.2deg) translate(12em) rotate(-259.2deg); }
+.deg273-6 { transform: rotate(273.6deg) translate(12em) rotate(-273.6deg); }
+.deg288 { transform: rotate(288deg) translate(12em) rotate(-288deg); }
+.deg302-4 { transform: rotate(302.4deg) translate(12em) rotate(-302.4deg); }
+.deg316-8 { transform: rotate(316.8deg) translate(12em) rotate(-316.8deg); }
+.deg331-2 { transform: rotate(331.2deg) translate(12em) rotate(-331.2deg); }
+.deg345-6 { transform: rotate(345.6deg) translate(12em) rotate(-345.6deg); }
+
+/* this is just for showing the angle on hover */
+.circle-container a:not(.center):before {
+  position: absolute;
+  width: 4em;
+  color: white;
+  opacity: 0;
+  background: rgba(0,0,0,.5);
+  font: 1.25em/3.45 Courier, monospace;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-indent: -2em;
+  text-shadow: 0 0 .1em deeppink;
+  transition: .7s; /* only works in Firefox */
+  content: attr(class)'°';
+}
+/*.circle-container a:hover:before { opacity: 1; }
+
+/* this is for showing the circle on which the images are placed */
+/*.circle-container:after {
+  position: absolute;
+  top: 2.8em; left: 2.8em;
+  width: 24em; height: 24em;
+  border: dashed 1px deeppink;
+  border-radius: 50%;
+  opacity: .3;
+  pointer-events: none;
+  content: '';
+}
+/*.circle-container:hover:after { opacity: 1; }
+.circle-container a:not(.center):after {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em .5em white;
+  margin: -2px;
+  background: deeppink;
+  opacity: .3;
+  content: '';
+}
+.circle-container:hover a:after { opacity: 1; }
+.circle-container a:hover:after { opacity: .3; }
+
+</style>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Stack Multipurpose HTML Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site Description Here">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="font-awesome.min.css">
+
+
+    </head>
+    <body>
+<div class='circle-container'>
+ 
+  <a href='#' class='deg0'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg14-4'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg28-8'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg43-2'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg57-6'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg72'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg86-4'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg100-8'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg115-2'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg129-6'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg144'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg158-4'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg172-8'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg187-2'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg201-6'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg216'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg230-4'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg244-8'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg259-2'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg273-6'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg288'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg302-4'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg316-8'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg172-8'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg331-2'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+  <a href='#' class='deg345-6'>
+    <div class="input-radio">
+      <input id="radio-1" type="radio" name="radio" value="radio1">
+      <label for="radio-1"></label>
+    </div>
+  </a>
+ 
+</div>
+
+
+
+
+
+
+    </body>
+</html>

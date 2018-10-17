@@ -1,0 +1,59 @@
+{
+  "app": {
+    "name": "plantco",
+    "accessControl": {
+      "allowOrigin": "*"
+    }
+  },
+  "url": "http://plantlabco.org/",
+  "persistence": "mongo",
+  "port": 3000,
+  "language": "es-ES",
+  "https": null,
+  "mail": {
+    "username": "plantcommunityigem",
+    "password": "somosigemsomoslegion1",
+    "name": "Support PlantLabCo",
+    "host": "smtp.gmail.com",
+    "port": 587
+  },
+  "cookie": {
+    "secret": "Mmfzs+hDvFjsS6RJLbmdR8QEm4k"
+  },
+  "log": {
+    "appenders": [
+      {
+        "type": "console"
+      },
+      {
+        "type": "dateFile",
+        "category": "debug",
+        "filename": "debug/debug.log",
+        "pattern": "-yyyy-MM-dd",
+        "alwaysIncludePattern": false
+      },
+      {
+        "type": "dateFile",
+        "category": "access",
+        "filename": "access/access.log",
+        "pattern": "-yyyy-MM-dd",
+        "alwaysIncludePattern": false
+      },
+      {
+        "type": "dateFile",
+        "category": "cron",
+        "filename": "cron/cron.log",
+        "pattern": "-yyyy-MM-dd",
+        "alwaysIncludePattern": false
+      }
+    ]
+  },
+  "cron": {
+    "enabled": true,
+    "jobs": [
+    ]
+  },
+  "RecalculateObjectives": {
+    "enabled": true
+  }
+}

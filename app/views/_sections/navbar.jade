@@ -1,0 +1,51 @@
+.col-lg-11.col-md-12.text-right.text-left-xs.text-left-sm
+  .bar__module
+    //- ul.menu-horizontal.text-left(ng-if="!user")
+    //-   li.active
+    //-     a(ng-click="getURLLogged('')")
+    //-       span HOME
+    ul.menu-horizontal.text-left(ng-if="user", style="top: 28px; font-size: 1.1rem")
+      li
+        a(ng-click="getURLLogged('historical-activities')")
+          span HISTORICAL ACTIVITIES
+      li
+        a(ng-click="getURLLogged('new-job')")
+          span NEW JOB
+      li
+        a(ng-click="getURLLogged('recipe')")
+          span RECIPES
+      li
+        a(ng-click="getURLLogged('inventory')")
+          span INVENTORY
+      li.dropdown.dropdown--hover(ng-show="user.admin")
+          span.dropdown__trigger ADMIN PANEL
+          .dropdown__container(style='left: -262.22425842285156px;')
+            .container
+              .row
+                .dropdown__content.col-lg-2.col-md-4(style='left: 262.22425842285156px;')
+                  ul.menu-vertical
+                    li
+                      a(ng-click="getURLLogged('admin-users')")
+                        span Admin Users
+                    li
+                      a(ng-click="getURLLogged('parts')")
+                        span Inventory Parts
+                    li
+                      a(ng-click="getURLLogged('statics')")
+                        span Statistics
+      li.dropdown.dropdown--hover
+          span.dropdown__trigger @{{user.username}}
+          .dropdown__container(style='left: -262.22425842285156px;')
+            .container
+              .row
+                .dropdown__content.col-lg-2.col-md-4(style='left: 262.22425842285156px;')
+                  ul.menu-vertical
+                    li
+                      a(ng-click="getURLLogged('profile')")
+                        span Account Settings
+                    li
+                      a(ng-click="getURLLogged('activities')")
+                        span Activities
+                    li
+                      a(href='/log-out')
+                        |  Log Out

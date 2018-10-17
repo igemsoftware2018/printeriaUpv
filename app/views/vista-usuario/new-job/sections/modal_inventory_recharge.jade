@@ -1,0 +1,17 @@
+// Modal
+#ModalRecharge.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title  Do you want to recharge this cartridge with the same component?
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        form.ng-pristine.ng-valid
+          .row
+            .col-md-12
+              center
+                div(style='padding: 10px;')
+                  a.btn.btn--primary.type--uppercase(ng-click='recharge()', style='width: 160px;color: white; font-weight: 900;') Yes
+           
+         

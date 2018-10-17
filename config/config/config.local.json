@@ -1,0 +1,11 @@
+{
+    "url" : "http://localhost:3000/",
+    "db" : "mongodb://localhost:27017/printeria",
+    "mail" : {
+        "username" : "printeriaigem",
+        "password" : "printeria2018",
+        "name" : "Support Printeria",
+        "host" : "smtp.gmail.com",
+        "port" : 587
+    }
+}

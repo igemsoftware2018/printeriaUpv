@@ -1,0 +1,116 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="historicalResultsController" ng-init="initController(#{JSON.stringify(idJob)})" ng-cloak id="printDiv")
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3 Experimentation results
+              .col-xs-12(style="padding:0px;")
+                hr
+      section
+        .row
+          .col-md-4
+            .row(style="padding-bottom: 1em;")
+              .col-md-12
+                h5(style="font-weight:600;") Name:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{job.name}} 
+                //input.form-control(type='text', placeholder='Your name' ng-model="job.name" disabled)
+            .row(style="padding-bottom: 1em;")
+              .col-md-12
+                h5(style="font-weight:600;") Author:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{job.owner}}  
+                //input.form-control(type='text', placeholder='Your name' ng-model="job.owner" disabled)
+          .col-md-8
+            h5(style="font-weight:600;") Description:
+            p(style="font-weight: 800; color:#282828; margin-bottom: 1em; line-height: 1.6em;") {{job.description}}  
+            //textarea.form-control(rows='7' type='text',  placeholder='Description of your experiment' ng-model="job.description" disabled)
+        br
+        br
+        .row
+          .col-md-3
+            h5(style="font-weight:600;") Promoter:
+            p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{job.promoterObj.name}}  
+            //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+            hr
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category:
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.promoterObj.category}}   
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.promoterObj.lengthBP}}  
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+            .col-md-8(style="padding-left: 0em; padding-right: 15px; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Type:
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.promoterObj.type}}   
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+              br
+          .col-md-3
+            h5(style="font-weight:600;") Rbs: 
+            p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{job.rbsObj.name}}  
+            //input.form-control(type='text', placeholder='Your name' ng-model="job.rbsObj.name" disabled)
+            hr
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category:
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.rbsObj.category}} 
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.rbsObj.lengthBP}}   
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+              br
+          .col-md-3
+            h5(style="font-weight:600;") Cds:
+            p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{job.cdsObj.name}}    
+            //input.form-control(type='text', placeholder='Your name' ng-model="job.cdsObj.name" disabled)
+            hr
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Type:
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.cdsObj.type}}
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP:
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.cdsObj.lengthBP}}    
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+              br
+          .col-md-3
+            h5(style="font-weight:600;") Terminator:
+            p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{job.terminatorObj.name}}     
+            //input.form-control(type='text', placeholder='Your name' ng-model="job.terminatorObj.name" disabled)
+            hr
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category: 
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.terminatorObj.category}}   
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+            .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+              h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.terminatorObj.lengthBP}}   
+              //input.form-control(type='text', placeholder='Your name' ng-model="job.promoterObj.name" disabled)
+        br
+        br
+        br
+        br
+        //h3 Graphical Representation of the results
+        //hr
+        br
+        br
+        include ./sections/graphsWide.jade
+        br
+        br
+        .row(style="justify-content: center;" id="printButton")
+          a.btn.btn--primary.btn--icon.btn-blue(ng-click="showResults('printDiv')")
+              span.btn__text
+                div
+                  i.far.fa-print
+                | Print results
+
+
+block footerJS
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/controllers/historical-activities-results/index.js")

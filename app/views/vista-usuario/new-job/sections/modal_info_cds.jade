@@ -1,0 +1,54 @@
+// Modal
+#ModalInfoCds.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        .row(style='padding-left: 34px;')
+          i.fas.fa-info-circle(style='          font-size: 18px; /* right: 19px; */color: #ffc600;/* position: fixed; */; /* margin-top: 2%; *//* margin-left: 9%; */; /* cursor:pointer */')
+          h5#exampleModalLabel.modal-title(style='          margin-left: 10px;;') Part Information
+          button.close(type='button', data-dismiss='modal', aria-label='Close', style='padding-top: 23px;')
+            span(aria-hidden='true') ×
+
+      .modal-body(style='padding: 32px;')
+        form.ng-pristine.ng-valid
+          .row(style='margin-right: 10px;')
+            .col-md-12(style='padding-left: 35px;')
+              .row
+                h5(style='padding-right: 5px;') Name:   
+                span {{modalPartCds.name}}
+            .col-md-12(style='padding-left: 35px;')
+              .row
+                h5(style='padding-right: 5px;') Description: 
+                span {{modalPartCds.description}}
+            .col-md-6
+              .row(style='padding-left: 20px;')
+                h5 Quantity: 
+                span {{modalPartCds.quantity}}
+            .col-md-6
+              .row(style='padding-left: 20px;')
+                h5 Type: 
+                span {{modalPartCds.type}}
+              
+            .col-md-6
+              .row(style='padding-left: 20px;')
+                h5 Base pairs length (BP): 
+                span {{modalPartCds.lengthBP}}
+             
+            .col-md-8
+              .row(style='padding-left: 20px;')
+                h5 Protein degradation rate d<sub>p</sub> (min<sup>-1</sup>): 
+                span {{modalPartCds.dp}}
+            .col-md-6
+              .row(style='padding-left: 20px;')
+                h5 Translation rate p (min<sup>-1</sup>): 
+                span {{modalPartCds.p}}
+            br
+            br
+            br
+            .col-md-12
+              .row(style="justify-content: center; text-align: center;")
+                div
+                  h5 Link to iGEM's Part Registry
+                div(style="padding-left: 3em; padding-right: 3em; padding-bottom: 1em;")
+                  h6 Note that, for any new part that you create, there won't necessarily be a page on iGEM's Part Registry
+                a(style="color: #3e90c5" href="http://parts.igem.org/Part:{{modalPartCds.name}}" target="_blank") http://parts.igem.org/Part:{{modalPartCds.name}}

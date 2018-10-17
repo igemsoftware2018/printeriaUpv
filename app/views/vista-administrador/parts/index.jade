@@ -1,0 +1,179 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="partsController" ng-init="init()")
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block
+              h3.type--uppercase Parts administration
+              hr
+      section(style="padding:0px;")
+        ul.nav.nav-tabs
+          li.nav-item
+            a.nav-link(ng-class="activePart == 'Promotor' ? 'active' : '' " ng-click="activePart = 'Promotor'") Promotors
+          li.nav-item
+            a.nav-link(ng-class="activePart == 'RBS' ? 'active' : '' " ng-click="activePart = 'RBS'") RBS
+          li.nav-item
+            a.nav-link(ng-class="activePart == 'CDS' ? 'active' : '' " ng-click="activePart = 'CDS'") CDS
+          li.nav-item
+            a.nav-link(ng-class="activePart == 'Terminator' ? 'active' : '' " ng-click="activePart = 'Terminator'") Terminators
+            
+        // PROMOTORES
+        .container(style="padding-top:20px;" ng-show="activePart == 'Promotor' ")
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+              div(style="width: 50%;")
+                h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right")
+                  | Search
+                div(style="display: inline-block; width: 85%;")
+                  input(type='text', placeholder='Search...', ng-change="searchPromotores()",ng-model='searchValue')
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+
+                table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+                  thead
+                    tr
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Name
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Description
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Quantity
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Creation Date
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Owner
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Category
+                      th.thHa(style='background: #3e90c5; color: #ffffff') lengthBP
+                      th.thHa(style='background: #3e90c5; color: #ffffff') type
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Cr
+                      th.thHa(style='background: #3e90c5; color: #ffffff') dm
+
+                  tbody
+                    tr(ng-repeat="part in visiblePromoters")
+                      td.tdHa {{part.name}}
+                      td.tdHa {{part.description}}
+                      td.tdHa {{part.quantity}}
+                      td.tdHa {{part.date | date:'dd/MM hh:mm'}}
+                      td.tdHa {{part.owner}}
+                      td.tdHa {{part.category}}
+                      td.tdHa {{part.lengthBP}}
+                      td.tdHa {{part.type}}
+                      td.tdHa {{part.r}}
+                      td.tdHa {{part.dm}}
+                          
+                            
+        // RBS
+        .container(style="padding-top:20px;" ng-show="activePart == 'RBS' ")
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+              div(style="width: 50%;")
+                h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right")
+                  | Search
+                div(style="display: inline-block; width: 85%;")
+                  input(type='text', placeholder='Search...', ng-change="search()",ng-model='searchValue')
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+
+                table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+                  thead
+                    tr
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Name
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Description
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Quantity
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Creation Date
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Owner
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Category
+                      th.thHa(style='background: #3e90c5; color: #ffffff') lengthBP
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Show
+
+                  tbody
+                    tr(ng-repeat="part in visibleRbss")
+                      td.tdHa {{part.name}}
+                      td.tdHa {{part.description}}
+                      td.tdHa {{part.quantity}}
+                      td.tdHa {{part.date | date:'dd/MM hh:mm'}}
+                      td.tdHa {{part.owner}}
+                      td.tdHa {{part.category}}
+                      td.tdHa {{part.lengthBP}}
+                            
+        // CBS
+        .container(style="padding-top:20px;" ng-show="activePart == 'CDS' ")
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+              div(style="width: 50%;")
+                h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right")
+                  | Search
+                div(style="display: inline-block; width: 85%;")
+                  input(type='text', placeholder='Search...', ng-change="search()",ng-model='searchValue')
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+
+                table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+                  thead
+                    tr
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Name
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Description
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Quantity
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Creation Date
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Owner
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Category
+                      th.thHa(style='background: #3e90c5; color: #ffffff') type
+                      th.thHa(style='background: #3e90c5; color: #ffffff') lengthBP
+                      th.thHa(style='background: #3e90c5; color: #ffffff') dp
+                      th.thHa(style='background: #3e90c5; color: #ffffff') p
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Show
+
+                  tbody
+                    tr(ng-repeat="part in visibleCdss")
+                      td.tdHa {{part.name}}
+                      td.tdHa {{part.description}}
+                      td.tdHa {{part.quantity}}
+                      td.tdHa {{part.date | date:'dd/MM hh:mm'}}
+                      td.tdHa {{part.owner}}
+                      td.tdHa {{part.category}}
+                      td.tdHa {{part.type}}
+                      td.tdHa {{part.lengthBP}}
+                      td.tdHa {{part.dp}}
+                      td.tdHa {{part.p}}
+
+        // TERMINATOR
+        .container(style="padding-top:20px;" ng-show="activePart == 'Terminator' ")
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+              div(style="width: 50%;")
+                h5(style="display: inline-block; width: 15%; padding-right:20px; text-align: right")
+                  | Search
+                div(style="display: inline-block; width: 85%;")
+                  input(type='text', placeholder='Search...', ng-change="search()",ng-model='searchValue')
+          .row.mb20.justify-content-center
+            .col-md-12.col-lg-12
+
+                table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+                  thead
+                    tr
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Name
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Description
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Quantity
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Creation Date
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Owner
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Category
+                      th.thHa(style='background: #3e90c5; color: #ffffff') lengthBP
+                      th.thHa(style='background: #3e90c5; color: #ffffff') Show
+
+                  tbody
+                    tr(ng-repeat="part in visibleTerminators")
+                      td.tdHa {{part.name}}
+                      td.tdHa {{part.description}}
+                      td.tdHa {{part.quantity}}
+                      td.tdHa {{part.date | date:'dd/MM hh:mm'}}
+                      td.tdHa {{part.owner}}
+                      td.tdHa {{part.category}}
+                      td.tdHa {{part.lengthBP}}
+                      td.tdHa.text-center
+
+block footerJS
+  script(type="text/javascript" src="/js/services/promoters.js")
+  script(type="text/javascript" src="/js/services/rbss.js")
+  script(type="text/javascript" src="/js/services/cdss.js")
+  script(type="text/javascript" src="/js/services/terminators.js")
+  script(type="text/javascript" src="/js/controllers/parts/index.js")

@@ -1,0 +1,132 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="recipeDetailsController" ng-init="initController(#{JSON.stringify(idRecipe)})" ng-cloak id="printDiv")
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3 Recipe Details
+              .col-xs-12(style="padding:0px;")
+                hr
+      section
+            .row
+              .col-md-4
+                .row(style="padding-bottom: 1em;")
+                  .col-md-12
+                    h5(style="font-weight:600;") Name:
+                    p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.name}} 
+                    //input.form-control(type='text', placeholder='Your name' nd-model="recipe.name" disabled)
+                .row(style="padding-bottom: 1em;")
+                  .col-md-12
+                    h5(style="font-weight:600;") Author:
+                    p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.owner}}  
+                    //input.form-control(type='text', placeholder='Your name' ng-model="recipe.owner" disabled)
+              .col-md-8
+                h5(style="font-weight:600;") Description:
+                p(style="font-weight: 800; color:#282828; margin-bottom: 1em; line-height: 1.6em;") {{recipe.description}}  
+                //textarea.form-control(rows='7' type='text',  placeholder='Description of your experiment' ng-model="recipe.description" disabled)
+            br
+            br
+            .row
+              .col-md-3
+                h5(style="font-weight:600;") Promoter:
+                p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{recipe.promoterObj.name}}  
+                //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                hr
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.promoterObj.category}}   
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.promoterObj.lengthBP}}  
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                .col-md-8(style="padding-left: 0em; padding-right: 15px; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Type:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.promoterObj.type}}   
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                  br
+              .col-md-3
+                h5(style="font-weight:600;") Rbs: 
+                p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{recipe.rbsObj.name}}  
+                //input.form-control(type='text', placeholder='Your name' ng-model="recipe.rbsObj.name" disabled)
+                hr
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.rbsObj.category}} 
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.rbsObj.lengthBP}}   
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                  br
+              .col-md-3
+                h5(style="font-weight:600;") Cds:
+                p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{recipe.cdsObj.name}}    
+                //input.form-control(type='text', placeholder='Your name' ng-model="recipe.cdsObj.name" disabled)
+                hr
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Type:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.cdsObj.type}}
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.cdsObj.lengthBP}}    
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                  br
+              .col-md-3
+                h5(style="font-weight:600;") Terminator:
+                p.text-uppercase(style="font-weight: 800; color:#282828; margin-bottom: 1em;") {{recipe.terminatorObj.name}}     
+                //input.form-control(type='text', placeholder='Your name' ng-model="recipe.terminatorObj.name" disabled)
+                hr
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category: 
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.terminatorObj.category}}   
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+                .col-md-8(style="padding-left: 0em; padding-bottom: 1em;")
+                  h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{recipe.terminatorObj.lengthBP}}   
+                  //input.form-control(type='text', placeholder='Your name' ng-model="recipe.promoterObj.name" disabled)
+            br
+            br
+            .row(style="justify-content: center;")
+              a#editButton.btn.btn--primary.btn-blue(ng-click="printRecipe(recipe)")
+                  span.btn__text
+                    div
+                    | Edit Recipe Details
+            br
+            br
+            //h3 Recipe History
+            //include ./sections/jobsTable.jade
+            //h3 Graphical Representation of the results
+            //hr
+            div(style="text-align: center")
+              h4(ng-show="show_loading") Loading...
+            br
+            include ./sections/graphsWide.jade
+            br
+            br
+            br
+
+            .row(style="justify-content: center;" id="printButton")
+              a.btn.btn--primary.btn--icon.btn-blue(ng-click="showResults('printDiv')")
+                  span.btn__text
+                    div
+                      i.far.fa-print
+                    | Print your results
+
+
+                        
+
+
+                
+
+block footerJS
+  script(type="text/javascript" src="/js/services/job-recipes.js")
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/controllers/recipe-details/index.js")

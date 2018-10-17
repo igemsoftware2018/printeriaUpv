@@ -1,0 +1,125 @@
+extends ../../layout
+
+block subhead
+
+block content
+  .maindiv(ng-controller="adminUsersController" ng-init="init()")
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block
+              h3.type--uppercase Manage Users
+              hr
+
+
+      section(style="padding:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12(style="overflow-x:auto;")
+              table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+                thead
+                  tr
+                    th.thHa(width='10%' style='background: #3e90c5; color: #ffffff') Username
+                    th.thHa(width='10%' style='background: #3e90c5; color: #ffffff') Name
+                    th.thHa(width='10%' style='background: #3e90c5; color: #ffffff') Lastname
+                    th.thHa(width='10%' style='background: #3e90c5; color: #ffffff') Email
+                    th.thHa(width='10%' style='background: #3e90c5; color: #ffffff') Last Login
+                    th.thHa(width='5%' style='background: #3e90c5; color: #ffffff') Verified
+                    th.thHa(width='5%' style='background: #3e90c5; color: #ffffff') Active
+                    th.thHa(width='5%' style='background: #3e90c5; color: #ffffff') Admin
+                    th(width='5%' style='background: #3e90c5; color: #ffffff') Edit
+                tbody
+                  tr(ng-repeat="u in users")
+                    td.tdHa(style=" white-space: nowrap;") {{u.username}}
+                    td.tdHa(style=" white-space: nowrap;") {{u.personalInfo.name}}
+                    td.tdHa(style=" white-space: nowrap;") {{u.personalInfo.lastname}}
+                    td.tdHa(style=" white-space: nowrap;") {{u.email}}
+                    td.tdHa(style=" white-space: nowrap;") {{u.lastLogin | date:'dd/MM/yyyy hh:mm'}}
+                    td.tdHa.text-center(style=" white-space: nowrap;")
+                      div(ng-show="u.username != 'admin'")
+                        a.btn.aHa(ng-click="verifyUser(u)" ng-show="u.verified" style="padding: .125rem .4rem; margin: 0px;")
+                          i.fas.fa-check.iHa
+                        a.btn.aHa(ng-click="verifyUser(u)" ng-show="!u.verified" style="padding: .125rem .4rem; margin: 0px;")
+                          i.fas.fa-times-circle.iHa
+
+                    td.tdHa.text-center
+                      div(ng-show="u.username != 'admin'")
+                        a.btn.aHa(ng-click="unableUser(u)" ng-show="u.active" style="padding: .125rem .4rem; margin: 0px;")
+                          i.fas.fa-check.iHa
+                        a.btn.aHa(ng-click="unableUser(u)" ng-show="!u.active" style="padding: .125rem .4rem; margin: 0px;")
+                          i.fas.fa-times-circle.iHa
+                            
+                    td.tdHa.text-center
+                      div(ng-show="u.username != 'admin'")
+                        a.btn.aHa(ng-click="upgradeUser(u)" ng-show="u.admin" style="padding: .125rem .4rem; margin: 0px;")
+                          i.fas.fa-check.iHa
+                        a.btn.aHa(ng-click="upgradeUser(u)" ng-show="!u.admin" style="padding: .125rem .4rem; margin: 0px;")
+                          i.fas.fa-times-circle.iHa
+                            
+                    td.tdHa.text-center
+                      .modal-instance
+                        a.btn.modal-trigger.aHa(href='#' style="padding: 0px;")
+                          span.btn__text
+                            i.fas.fa-pen.iHa
+                        .modal-container
+                          .modal-content
+                            section.imageblock.feature-large.bg--white.border--round
+                              .container
+                                .row.justify-content-end
+                                  .col-lg-6.col-md-7
+                                    .row
+                                      .col-md-11.col-lg-10
+                                        h1 Edit User
+                                        hr.short
+                                        form
+                                          .row
+                                            .col-12
+                                              input(type='text', ng-model="u.personalInfo.name" name='Name', placeholder='Name')
+                                            .col-12
+                                              input(type='text', ng-model="u.personalInfo.lastname" name='Lastname', placeholder='Lastname')
+                                            .col-12
+                                              input(type='text', ng-model="u.username" name='Username', placeholder='Username')
+                                            .col-12
+                                              input(type='text', ng-model="u.email" name='Email Address', placeholder='Email Address')
+                                            .col-12
+                                              input(type='password', ng-model="newPassword" name='Password', placeholder='Password')
+                                            .col-12
+                                              button.btn.btn--primary.type--uppercase(type='submit' ng-click="editUser(u, newPassword)") Create Account
+                            .modal-close.modal-close-cross
+
+              .mt--2.text-right
+                .modal-instance
+                  a.btn.modal-trigger(href='#')
+                    span.btn__text
+                      | New user
+                  .modal-container
+                    .modal-content
+                      section.imageblock.bg--white.border--round
+                        div(style='padding: 4em;padding-top: 1.5em;padding-bottom: 3em;')
+                          .row
+                            .col-lg-12.col-md-12
+                              .row(style='')
+                                div
+                                  h1(style='padding-bottom: 0.3em;') New User
+                                  form.ng-valid.ng-dirty.ng-valid-parse
+                                    .row
+                                      .col-6
+                                        input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', ng-model='newUserObj.personalInfo.name', name='Name', placeholder='Name')
+                                      .col-6
+                                        input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', ng-model='newUserObj.personalInfo.lastname', name='Lastname', placeholder='Lastname')
+                                      .col-6
+                                        input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', ng-model='newUserObj.username', name='Username', placeholder='Username')
+                                      .col-6
+                                        input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', ng-model='newUserObj.email', name='Email Address', placeholder='Email Address')
+                                      .col-6
+                                        // ng-model="newUserObj.password"
+                                        input.ng-valid.ng-dirty.ng-valid-parse.ng-touched.ng-empty(type='text', name='Password', placeholder='Password')
+                                      .col-12(style='')
+                                        .col-4(style='')
+                                          button.btn.btn--primary.type--uppercase(type='submit', ng-click='newUser()') Create Account
+                      .modal-close.modal-close-cross
+
+
+block footerJS
+  script(type="text/javascript" src="/js/services/user.js")
+  script(type="text/javascript" src="/js/controllers/admin-users/index.js")

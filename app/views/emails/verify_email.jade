@@ -1,0 +1,50 @@
+doctype strict
+html
+  meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title PlantLabCo
+  style(type='text/css').
+    @media only screen and (max-width :640px){table[class=container]{width:98%!important}td[class=bodyCopy] p{padding:0 15px!important;text-align:left!important}td[class=spacer]{width:15px!important}td[class=belowFeature]{width:95%!important;display:inline-block;padding-left:15px;margin-bottom:20px}td[class=belowFeature] img{float:left;margin-right:15px}table[class=belowConsoles]{width:100%!important;display:inline-block}table[class=belowConsoles] img{margin-right:15px;margin-bottom:15px;float:left}}@media only screen and (min-width:481px) and (max-width:560px){td[class=Logo]{width:560px!important;text-align:center}td[class=viewWebsite]{width:560px!important;height:inherit!important;text-align:center}}@media only screen and (min-width:250px) and (max-width:480px){td[class=Logo]{width:480px!important;text-align:center}td[class=viewWebsite]{width:480px!important;height:inherit!important;text-align:center}td[class=spacer]{display:none!important}td[class=bodyCopy] p{padding:0 15px!important;text-align:left!important}td[class=bodyCopy] h1{padding:0 10px!important}h1,h2{line-height:120%!important}td[class=force-width]{width:98%!important;padding:0 10px}[class=consoleImage]{display:inline-block}[class=consoleImage] img{text-align:center!important;display:inline-block}table[class=belowConsoles]{text-align:center;float:none;margin-bottom:15px;width:100%!important}table[class=belowConsoles] img{margin-bottom:0}}
+  body(bgcolor='#f6f6f6', style='font-family: Arial; background-color: #f6f6f6;')
+    table.container(width='630', align='center', cellpadding='0', cellspacing='0')
+      tr
+        td
+          table(align='right')
+            tr
+              td.viewWebsite(height='70')
+                p(style='font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 10px; padding: 0; margin: 0;')
+                  | If you are having trouble viewing this email, please 
+                  a(href='#{linkWeb}', style='color: #990000;') click here
+                  | .
+    table.container(width='630', bgcolor='#fcfcfc', style='border: 1px solid #dddddd; line-height: 135%;', align='center', cellpadding='0', cellspacing='0')
+      tr
+        td(bgcolor='#fcfcfc', colspan='3', width='100%', height='10')  
+      tr
+        td(colspan='3', height='15')  
+      tr
+        td(bgcolor='#fcfcfc', colspan='3')
+          table
+            tr
+              td.spacer(width='30')  
+              td.bodyCopy(align='center')
+                h1.headline(style='font-family: Arial, Helvetica, sans-serif; font-size: 32px; color: #404040; margin-top: 0; margin-bottom: 20px; padding: 0; line-height: 135%')
+                  | Welcome to PlantLabCo
+                table.devicewidthinner(width='560', align='center', cellpadding='0', cellspacing='0', border='0')
+                  tbody
+                    tr
+                      td(height='5')
+                    tr
+                      td(style='font-family: Helvetica, arial, sans-serif; font-size: 13px; color: #333333; text-align:left;line-height: 24px;')
+                        | Just one more step to access the PlantLabCo platform, verify your account to access and store all your progress in your user account.
+                    tr
+                      td(width='100%', height='5')
+                    tr
+                      td(style='font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight:bold; color: #333333; text-align:left;line-height: 24px;')
+                        a(href='#{linkVerification}', style='color:#005e72;text-decoration:none;font-weight:bold;') Confirm email
+                    tr
+                      td(width='100%', height='20')
+                img.img-responsive(width='600px', border='0', height='250px', alt='', style='display:block; border:none; outline:none; text-decoration:none;', src='#{linkLogoHeader}')
+              td.spacer(width='30')  
+      tr
+        td(colspan='3', height='3')  
+    

@@ -1,0 +1,488 @@
+extends ../../layout
+
+block subhead
+  link(href='/css/inventory.css', rel='stylesheet', type='text/css')
+
+block content
+  .maindiv(ng-controller="inventoryController" ng-init="init()" ng-cloak)
+    include ./sections/modal_inventory_recharge.jade
+    include ./sections/modal_inventory_addpart.jade
+    include ./sections/modal_inventory_delete.jade
+    include ./sections/modal_choose_promoters.jade
+    include ./sections/modal_choose_rbs.jade
+    include ./sections/modal_choose_cds.jade
+    include ./sections/modal_choose_terminator.jade
+    include ./sections/modal_promoters.jade
+    include ./sections/modal_rbs.jade
+    include ./sections/modal_cds.jade
+    include ./sections/modal_terminator.jade
+    include ./sections/modal_chassis.jade
+    include ./sections/modal_guidelines.jade
+    
+
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3.type--uppercase Inventory
+              .col-xs-12(style="padding:0px;")
+                hr
+      section
+        .row
+          .col-md-2
+            // Button trigger modal
+            button.btn(type='button', ng-click="resetInventory()" style="width:75%") Reset Inventory
+        .row.rueda
+          
+          // RUEDA
+          .col-md-6(style="min-height: 30em;")
+            .circle-container(style='position: absolute; left: 20%; width: 27em; height: 27em;')
+              a.deg0(href='#')
+                .input-radio
+                  input#radio-7(ng-click="setcartucho('c7')" type='radio', value='radio7' ng-checked="editableCartuchoId == 'c7'")
+                  label(for='radio-7' ng-class="{'radiofull' : (!inventory.c7.void && inventory.c7.filled), 'radioempty' : (!inventory.c7.void && !inventory.c7.filled )}" )                   
+              a.deg14-4(href='#')
+                .input-radio
+                  input#radio-8(ng-click="setcartucho('c8')" type='radio', value='radio8' ng-checked="editableCartuchoId == 'c8'")
+                  label(for='radio-8' ng-class="{'radiofull' : (!inventory.c8.void && inventory.c8.filled), 'radioempty' : (!inventory.c8.void && !inventory.c8.filled )}" )                   
+              a.deg28-8(href='#')
+                .input-radio
+                  input#radio-9(ng-click="setcartucho('c9')" type='radio', value='radio9' ng-checked="editableCartuchoId == 'c9'")
+                  label(for='radio-9' ng-class="{'radiofull' : (!inventory.c9.void && inventory.c9.filled), 'radioempty' : (!inventory.c9.void && !inventory.c9.filled )}" )                   
+              a.deg43-2(href='#')
+                .input-radio
+                  input#radio-10(ng-click="setcartucho('c10')" type='radio', value='radio10' ng-checked="editableCartuchoId == 'c10'")
+                  label(for='radio-10' ng-class="{'radiofull' : (!inventory.c10.void && inventory.c10.filled), 'radioempty' : (!inventory.c10.void && !inventory.c10.filled )}" )                   
+              a.deg57-6(href='#')
+                .input-radio
+                  input#radio-11(ng-click="setcartucho('c11')" type='radio', value='radio11' ng-checked="editableCartuchoId == 'c11'")
+                  label(for='radio-11' ng-class="{'radiofull' : (!inventory.c11.void && inventory.c11.filled), 'radioempty' : (!inventory.c11.void && !inventory.c11.filled )}" )                   
+              a.deg72(href='#')
+                .input-radio
+                  input#radio-12(ng-click="setcartucho('c12')" type='radio', value='radio12' ng-checked="editableCartuchoId == 'c12'")
+                  label(for='radio-12' ng-class="{'radiofull' : (!inventory.c12.void && inventory.c12.filled), 'radioempty' : (!inventory.c12.void && !inventory.c12.filled )}" )                   
+              a.deg86-4(href='#')
+                .input-radio
+                  input#radio-13(ng-click="setcartucho('c13')" type='radio', value='radio13' ng-checked="editableCartuchoId == 'c13'")
+                  label(for='radio-13' ng-class="{'radiofull' : (!inventory.c13.void && inventory.c13.filled), 'radioempty' : (!inventory.c13.void && !inventory.c13.filled )}" )                   
+              a.deg100-8(href='#')
+                .input-radio
+                  input#radio-14(ng-click="setcartucho('c14')" type='radio', value='radio14' ng-checked="editableCartuchoId == 'c14'")
+                  label(for='radio-14' ng-class="{'radiofull' : (!inventory.c14.void && inventory.c14.filled), 'radioempty' : (!inventory.c14.void && !inventory.c14.filled )}" )                   
+              a.deg115-2(href='#')
+                .input-radio
+                  input#radio-15(ng-click="setcartucho('c15')" type='radio', value='radio15' ng-checked="editableCartuchoId == 'c15'")
+                  label(for='radio-15' ng-class="{'radiofull' : (!inventory.c15.void && inventory.c15.filled), 'radioempty' : (!inventory.c15.void && !inventory.c15.filled )}" )                   
+              a.deg129-6(href='#')
+                .input-radio
+                  input#radio-16(ng-click="setcartucho('c16')" type='radio', value='radio16' ng-checked="editableCartuchoId == 'c16'")
+                  label(for='radio-16' ng-class="{'radiofull' : (!inventory.c16.void && inventory.c16.filled), 'radioempty' : (!inventory.c16.void && !inventory.c16.filled )}" )
+              a.deg144(href='#')
+                .input-radio
+                  input#radio-17(ng-click="setcartucho('c17')" type='radio', value='radio17' ng-checked="editableCartuchoId == 'c17'")
+                  label(for='radio-17' ng-class="{'radiofull' : (!inventory.c17.void && inventory.c17.filled), 'radioempty' : (!inventory.c17.void && !inventory.c17.filled )}" )
+              a.deg158-4(href='#')
+                .input-radio
+                  input#radio-18(ng-click="setcartucho('c18')" type='radio', value='radio18' ng-checked="editableCartuchoId == 'c18'")
+                  label(for='radio-18' ng-class="{'radiofull' : (!inventory.c18.void && inventory.c18.filled), 'radioempty' : (!inventory.c18.void && !inventory.c18.filled )}" )
+              a.deg172-8(href='#')
+                .input-radio
+                  input#radio-19(ng-click="setcartucho('c19')" type='radio', value='radio19' ng-checked="editableCartuchoId == 'c19'")
+                  label(for='radio-19' ng-class="{'radiofull' : (!inventory.c19.void && inventory.c19.filled), 'radioempty' : (!inventory.c19.void && !inventory.c19.filled )}" )
+              a.deg187-2(href='#')
+                .input-radio
+                  input#radio-20(ng-click="setcartucho('c20')" type='radio', value='radio20' ng-checked="editableCartuchoId == 'c20'")
+                  label(for='radio-20' ng-class="{'radiofull' : (!inventory.c20.void && inventory.c20.filled), 'radioempty' : (!inventory.c20.void && !inventory.c20.filled )}" )
+              a.deg201-6(href='#')
+                .input-radio
+                  input#radio-21(ng-click="setcartucho('c21')" type='radio', value='radio21' ng-checked="editableCartuchoId == 'c21'")
+                  label(for='radio-21' ng-class="{'radiofull' : (!inventory.c21.void && inventory.c21.filled), 'radioempty' : (!inventory.c21.void && !inventory.c21.filled )}" )
+              a.deg216(href='#')
+                .input-radio
+                  input#radio-22(ng-click="setcartucho('c22')" type='radio', value='radio22' ng-checked="editableCartuchoId == 'c22'")
+                  label(for='radio-22' ng-class="{'radiofull' : (!inventory.c22.void && inventory.c22.filled), 'radioempty' : (!inventory.c22.void && !inventory.c22.filled )}" )
+              a.deg230-4(href='#')
+                .input-radio
+                  input#radio-23(ng-click="setcartucho('c23')" type='radio', value='radio23' ng-checked="editableCartuchoId == 'c23'")
+                  label(for='radio-23' ng-class="{'radiofull' : (!inventory.c23.void && inventory.c23.filled), 'radioempty' : (!inventory.c23.void && !inventory.c23.filled )}" )
+              a.deg244-8(href='#')
+                .input-radio
+                  input#radio-24(ng-click="setcartucho('c24')" type='radio', value='radio24' ng-checked="editableCartuchoId == 'c24'")
+                  label(for='radio-24' ng-class="{'radiofull' : (!inventory.c24.void && inventory.c24.filled), 'radioempty' : (!inventory.c24.void && !inventory.c24.filled )}" )
+              a.deg259-2(href='#')
+                .input-radio
+                  input#radio-25(ng-click="setcartucho('c25')" type='radio', value='radio25' ng-checked="editableCartuchoId == 'c25'")
+                  label(for='radio-25' ng-class="{'radiofull' : (!inventory.c25.void && inventory.c25.filled), 'radioempty' : (!inventory.c25.void && !inventory.c25.filled )}" )
+              a.deg273-6(href='#')
+                .input-radio
+                  input#radio-1(ng-click="setcartucho('c1')" type='radio', value='radio1' ng-checked="editableCartuchoId == 'c1'")
+                  label(for='radio-1' ng-class="{'radiofull' : (!inventory.c1.void && inventory.c1.filled), 'radioempty' : (!inventory.c1.void && !inventory.c1.filled )}" )
+              a.deg288(href='#')
+                .input-radio
+                  input#radio-2(ng-click="setcartucho('c2')" type='radio', value='radio2' ng-checked="editableCartuchoId == 'c2'")
+                  label(for='radio-2' ng-class="{'radiofull' : (!inventory.c2.void && inventory.c2.filled), 'radioempty' : (!inventory.c2.void && !inventory.c2.filled )}" )
+              a.deg302-4(href='#')
+                .input-radio
+                  input#radio-3(ng-click="setcartucho('c3')" type='radio', value='radio3' ng-checked="editableCartuchoId == 'c3'")
+                  label(for='radio-3' ng-class="{'radiofull' : (!inventory.c3.void && inventory.c3.filled), 'radioempty' : (!inventory.c3.void && !inventory.c3.filled )}" )
+              a.deg316-8(href='#')
+                .input-radio
+                  input#radio-4(ng-click="setcartucho('c4')" type='radio', value='radio4' ng-checked="editableCartuchoId == 'c4'")
+                  label(for='radio-4' ng-class="{'radiofull' : (!inventory.c4.void && inventory.c4.filled), 'radioempty' : (!inventory.c4.void && !inventory.c4.filled )}" )
+              a.deg331-2(href='#')
+                .input-radio
+                  input#radio-5(ng-click="setcartucho('c5')" type='radio', value='radio5' ng-checked="editableCartuchoId == 'c5'")
+                  label(for='radio-5' ng-class="{'radiofull' : (!inventory.c5.void && inventory.c5.filled), 'radioempty' : (!inventory.c5.void && !inventory.c5.filled )}" )
+              a.deg345-6(href='#')
+                .input-radio
+                  input#radio-6(ng-click="setcartucho('c6')" type='radio', value='radio6' ng-checked="editableCartuchoId == 'c6'")
+                  label(for='radio-6' ng-class="{'radiofull' : (!inventory.c6.void && inventory.c6.filled), 'radioempty' : (!inventory.c6.void && !inventory.c6.filled )}" )
+
+            div(style="padding-top: 30em")
+              .toolHec
+                ul.legend
+                  li
+                    span(style="background-color: #fbfbfb")
+                    |  Void
+                  li
+                    span(style="background-color: #3a90c5")
+                    |  Selected
+                  li
+                    span(style="background-color: #c1c1c1")
+                    |  Empty
+                  li
+                    span(style="background-color: #444444")
+                    |  Full
+                style.
+                  p strong{
+                    color:#fff
+                  }
+                div.toolHecText(style="text-align: left; padding: 1em 1em 1em 1em")
+                  p #[strong Void]: The cartridge has no assigned part
+                  p #[strong Selected]: You have selected a cartridge to perform an action
+                  p #[strong Empty]: The cartridge has an assigned part but it is empty (i.e. it has been used)
+                  p #[strong Full]: The cartridge has an assigned part and it has not been used yet
+
+              .toolHec(style="bottom: 0.54em; left: 2em;")
+                p(style="font-weight: bold;") Cartridge Sections
+                div.toolHecText(style="text-align: left; padding: 1em 1em 1em 1em")
+                  ul.legend
+                    li
+                      span(style="background-color: #fad47a;")
+                      |  Promoters(3)
+                    br
+                    li
+                      span(style="background-color: #e5b03d")
+                      |  RBSs(3)
+                    br
+                    li
+                      span(style="background-color: #e97681")
+                      |  CDSs(4)
+                    br
+                    li
+                      span(style="background-color: #db4a56")
+                      |  Terminators(2)
+                    br
+                    li
+                      span(style="background-color: #6ba7ca")
+                      |  Bacteria(2)
+                    br
+                    li
+                      span(style="background-color: #3788b7")
+                      |  T4 dna ligase + BsaI endonuclease(2)
+                    br
+                    li
+                      span(style="background-color: #878687")
+                      |  Reaction Buffer(2)
+                    br
+                    li
+                      span(style="background-color: #474747")
+                      |  Cleaning(5)
+                  style.
+                    p strong{
+                      color:#fff
+                    }
+
+          // PANEL
+          
+          .col-md-6
+            .masonry__item(style="padding-top:50px")
+              .pricing.pricing-3.text-center
+                .boxed(style='position: relative; height: 50px; background-color: #3e90c5; width: 100%; margin: 0px')
+                  h4(style='position: relative; color:#fff;')
+                    b Cartridge nº {{editableCartuchoId.substring(1)}}
+                .card__body(style='min-height: 200px !important; padding: 5%;' )
+                  div(ng-show="editableCartucho.obj")
+                    h4 {{editableCartucho.obj.name}}
+                    span.type--fade {{editableCartucho.type}}
+                    
+                    div(ng-show="editableCartucho.type == 'promoter'")
+                      .row(style="margin-top: 20px")
+                        .col-md-4(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category:
+                          p.text-uppercase(style="font-weight: 800; color:#282828") n/a   
+                        .col-md-4(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.lengthBP}}  
+                        .col-md-4(style="padding-left: 0em; padding-right: 15px; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Type:
+                          p.text-uppercase(style="font-weight: 800; color:#282828", ng-show="editableCartucho.obj.type == 'mc'") Constitutive
+                          p.text-uppercase(style="font-weight: 800; color:#282828", ng-show="editableCartucho.obj.type == 'mi'") Inducible
+                          p.text-uppercase(style="font-weight: 800; color:#282828", ng-show="editableCartucho.obj.type == 'mi_araC'") Inducible araC
+                          p.text-uppercase(style="font-weight: 800; color:#282828", ng-show="editableCartucho.obj.type == 'mi_luxR'") Inducible luxR
+                          
+                    div(ng-show="editableCartucho.type == 'rbs'")
+                      .row(style="margin-top: 20px")
+                        .col-md-6(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category:
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.category}} 
+                        .col-md-6(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.lengthBP}}   
+                          
+                    div(ng-show="editableCartucho.type == 'cds'")
+                      .row(style="margin-top: 20px")
+                        .col-md-6(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Type:
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.type}}
+                        .col-md-6(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP:
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.lengthBP}}    
+                        
+                    div(ng-show="editableCartucho.type == 'terminator'")
+                      .row(style="margin-top: 20px")
+                        .col-md-6(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") Category: 
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.category}}   
+                        .col-md-6(style="padding-left: 0em; padding-bottom: 1em;")
+                          h6(style="margin-bottom: 0; padding-bottom: 0.5em; font-weight: 400;") LengthBP: 
+                          p.text-uppercase(style="font-weight: 800; color:#282828") {{editableCartucho.obj.lengthBP}}
+
+                  div(ng-show="!editableCartucho.obj")
+                    h4 Empty
+                    span.type--fade Empty
+                    
+                div(ng-show="editableCartucho.idPart != ''")
+                  .card__bottom.text-center(style='background-color: #3e90c5;  display: flex;play: flex;lay: flex;')
+                    .col-md-3(style="padding:2%")
+                      .card__action(style='padding: 2%; background-color: #3e90c5;')
+                        // Button trigger modal
+                        a.btn(data-toggle='modal', data-target='#ModalRecharge' style="padding:0px; width:100%; border:none; color:#fff")
+                          span.h6.type--uppercase(style="margin-bottom:0px; color:#fff; font-weight: 1900") Recharge
+                          i.fas.fa-fill-drip(style='font-size: 25px; color:#fff;')
+
+                    .col-md-3(style='padding:2%')
+                      .card__action(style='padding: 2%; background-color: #3e90c5;')
+                        // Button trigger modal
+                        a.btn(data-toggle='modal', data-target='#ModalAddPart' style="padding:0px; width:100%; border:none; color:#fff", ng-click="isANewPartInACartucho = true" )
+                          span.h6.type--uppercase(style='margin-bottom:0px; color:#fff; font-weight: 1900') Change part
+                          i.fas.fa-exchange-alt(style='font-size: 25px; color:#fff;')
+
+                    .col-md-3(style="padding:2%")
+                      .card__action(style='padding: 2%;background-color: #3e90c5;')
+                        div(ng-show="editableCartucho.type == 'promoter'")
+                          a.btn(style="padding:0px; width:100%; border:none; color:#fff" ng-click="isANewPartInACartucho = true; editablePart()" data-toggle='modal', data-target='#ModalAddPromoter')
+                            span.h6.type--uppercase(style="margin-bottom:0px; color:#fff; font-weight: 1900") Parameters
+                            i.fas.fa-sliders-h(style='font-size: 25px; color:#fff;')
+                        div(ng-show="editableCartucho.type == 'rbs'")
+                          a.btn(style="padding:0px; width:100%; border:none; color:#fff" ng-click="isANewPartInACartucho = true; editablePart()" data-toggle='modal', data-target='#ModalAddRbs')
+                            span.h6.type--uppercase(style="margin-bottom:0px; color:#fff; font-weight: 1900") Parameters
+                            i.fas.fa-sliders-h(style='font-size: 25px; color:#fff;')
+                        div(ng-show="editableCartucho.type == 'cds'")
+                          a.btn(style="padding:0px; width:100%; border:none; color:#fff" ng-click="isANewPartInACartucho = true; editablePart()" data-toggle='modal', data-target='#ModalAddCds')
+                            span.h6.type--uppercase(style="margin-bottom:0px; color:#fff; font-weight: 1900") Parameters
+                            i.fas.fa-sliders-h(style='font-size: 25px; color:#fff;')
+                        div(ng-show="editableCartucho.type == 'terminator'")
+                          a.btn(style="padding:0px; width:100%; border:none; color:#fff" ng-click="isANewPartInACartucho = true; editablePart()" data-toggle='modal', data-target='#ModalAddTerminator')
+                            span.h6.type--uppercase(style="margin-bottom:0px; color:#fff; font-weight: 1900") Parameters
+                            i.fas.fa-sliders-h(style='font-size: 25px; color:#fff;')
+
+                    
+                    .col-md-3(style="padding:2%")
+                      .card__action(style='padding: 2%;background-color: #3e90c5;')
+                        // Button trigger modal
+                        a.btn(data-toggle='modal', data-target='#ModalDelete' style="padding:0px; width:100%; border:none; color:#fff")
+                          span.h6.type--uppercase(style="margin-bottom:0px; color:#fff; font-weight: 1900") Delete
+                          i.fas.fa-trash(style='font-size: 25px; color:#fff;')
+                            
+                div(ng-show="editableCartucho.idPart == '' && editableCartucho.typePart == ''")
+
+                  .card__bottom.text-center(style='background-color: #3e90c5;  display: flex;play: flex;lay: flex;')
+                    .col-md-12
+                      .card__action(style='padding: 2%; background-color: #3e90c5;')
+                        // Button trigger modal
+                        a.btn(data-toggle='modal', data-target='#ModalAddPart' style="padding:0px; width:100%; border:none; color:#fff", ng-click="isANewPartInACartucho = true" )
+                          span.h6.type--uppercase(style='margin-bottom:0px; color:#fff; font-weight: 1900') Change part
+                          i.fas.fa-exchange-alt(style='font-size: 25px; color:#fff;')
+
+                div(ng-show="editableCartucho.idPart == '' && editableCartucho.typePart != ''")
+
+                  .card__bottom.text-center(style='background-color: #3e90c5;  display: flex;play: flex;lay: flex;')
+                    .col-md-12
+                      .card__action(style='padding: 1.2em; background-color: #3e90c5;')
+                        span.h5(style="color: #fff") This is one of the fixed parts of the inventory in this demo. You can only modify the contents of cartridges 1 to 12
+
+
+                     
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3.type--uppercase ADD PARTS TO BD
+              .col-xs-12(style="padding:0px;")
+                hr
+        .row
+          .col-md-2
+            // Button trigger modal
+            button.btn(type='button', ng-click="isANewPartInACartucho = false" data-toggle='modal', data-target='#ModalAddPromoter' style="width:100%") Promoters
+          .col-md-2
+            // Button trigger modal
+            button.btn(type='button', ng-click="isANewPartInACartucho = false" data-toggle='modal', data-target='#ModalAddRbs' style="width:100%") RBS
+          .col-md-2
+            // Button trigger modal
+            button.btn(type='button', ng-click="isANewPartInACartucho = false" data-toggle='modal', data-target='#ModalAddCds' style="width:100%") CDS
+          .col-md-2
+            // Button trigger modal
+            button.btn(type='button', ng-click="isANewPartInACartucho = false" data-toggle='modal', data-target='#ModalAddTerminator' style="width:100%") Terminator
+          //- .col-md-2
+          //-   // Button trigger modal
+          //-   button.btn(type='button', ng-click="isANewPartInACartucho = false" data-toggle='modal', data-target='#ModalAddChassis' style="width:100%") Chassis
+        br
+        .row.justify-content-center(style="padding-top: 2em; padding-bottom: 2em;")
+          .col-md-12.col-lg-12
+            h3 ADD MULTIPLE PARTS TO BD
+            hr
+          .col-md-12.col-lg-12(style="padding: 0;")
+            div(style="justify-content: center")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-12
+                  a(data-toggle='modal', data-target='#ModalGuidelines', style="color: #3e90c5 !important; font-weight: bolder !important; cursor: pointer") Check out the guidelines in order to format the .csv files properly
+          .col-md-12.col-lg-12(style="padding: 0;")
+            div(style="justify-content: center")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-1
+                  //.input-radio
+                    input(ng-click="assignCSV('prom')" type='radio', name='radio', value='Promoters' id='Promoters')
+                    label(for='Promoters')
+                  p Promoters
+                 .col-md-4
+                  input(type='file', file-reader='fileContent1', style="border: none !important; padding: 0;")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-1
+                  //.input-radio
+                    input(ng-click="assignCSV('rbs')" type='radio', name='radio', value='RBS' id='RBS')
+                    label(for='RBS')
+                  p RBS
+                .col-md-4
+                  input(type='file', file-reader='fileContent2', style="border: none !important; padding: 0;")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-1  
+                  //.input-radio
+                    input(ng-click="assignCSV('cds')" type='radio', name='radio', value='CDS' id='CDS')
+                    label(for='CDS')
+                  p CDS
+                .col-md-4
+                  input(type='file', file-reader='fileContent3', style="border: none !important; padding: 0;")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-1
+                  //.input-radio
+                    input(ng-click="assignCSV('term')" type='radio', name='radio', value='Terminators' id='Terminators')
+                    label(for='Terminators')
+                  p Terminators
+                .col-md-4
+                  input(type='file', file-reader='fileContent4', style="border: none !important; padding: 0;")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-1
+                  //.input-radio
+                    input(ng-click="assignCSV('rec')" type='radio', name='radio', value='Recipes' id='Recipes')
+                    label(for='Recipes')  
+                  p Recipes
+                .col-md-4
+                  input(type='file', file-reader='fileContent5', style="border: none !important; padding: 0;")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")     
+                .col-md-6
+                  button.btn(type='button' style="width:30%;", ng-click="uploadCSV('p')") Upload your csv
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")     
+                .col-md-6
+                  h4(ng-show="show_waiting") Loading...
+              style.
+                md-toast.info {
+                    background-color: green;
+                }
+
+
+
+
+        //.row.justify-content-center(style="padding-top: 2em; padding-bottom: 2em;")  
+          .col-md-12.col-lg-12
+            h3 ADD MULTIPLE PARTS TO BD
+            hr
+          .col-md-12.col-lg-12
+            div(style="justify-content: center")
+              .row(style="padding-top: 1em; padding-bottom: 1em; padding-left: 15px; padding-right: 15px;")
+                .col-md-2  
+                  .input-radio
+                    input(ng-click="assignCSV('rec')" type='radio', name='radio', value='Recipes' id='Recipes')
+                    label(for='Recipes')  
+                  span.radiolabel Recipes
+                  input(type='file', file-reader='fileContent', style="border: none !important; padding: 0; padding-top: 1em;")
+                .col-md-2
+                  .input-radio
+                    input(ng-click="assignCSV('prom')" type='radio', name='radio', value='Promoters' id='Promoters')
+                    label(for='Promoters')
+                  span.radiolabel Promoters
+                  input(type='file', file-reader='fileContent2', style="border: none !important; padding: 0; padding-top: 1em;")
+                .col-md-2
+                  .input-radio
+                    input(ng-click="assignCSV('rbs')" type='radio', name='radio', value='RBS' id='RBS')
+                    label(for='RBS')
+                  span.radiolabel RBS
+                  input(type='file', file-reader='fileContent3', style="border: none !important; padding: 0; padding-top: 1em;")
+                .col-md-2  
+                  .input-radio
+                    input(ng-click="assignCSV('cds')" type='radio', name='radio', value='CDS' id='CDS')
+                    label(for='CDS')
+                  span.radiolabel CDS
+                  input(type='file', file-reader='fileContent4', style="border: none !important; padding: 0; padding-top: 1em;")
+                .col-md-2  
+                  .input-radio
+                    input(ng-click="assignCSV('term')" type='radio', name='radio', value='Terminators' id='Terminators')
+                    label(for='Terminators')
+                  span.radiolabel Terminators
+                  input(type='file', file-reader='fileContent5', style="border: none !important; padding: 0; padding-top: 1em;")
+                style.
+                  a strong{
+                    color: #3a90c5;
+                    cursor: pointer;
+                  }
+                .col-md-2  
+                  a(ng-click="show_guidelines = !show_guidelines") #[strong Format guidelines]
+
+              div(ng-show="show_guidelines")
+                .row(style="margin: 0")
+                  .col-md-12
+                    h5 These are the guidelines
+                .row(style="margin: 0")
+                  .col-md-12
+                    a(ng-click="show_guidelines = !show_guidelines") #[strong Close guidelines]
+
+              textarea.form-control(rows='15' type='text',  placeholder='Paste here your csv' ng-model="csvTest")
+              br
+              .col-md-6
+                button.btn(type='button' style="width:30%;", ng-click="uploadCSV()") Upload your csv
+
+     
+
+      section(ng-show="show_exito")
+        h1 Done
+block footerJS
+  script(type="text/javascript" src="/js/services/promoters.js")
+  script(type="text/javascript" src="/js/services/cdss.js")
+  script(type="text/javascript" src="/js/services/terminators.js")
+  script(type="text/javascript" src="/js/services/rbss.js")
+  script(type="text/javascript" src="/js/services/chassis.js")
+  script(type="text/javascript" src="/js/services/inventory.js")
+  script(type="text/javascript" src="/js/controllers/inventory/index.js")

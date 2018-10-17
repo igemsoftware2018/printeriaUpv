@@ -1,0 +1,22 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="historicalResultsController" ng-init="initController(#{JSON.stringify(idJob)})" ng-cloak id="printDiv")
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3 modeling
+              .col-xs-12(style="padding:0px;")
+                hr
+      section
+  
+
+
+block footerJS
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/controllers/historical-activities-results/index.js")

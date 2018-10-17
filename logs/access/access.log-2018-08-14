@@ -1,0 +1,675 @@
+[2018-08-14 09:53:51.155] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 340.723 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:51.595] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 15.777 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:51.595] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 16.191 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:51.597] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 17.516 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:51.604] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 25.663 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.417] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 175.987 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.425] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 13.568 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.428] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 17.131 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.431] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 191.517 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.440] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 201.070 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.504] [INFO] access - [90mGET /api/job/all [36m304 [35m- 91.452 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.645] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 13.325 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.648] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 16.798 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.651] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 19.352 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.660] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 30.085 ms - [37m::1 user@printeria.com
+[2018-08-14 09:53:52.729] [INFO] access - [90mGET /api/job/all [36m304 [35m- 99.425 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:21.421] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 146.543 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:21.607] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 12.872 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:21.607] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 13.277 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:21.609] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 15.232 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:21.614] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 21.235 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:27.502] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 129.104 ms - [37m::1 user@printeria.com
+[2018-08-14 09:55:27.658] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 7.314 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:51.113] [INFO] access - [90mGET / [36m304 [35m- 116.034 ms - [37m::1 -
+[2018-08-14 09:56:51.479] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 107.450 ms - [37m::1 -
+[2018-08-14 09:56:51.540] [INFO] access - [90mGET /robots.txt [33m404 [35m- 57.465 ms - [37m::1 -
+[2018-08-14 09:56:56.469] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 52.649 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:56.651] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 171.488 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:56.935] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 18.012 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:56.937] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 14.924 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:56.939] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 15.461 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:56.948] [INFO] access - [90mGET /api/promoter/all [32m200 [35m- 30.985 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:57.004] [INFO] access - [90mGET /api/job/all [32m200 [35m- 89.024 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:58.962] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 111.801 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:59.181] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 12.274 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:59.182] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 7.562 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:59.183] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 13.193 ms - [37m::1 user@printeria.com
+[2018-08-14 09:56:59.190] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 21.177 ms - [37m::1 user@printeria.com
+[2018-08-14 09:57:00.442] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 148.591 ms - [37m::1 user@printeria.com
+[2018-08-14 09:57:00.629] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 8.514 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:01.602] [INFO] access - [90mGET / [36m304 [35m- 189.542 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:01.946] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 119.673 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:04.922] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 97.788 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:05.051] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 118.973 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:05.279] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 31.826 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:05.287] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 42.319 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:05.289] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 43.513 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:05.298] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 55.475 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:05.411] [INFO] access - [90mGET /api/job/all [36m304 [35m- 170.205 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:06.798] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 114.695 ms - [37m::1 user@printeria.com
+[2018-08-14 10:01:06.979] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 12.814 ms - [37m::1 user@printeria.com
+[2018-08-14 10:04:14.554] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 85.459 ms - [37m::1 user@printeria.com
+[2018-08-14 10:04:14.918] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 10.010 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:42.157] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 77.105 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:42.502] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 12.341 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:56.518] [INFO] access - [90mGET / [36m304 [35m- 110.533 ms - [37m::1 -
+[2018-08-14 10:10:56.904] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 82.398 ms - [37m::1 -
+[2018-08-14 10:10:59.184] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 53.915 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:59.296] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 89.814 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:59.699] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 51.587 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:59.699] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 49.712 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:59.707] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 60.431 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:59.730] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 85.219 ms - [37m::1 user@printeria.com
+[2018-08-14 10:10:59.825] [INFO] access - [90mGET /api/job/all [32m200 [35m- 182.802 ms - [37m::1 user@printeria.com
+[2018-08-14 10:11:01.213] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 113.016 ms - [37m::1 user@printeria.com
+[2018-08-14 10:11:01.428] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 11.677 ms - [37m::1 user@printeria.com
+[2018-08-14 10:11:20.083] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 185.874 ms - [37m::1 user@printeria.com
+[2018-08-14 10:11:32.721] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.842 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:48.824] [INFO] access - [90mGET / [36m304 [35m- 84.944 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:49.450] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 124.340 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:51.676] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 52.557 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:51.799] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 113.491 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:52.023] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 27.723 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:52.026] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 36.021 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:52.030] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 36.172 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:52.043] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 54.955 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:52.120] [INFO] access - [90mGET /api/job/all [36m304 [35m- 133.860 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:53.400] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 58.327 ms - [37m::1 user@printeria.com
+[2018-08-14 10:12:53.583] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 11.335 ms - [37m::1 user@printeria.com
+[2018-08-14 10:14:15.175] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 79.134 ms - [37m::1 user@printeria.com
+[2018-08-14 10:14:15.542] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.327 ms - [37m::1 user@printeria.com
+[2018-08-14 10:14:29.455] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 136.095 ms - [37m::1 user@printeria.com
+[2018-08-14 10:14:30.015] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 12.972 ms - [37m::1 user@printeria.com
+[2018-08-14 10:18:45.001] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 85.738 ms - [37m::1 user@printeria.com
+[2018-08-14 10:18:45.453] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.323 ms - [37m::1 user@printeria.com
+[2018-08-14 10:19:06.094] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 145.068 ms - [37m::1 user@printeria.com
+[2018-08-14 10:19:06.503] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.041 ms - [37m::1 user@printeria.com
+[2018-08-14 10:19:33.292] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.254 ms - [37m::1 user@printeria.com
+[2018-08-14 10:19:33.664] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.921 ms - [37m::1 user@printeria.com
+[2018-08-14 10:19:41.776] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 151.056 ms - [37m::1 user@printeria.com
+[2018-08-14 10:19:42.212] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.822 ms - [37m::1 user@printeria.com
+[2018-08-14 10:20:22.123] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 148.422 ms - [37m::1 user@printeria.com
+[2018-08-14 10:20:22.534] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.840 ms - [37m::1 user@printeria.com
+[2018-08-14 10:20:53.541] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 90.394 ms - [37m::1 user@printeria.com
+[2018-08-14 10:20:54.132] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.905 ms - [37m::1 user@printeria.com
+[2018-08-14 10:21:27.049] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 137.157 ms - [37m::1 user@printeria.com
+[2018-08-14 10:21:27.455] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.220 ms - [37m::1 user@printeria.com
+[2018-08-14 10:21:46.254] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 90.154 ms - [37m::1 user@printeria.com
+[2018-08-14 10:21:46.683] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.840 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:05.599] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 256.855 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:06.078] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 25.968 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:06.083] [INFO] access - [90mGET /api/rbs/all [32m200 [35m821 Bytes 42.110 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:06.085] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 36.025 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:06.092] [INFO] access - [90mGET /api/promoter/all [32m200 [35m- 51.657 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:18.474] [INFO] access - [90mPOST /api/recipes/ [32m200 [35m439 Bytes 15.353 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:18.636] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 136.768 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:18.925] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 30.572 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:22.855] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 135.811 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:23.146] [INFO] access - [90mGET /api/rbs/all [32m200 [35m821 Bytes 20.722 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:23.149] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 26.884 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:23.151] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 29.391 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:23.162] [INFO] access - [90mGET /api/promoter/all [32m200 [35m- 37.194 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:29.950] [INFO] access - [90mPOST /api/recipes/ [32m200 [35m439 Bytes 6.471 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:30.085] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 124.112 ms - [37m::1 user@printeria.com
+[2018-08-14 10:24:30.338] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 30.180 ms - [37m::1 user@printeria.com
+[2018-08-14 10:25:03.751] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 130.173 ms - [37m::1 user@printeria.com
+[2018-08-14 10:25:04.067] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 20.180 ms - [37m::1 user@printeria.com
+[2018-08-14 10:28:21.039] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 80.505 ms - [37m::1 user@printeria.com
+[2018-08-14 10:28:21.532] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 41.042 ms - [37m::1 user@printeria.com
+[2018-08-14 10:30:32.541] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 140.946 ms - [37m::1 user@printeria.com
+[2018-08-14 10:30:32.984] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 22.247 ms - [37m::1 user@printeria.com
+[2018-08-14 10:32:15.266] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 89.473 ms - [37m::1 user@printeria.com
+[2018-08-14 10:32:15.713] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.927 ms - [37m::1 user@printeria.com
+[2018-08-14 10:32:54.619] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 140.656 ms - [37m::1 user@printeria.com
+[2018-08-14 10:32:55.045] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 22.491 ms - [37m::1 user@printeria.com
+[2018-08-14 10:33:57.848] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 81.801 ms - [37m::1 user@printeria.com
+[2018-08-14 10:33:58.115] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 20.443 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:09.276] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 133.158 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:09.625] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 19.718 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:19.145] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 74.240 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:19.381] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 21.627 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:24.661] [INFO] access - [90mGET / [36m304 [35m- 116.104 ms - [37m::1 -
+[2018-08-14 10:34:24.731] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 56.158 ms - [37m::1 -
+[2018-08-14 10:34:28.853] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 49.781 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:29.996] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 90.636 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:30.041] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 40.966 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:30.043] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 40.195 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:30.044] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 43.967 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:30.051] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 52.220 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:30.108] [INFO] access - [90mGET /api/job/all [36m304 [35m- 109.851 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:32.537] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 212.545 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:32.852] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 26.341 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:32.852] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 26.043 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:32.862] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 32.318 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:32.873] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 49.256 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:33.340] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 121.256 ms - [37m::1 user@printeria.com
+[2018-08-14 10:34:33.353] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 134.190 ms - [37m::1 user@printeria.com
+[2018-08-14 10:35:54.313] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 90.918 ms - [37m::1 user@printeria.com
+[2018-08-14 10:35:54.673] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.605 ms - [37m::1 user@printeria.com
+[2018-08-14 10:40:20.140] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 68.851 ms - [37m::1 user@printeria.com
+[2018-08-14 10:40:20.603] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 20.708 ms - [37m::1 user@printeria.com
+[2018-08-14 10:40:56.905] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 134.234 ms - [37m::1 user@printeria.com
+[2018-08-14 10:40:57.165] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.849 ms - [37m::1 user@printeria.com
+[2018-08-14 10:45:18.627] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 81.554 ms - [37m::1 user@printeria.com
+[2018-08-14 10:45:18.992] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 19.012 ms - [37m::1 user@printeria.com
+[2018-08-14 10:45:57.130] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 132.128 ms - [37m::1 user@printeria.com
+[2018-08-14 10:45:57.363] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 20.126 ms - [37m::1 user@printeria.com
+[2018-08-14 10:48:38.952] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 86.187 ms - [37m::1 user@printeria.com
+[2018-08-14 10:48:39.211] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 20.629 ms - [37m::1 user@printeria.com
+[2018-08-14 10:48:58.954] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 133.435 ms - [37m::1 user@printeria.com
+[2018-08-14 10:48:59.192] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.685 ms - [37m::1 user@printeria.com
+[2018-08-14 10:49:16.321] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 81.690 ms - [37m::1 user@printeria.com
+[2018-08-14 10:49:16.564] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.635 ms - [37m::1 user@printeria.com
+[2018-08-14 10:49:39.828] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 137.707 ms - [37m::1 user@printeria.com
+[2018-08-14 10:49:40.067] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.216 ms - [37m::1 user@printeria.com
+[2018-08-14 10:51:10.593] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 76.191 ms - [37m::1 user@printeria.com
+[2018-08-14 10:51:10.956] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 16.442 ms - [37m::1 user@printeria.com
+[2018-08-14 10:52:12.229] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 131.366 ms - [37m::1 user@printeria.com
+[2018-08-14 10:52:12.475] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.125 ms - [37m::1 user@printeria.com
+[2018-08-14 10:52:25.510] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 73.374 ms - [37m::1 user@printeria.com
+[2018-08-14 10:52:25.757] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.938 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:02.136] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 146.430 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:02.369] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.054 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:11.814] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/profile [32m200 [35m- 79.484 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:13.200] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 242.227 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:13.491] [INFO] access - [90mGET /api/cds/all [32m200 [35m802 Bytes 17.173 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:13.494] [INFO] access - [90mGET /api/terminator/all [32m200 [35m608 Bytes 19.906 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:13.497] [INFO] access - [90mGET /api/rbs/all [32m200 [35m821 Bytes 22.259 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:13.505] [INFO] access - [90mGET /api/promoter/all [32m200 [35m- 32.466 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:20.829] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 164.781 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:21.101] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 27.023 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:21.103] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 28.695 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:21.110] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 41.266 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:21.138] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 70.957 ms - [37m::1 user@printeria.com
+[2018-08-14 10:55:21.196] [INFO] access - [90mGET /api/job/all [36m304 [35m- 129.177 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:37.942] [INFO] access - [90mGET / [36m304 [35m- 111.711 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:38.255] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 102.641 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:40.861] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 51.490 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:40.969] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 86.372 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:41.272] [INFO] access - [90mGET /api/terminator/all [32m200 [35m608 Bytes 23.532 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:41.275] [INFO] access - [90mGET /api/rbs/all [32m200 [35m821 Bytes 26.275 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:41.277] [INFO] access - [90mGET /api/cds/all [32m200 [35m802 Bytes 29.077 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:41.289] [INFO] access - [90mGET /api/promoter/all [32m200 [35m- 40.434 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:41.374] [INFO] access - [90mGET /api/job/all [32m200 [35m- 126.758 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:42.981] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 127.256 ms - [37m::1 user@printeria.com
+[2018-08-14 10:56:43.189] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.974 ms - [37m::1 user@printeria.com
+[2018-08-14 11:03:13.386] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 106.907 ms - [37m::1 user@printeria.com
+[2018-08-14 11:03:13.738] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.966 ms - [37m::1 user@printeria.com
+[2018-08-14 11:06:02.582] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 90.623 ms - [37m::1 user@printeria.com
+[2018-08-14 11:06:02.913] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 18.413 ms - [37m::1 user@printeria.com
+[2018-08-14 11:07:12.777] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 211.812 ms - [37m::1 user@printeria.com
+[2018-08-14 11:07:13.025] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 17.905 ms - [37m::1 user@printeria.com
+[2018-08-14 11:10:33.259] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 170.784 ms - [37m::1 user@printeria.com
+[2018-08-14 11:10:33.577] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.999 ms - [37m::1 user@printeria.com
+[2018-08-14 11:13:22.599] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 76.102 ms - [37m::1 user@printeria.com
+[2018-08-14 11:13:22.838] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 21.225 ms - [37m::1 user@printeria.com
+[2018-08-14 11:16:21.737] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 170.960 ms - [37m::1 user@printeria.com
+[2018-08-14 11:16:22.095] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.973 ms - [37m::1 user@printeria.com
+[2018-08-14 11:17:00.187] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 91.936 ms - [37m::1 user@printeria.com
+[2018-08-14 11:17:00.432] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.633 ms - [37m::1 user@printeria.com
+[2018-08-14 11:17:53.039] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 157.336 ms - [37m::1 user@printeria.com
+[2018-08-14 11:17:53.273] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.545 ms - [37m::1 user@printeria.com
+[2018-08-14 11:18:11.455] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 91.859 ms - [37m::1 user@printeria.com
+[2018-08-14 11:18:11.693] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.466 ms - [37m::1 user@printeria.com
+[2018-08-14 11:20:41.969] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 163.832 ms - [37m::1 user@printeria.com
+[2018-08-14 11:20:42.213] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.804 ms - [37m::1 user@printeria.com
+[2018-08-14 11:23:08.699] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 93.759 ms - [37m::1 user@printeria.com
+[2018-08-14 11:23:09.120] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.788 ms - [37m::1 user@printeria.com
+[2018-08-14 11:24:14.379] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 160.364 ms - [37m::1 user@printeria.com
+[2018-08-14 11:24:14.793] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.984 ms - [37m::1 user@printeria.com
+[2018-08-14 11:24:22.309] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 84.438 ms - [37m::1 user@printeria.com
+[2018-08-14 11:24:22.746] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.982 ms - [37m::1 user@printeria.com
+[2018-08-14 11:25:04.167] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 200.112 ms - [37m::1 user@printeria.com
+[2018-08-14 11:25:04.592] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.772 ms - [37m::1 user@printeria.com
+[2018-08-14 11:25:23.805] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 107.428 ms - [37m::1 user@printeria.com
+[2018-08-14 11:25:24.230] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.253 ms - [37m::1 user@printeria.com
+[2018-08-14 11:26:04.654] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 173.050 ms - [37m::1 user@printeria.com
+[2018-08-14 11:26:05.098] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.388 ms - [37m::1 user@printeria.com
+[2018-08-14 11:27:03.686] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.805 ms - [37m::1 user@printeria.com
+[2018-08-14 11:27:04.138] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.376 ms - [37m::1 user@printeria.com
+[2018-08-14 11:27:17.539] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 159.168 ms - [37m::1 user@printeria.com
+[2018-08-14 11:27:17.969] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.686 ms - [37m::1 user@printeria.com
+[2018-08-14 11:27:23.573] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 81.091 ms - [37m::1 user@printeria.com
+[2018-08-14 11:27:24.037] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.011 ms - [37m::1 user@printeria.com
+[2018-08-14 11:28:56.228] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 154.577 ms - [37m::1 user@printeria.com
+[2018-08-14 11:28:56.642] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.712 ms - [37m::1 user@printeria.com
+[2018-08-14 11:30:03.539] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.436 ms - [37m::1 user@printeria.com
+[2018-08-14 11:30:03.794] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.450 ms - [37m::1 user@printeria.com
+[2018-08-14 11:30:36.470] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 147.772 ms - [37m::1 user@printeria.com
+[2018-08-14 11:30:36.727] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.748 ms - [37m::1 user@printeria.com
+[2018-08-14 11:30:48.419] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 84.101 ms - [37m::1 user@printeria.com
+[2018-08-14 11:30:48.664] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.778 ms - [37m::1 user@printeria.com
+[2018-08-14 11:31:09.974] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 158.631 ms - [37m::1 user@printeria.com
+[2018-08-14 11:31:10.331] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.837 ms - [37m::1 user@printeria.com
+[2018-08-14 11:33:51.434] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 87.975 ms - [37m::1 user@printeria.com
+[2018-08-14 11:33:51.836] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.166 ms - [37m::1 user@printeria.com
+[2018-08-14 11:35:22.327] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 170.028 ms - [37m::1 user@printeria.com
+[2018-08-14 11:35:22.769] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.314 ms - [37m::1 user@printeria.com
+[2018-08-14 11:35:37.534] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.169 ms - [37m::1 user@printeria.com
+[2018-08-14 11:35:37.953] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.049 ms - [37m::1 user@printeria.com
+[2018-08-14 11:36:05.469] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 159.237 ms - [37m::1 user@printeria.com
+[2018-08-14 11:36:05.875] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.608 ms - [37m::1 user@printeria.com
+[2018-08-14 11:39:29.346] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 87.925 ms - [37m::1 user@printeria.com
+[2018-08-14 11:39:29.800] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.114 ms - [37m::1 user@printeria.com
+[2018-08-14 11:39:44.664] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 156.724 ms - [37m::1 user@printeria.com
+[2018-08-14 11:39:45.134] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.261 ms - [37m::1 user@printeria.com
+[2018-08-14 11:40:11.551] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 93.864 ms - [37m::1 user@printeria.com
+[2018-08-14 11:40:11.972] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.751 ms - [37m::1 user@printeria.com
+[2018-08-14 11:41:21.275] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 170.193 ms - [37m::1 user@printeria.com
+[2018-08-14 11:41:21.783] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.642 ms - [37m::1 user@printeria.com
+[2018-08-14 11:41:50.195] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 89.309 ms - [37m::1 user@printeria.com
+[2018-08-14 11:41:50.629] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.943 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:06.228] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 188.623 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:06.624] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.726 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:20.883] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 104.379 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:21.338] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.766 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:29.106] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 174.201 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:29.523] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.701 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:39.451] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 81.421 ms - [37m::1 user@printeria.com
+[2018-08-14 11:42:39.704] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.061 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:17.173] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 166.555 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:17.597] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.394 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:25.799] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 87.545 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:26.229] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.054 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:34.300] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 152.058 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:34.717] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.359 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:40.303] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 85.651 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:40.722] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.459 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:47.848] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 147.764 ms - [37m::1 user@printeria.com
+[2018-08-14 11:43:48.282] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.390 ms - [37m::1 user@printeria.com
+[2018-08-14 11:44:43.891] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 107.538 ms - [37m::1 user@printeria.com
+[2018-08-14 11:44:44.313] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.316 ms - [37m::1 user@printeria.com
+[2018-08-14 11:46:18.495] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 218.081 ms - [37m::1 user@printeria.com
+[2018-08-14 11:46:18.963] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.011 ms - [37m::1 user@printeria.com
+[2018-08-14 11:46:43.618] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 189.584 ms - [37m::1 user@printeria.com
+[2018-08-14 11:46:44.059] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.140 ms - [37m::1 user@printeria.com
+[2018-08-14 11:48:10.648] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 110.168 ms - [37m::1 user@printeria.com
+[2018-08-14 11:48:11.096] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.494 ms - [37m::1 user@printeria.com
+[2018-08-14 11:48:49.045] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 175.876 ms - [37m::1 user@printeria.com
+[2018-08-14 11:48:49.479] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.940 ms - [37m::1 user@printeria.com
+[2018-08-14 11:50:12.578] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 99.991 ms - [37m::1 user@printeria.com
+[2018-08-14 11:50:13.023] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.623 ms - [37m::1 user@printeria.com
+[2018-08-14 11:50:50.226] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 176.807 ms - [37m::1 user@printeria.com
+[2018-08-14 11:50:50.648] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.286 ms - [37m::1 user@printeria.com
+[2018-08-14 11:51:10.925] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 104.372 ms - [37m::1 user@printeria.com
+[2018-08-14 11:51:11.366] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.445 ms - [37m::1 user@printeria.com
+[2018-08-14 11:52:22.157] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 191.641 ms - [37m::1 user@printeria.com
+[2018-08-14 11:52:22.423] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.252 ms - [37m::1 user@printeria.com
+[2018-08-14 11:54:10.408] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 106.484 ms - [37m::1 user@printeria.com
+[2018-08-14 11:54:11.621] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.997 ms - [37m::1 user@printeria.com
+[2018-08-14 11:55:38.001] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 158.964 ms - [37m::1 user@printeria.com
+[2018-08-14 11:55:38.471] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.203 ms - [37m::1 user@printeria.com
+[2018-08-14 11:56:19.424] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 94.246 ms - [37m::1 user@printeria.com
+[2018-08-14 11:56:19.868] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.230 ms - [37m::1 user@printeria.com
+[2018-08-14 11:56:40.351] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 154.211 ms - [37m::1 user@printeria.com
+[2018-08-14 11:56:40.774] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.817 ms - [37m::1 user@printeria.com
+[2018-08-14 11:57:03.186] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.834 ms - [37m::1 user@printeria.com
+[2018-08-14 11:57:03.661] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.608 ms - [37m::1 user@printeria.com
+[2018-08-14 11:57:35.993] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 143.316 ms - [37m::1 user@printeria.com
+[2018-08-14 11:57:36.414] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.292 ms - [37m::1 user@printeria.com
+[2018-08-14 11:58:26.602] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 85.806 ms - [37m::1 user@printeria.com
+[2018-08-14 11:58:26.852] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.926 ms - [37m::1 user@printeria.com
+[2018-08-14 11:58:49.474] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 138.455 ms - [37m::1 user@printeria.com
+[2018-08-14 11:58:49.709] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.469 ms - [37m::1 user@printeria.com
+[2018-08-14 11:59:40.943] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 80.635 ms - [37m::1 user@printeria.com
+[2018-08-14 11:59:41.400] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.572 ms - [37m::1 user@printeria.com
+[2018-08-14 11:59:54.442] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 133.744 ms - [37m::1 user@printeria.com
+[2018-08-14 11:59:54.889] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.056 ms - [37m::1 user@printeria.com
+[2018-08-14 12:00:55.643] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 87.251 ms - [37m::1 user@printeria.com
+[2018-08-14 12:00:56.059] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.020 ms - [37m::1 user@printeria.com
+[2018-08-14 12:01:05.822] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 132.407 ms - [37m::1 user@printeria.com
+[2018-08-14 12:01:06.040] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.734 ms - [37m::1 user@printeria.com
+[2018-08-14 12:02:01.737] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 78.707 ms - [37m::1 user@printeria.com
+[2018-08-14 12:02:02.151] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.048 ms - [37m::1 user@printeria.com
+[2018-08-14 12:02:41.684] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 147.508 ms - [37m::1 user@printeria.com
+[2018-08-14 12:02:42.175] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.100 ms - [37m::1 user@printeria.com
+[2018-08-14 12:03:41.397] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.548 ms - [37m::1 user@printeria.com
+[2018-08-14 12:03:41.900] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.385 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:05.224] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 156.118 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:05.713] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.994 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:23.800] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 86.338 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:24.314] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.033 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:41.384] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 145.979 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:41.902] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.913 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:55.052] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 91.484 ms - [37m::1 user@printeria.com
+[2018-08-14 12:05:55.520] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.803 ms - [37m::1 user@printeria.com
+[2018-08-14 12:06:02.365] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 134.399 ms - [37m::1 user@printeria.com
+[2018-08-14 12:06:02.785] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.256 ms - [37m::1 user@printeria.com
+[2018-08-14 12:06:16.944] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 85.232 ms - [37m::1 user@printeria.com
+[2018-08-14 12:06:17.389] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.815 ms - [37m::1 user@printeria.com
+[2018-08-14 12:06:36.092] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 162.521 ms - [37m::1 user@printeria.com
+[2018-08-14 12:06:36.912] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.955 ms - [37m::1 user@printeria.com
+[2018-08-14 12:08:56.442] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 89.992 ms - [37m::1 user@printeria.com
+[2018-08-14 12:08:56.927] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.981 ms - [37m::1 user@printeria.com
+[2018-08-14 12:10:55.823] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 149.982 ms - [37m::1 user@printeria.com
+[2018-08-14 12:10:56.299] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.277 ms - [37m::1 user@printeria.com
+[2018-08-14 12:12:31.498] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 87.823 ms - [37m::1 user@printeria.com
+[2018-08-14 12:12:31.999] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 17.517 ms - [37m::1 user@printeria.com
+[2018-08-14 12:14:03.090] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 136.289 ms - [37m::1 user@printeria.com
+[2018-08-14 12:14:03.337] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 13.949 ms - [37m::1 user@printeria.com
+[2018-08-14 12:17:15.537] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 93.369 ms - [37m::1 user@printeria.com
+[2018-08-14 12:17:16.044] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 20.021 ms - [37m::1 user@printeria.com
+[2018-08-14 12:17:28.753] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 161.841 ms - [37m::1 user@printeria.com
+[2018-08-14 12:17:29.032] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 22.372 ms - [37m::1 user@printeria.com
+[2018-08-14 12:18:04.958] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 105.847 ms - [37m::1 user@printeria.com
+[2018-08-14 12:18:05.293] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.774 ms - [37m::1 user@printeria.com
+[2018-08-14 12:18:16.834] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 144.398 ms - [37m::1 user@printeria.com
+[2018-08-14 12:18:17.069] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.021 ms - [37m::1 user@printeria.com
+[2018-08-14 12:18:32.844] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.452 ms - [37m::1 user@printeria.com
+[2018-08-14 12:18:33.150] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.184 ms - [37m::1 user@printeria.com
+[2018-08-14 12:19:30.499] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 169.434 ms - [37m::1 user@printeria.com
+[2018-08-14 12:19:30.973] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.299 ms - [37m::1 user@printeria.com
+[2018-08-14 12:19:51.398] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 90.197 ms - [37m::1 user@printeria.com
+[2018-08-14 12:19:51.910] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.961 ms - [37m::1 user@printeria.com
+[2018-08-14 12:20:08.600] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 143.940 ms - [37m::1 user@printeria.com
+[2018-08-14 12:20:09.086] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 21.074 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:23.192] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 94.670 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:23.752] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.111 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:32.280] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 144.743 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:32.818] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.642 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:42.528] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 85.902 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:43.047] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.502 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:57.827] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 155.274 ms - [37m::1 user@printeria.com
+[2018-08-14 12:21:58.414] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.602 ms - [37m::1 user@printeria.com
+[2018-08-14 12:22:20.078] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 90.087 ms - [37m::1 user@printeria.com
+[2018-08-14 12:22:20.633] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.402 ms - [37m::1 user@printeria.com
+[2018-08-14 12:22:48.336] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 163.117 ms - [37m::1 user@printeria.com
+[2018-08-14 12:22:48.802] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.285 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:01.271] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 86.310 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:01.777] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.854 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:22.260] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 168.519 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:22.773] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.213 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:33.737] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 89.463 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:34.273] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.666 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:46.414] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 142.001 ms - [37m::1 user@printeria.com
+[2018-08-14 12:23:46.963] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.004 ms - [37m::1 user@printeria.com
+[2018-08-14 12:24:58.386] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 94.258 ms - [37m::1 user@printeria.com
+[2018-08-14 12:24:58.827] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.861 ms - [37m::1 user@printeria.com
+[2018-08-14 12:25:25.649] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 151.384 ms - [37m::1 user@printeria.com
+[2018-08-14 12:25:26.113] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.087 ms - [37m::1 user@printeria.com
+[2018-08-14 12:25:37.377] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 79.211 ms - [37m::1 user@printeria.com
+[2018-08-14 12:25:38.362] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 18.511 ms - [37m::1 user@printeria.com
+[2018-08-14 12:25:52.357] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 176.062 ms - [37m::1 user@printeria.com
+[2018-08-14 12:25:52.846] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.550 ms - [37m::1 user@printeria.com
+[2018-08-14 12:27:04.202] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 105.739 ms - [37m::1 user@printeria.com
+[2018-08-14 12:27:04.673] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.048 ms - [37m::1 user@printeria.com
+[2018-08-14 12:27:44.857] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 156.481 ms - [37m::1 user@printeria.com
+[2018-08-14 12:27:45.318] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.914 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:00.775] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 94.898 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:01.258] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.857 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:13.744] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 143.899 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:14.200] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.113 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:24.518] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 95.959 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:25.023] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.057 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:34.506] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 150.194 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:35.201] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.823 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:42.870] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 76.833 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:43.337] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.746 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:49.744] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 139.062 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:50.225] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.669 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:56.250] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 74.516 ms - [37m::1 user@printeria.com
+[2018-08-14 12:28:56.712] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.771 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:17.835] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 148.183 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:18.299] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.585 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:26.664] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 89.560 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:27.122] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.985 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:39.226] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 141.237 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:39.709] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.713 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:49.654] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 84.169 ms - [37m::1 user@printeria.com
+[2018-08-14 12:29:50.166] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.105 ms - [37m::1 user@printeria.com
+[2018-08-14 12:30:16.465] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 155.792 ms - [37m::1 user@printeria.com
+[2018-08-14 12:30:16.935] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.496 ms - [37m::1 user@printeria.com
+[2018-08-14 12:30:56.401] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.172 ms - [37m::1 user@printeria.com
+[2018-08-14 12:30:56.929] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 19.219 ms - [37m::1 user@printeria.com
+[2018-08-14 12:31:10.258] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 147.490 ms - [37m::1 user@printeria.com
+[2018-08-14 12:31:10.794] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.392 ms - [37m::1 user@printeria.com
+[2018-08-14 12:31:33.347] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 79.286 ms - [37m::1 user@printeria.com
+[2018-08-14 12:31:33.440] [INFO] access - [90mGET /robots.txt [33m404 [35m- 87.431 ms - [37m::1 user@printeria.com
+[2018-08-14 12:31:33.576] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 12.226 ms - [37m::1 user@printeria.com
+[2018-08-14 12:32:27.836] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 69.439 ms - [37m::1 user@printeria.com
+[2018-08-14 12:32:28.098] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 13.577 ms - [37m::1 user@printeria.com
+[2018-08-14 12:32:55.599] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 69.757 ms - [37m::1 user@printeria.com
+[2018-08-14 12:32:55.851] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.267 ms - [37m::1 user@printeria.com
+[2018-08-14 12:33:25.137] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 150.395 ms - [37m::1 user@printeria.com
+[2018-08-14 12:33:25.384] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.809 ms - [37m::1 user@printeria.com
+[2018-08-14 12:33:47.156] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 84.409 ms - [37m::1 user@printeria.com
+[2018-08-14 12:33:47.391] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.284 ms - [37m::1 user@printeria.com
+[2018-08-14 12:34:00.655] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 150.857 ms - [37m::1 user@printeria.com
+[2018-08-14 12:34:00.894] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.331 ms - [37m::1 user@printeria.com
+[2018-08-14 12:35:06.046] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 82.192 ms - [37m::1 user@printeria.com
+[2018-08-14 12:35:06.299] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.111 ms - [37m::1 user@printeria.com
+[2018-08-14 12:35:20.991] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 148.491 ms - [37m::1 user@printeria.com
+[2018-08-14 12:35:21.241] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.712 ms - [37m::1 user@printeria.com
+[2018-08-14 12:35:49.933] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.646 ms - [37m::1 user@printeria.com
+[2018-08-14 12:35:50.355] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.156 ms - [37m::1 user@printeria.com
+[2018-08-14 12:38:17.845] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 158.800 ms - [37m::1 user@printeria.com
+[2018-08-14 12:38:18.159] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.444 ms - [37m::1 user@printeria.com
+[2018-08-14 12:39:42.252] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/recipe/index.jade:77
+    75|                   #accordion.panel-group.drop-accordion(role='tablist', aria-multiselectable='true')
+    76|                     .panel.panel-default(ng-click='toggle = !toggle' data-toggle='collapse', data-parent='#accordion', href='#collapseTwo' style="cursor: pointer;")
+  > 77|                       #headingTwo.panel-heading(role='tab' ng-repeat='p in visibleRecipes' class="ng-scope" id='heading-{{$index}}')
+    78|                         .panel-title(style="padding: 0.7em 0.7em 0.7em 0.7em;")
+    79|                           i.fas(ng-class="toggle ? 'fa-angle-down' : 'fa-angle-up'")
+    80|                           a.collapse-controle.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo' style="display: inline")
+
+Duplicate attribute "id" is not allowed.
+    at Tag.Attrs.setAttribute (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/nodes/attrs.js:37:11)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:790:19)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17) undefined
+[2018-08-14 12:39:42.254] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [31m500 [35m88 Bytes 7.238 ms - [37m::1 user@printeria.com
+[2018-08-14 12:39:58.254] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.120 ms - [37m::1 user@printeria.com
+[2018-08-14 12:39:58.497] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.446 ms - [37m::1 user@printeria.com
+[2018-08-14 12:45:31.944] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/recipe/index.jade:136
+    134|     });
+    135| }) 
+  > 136|   script(type="text/javascript" src="/js/services/job-recipes.js")
+    137|   script(type="text/javascript" src="/js/controllers/recipe/index.js")
+    138| 
+
+unexpected token "indent"
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:254:15)
+    at Parser.parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:122:25)
+    at parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:104:21)
+    at Object.exports.compile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:205:16)
+    at handleTemplateCache (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:174:25)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:380:10)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:370:21)
+    at View.exports.__express [as engine] (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:417:11)
+    at View.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:639:10)
+    at Function.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/response.js:960:7)
+    at /Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:87:9
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isCorrectUser (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:15:73)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isVerified (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:20:34)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isLoggedIn (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:10:38) undefined
+[2018-08-14 12:45:31.946] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [31m500 [35m88 Bytes 15.046 ms - [37m::1 user@printeria.com
+[2018-08-14 12:45:44.256] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/recipe/index.jade:136
+    134|     });
+    135| }) 
+  > 136|   script(type="text/javascript" src="/js/services/job-recipes.js")
+    137|   script(type="text/javascript" src="/js/controllers/recipe/index.js")
+    138| 
+
+unexpected token "indent"
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:254:15)
+    at Parser.parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:122:25)
+    at parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:104:21)
+    at Object.exports.compile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:205:16)
+    at handleTemplateCache (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:174:25)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:380:10)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:370:21)
+    at View.exports.__express [as engine] (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:417:11)
+    at View.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:639:10)
+    at Function.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/response.js:960:7)
+    at /Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:87:9
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isCorrectUser (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:15:73)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isVerified (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:20:34)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isLoggedIn (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:10:38) undefined
+[2018-08-14 12:45:44.257] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [31m500 [35m88 Bytes 14.522 ms - [37m::1 user@printeria.com
+[2018-08-14 12:45:52.496] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 139.719 ms - [37m::1 user@printeria.com
+[2018-08-14 12:45:52.852] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 12.568 ms - [37m::1 user@printeria.com
+[2018-08-14 12:48:51.037] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.051 ms - [37m::1 user@printeria.com
+[2018-08-14 12:48:51.422] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.093 ms - [37m::1 user@printeria.com
+[2018-08-14 12:49:42.416] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 156.917 ms - [37m::1 user@printeria.com
+[2018-08-14 12:49:42.891] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.906 ms - [37m::1 user@printeria.com
+[2018-08-14 12:50:22.974] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.486 ms - [37m::1 user@printeria.com
+[2018-08-14 12:50:23.489] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.396 ms - [37m::1 user@printeria.com
+[2018-08-14 12:51:26.921] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 160.245 ms - [37m::1 user@printeria.com
+[2018-08-14 12:51:27.163] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.181 ms - [37m::1 user@printeria.com
+[2018-08-14 12:51:57.453] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 81.765 ms - [37m::1 user@printeria.com
+[2018-08-14 12:51:57.718] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.482 ms - [37m::1 user@printeria.com
+[2018-08-14 12:52:35.763] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 192.071 ms - [37m::1 user@printeria.com
+[2018-08-14 12:52:36.029] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 16.727 ms - [37m::1 user@printeria.com
+[2018-08-14 12:53:37.605] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 121.740 ms - [37m::1 user@printeria.com
+[2018-08-14 12:53:37.883] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.183 ms - [37m::1 user@printeria.com
+[2018-08-14 12:54:11.824] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.803 ms - [37m::1 user@printeria.com
+[2018-08-14 12:54:12.357] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.123 ms - [37m::1 user@printeria.com
+[2018-08-14 12:55:36.790] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 76.375 ms - [37m::1 user@printeria.com
+[2018-08-14 12:55:37.069] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.793 ms - [37m::1 user@printeria.com
+[2018-08-14 12:55:43.575] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 142.099 ms - [37m::1 user@printeria.com
+[2018-08-14 12:55:43.806] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.327 ms - [37m::1 user@printeria.com
+[2018-08-14 12:59:54.183] [ERROR] access - SyntaxError: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/recipe/index.jade:77
+    75|                   #accordion.panel-group.drop-accordion(role='tablist', aria-multiselectable='true' ng-repeat='p in visibleRecipes' class="ng-scope")
+    76|                     .panel.panel-default(ng-click='toggle = !toggle' data-toggle='collapse', data-parent='#accordion', href='#collapseTwo' style="cursor: pointer;")
+  > 77|                       .panel-heading(role='tab' id={{$index}})
+    78|                         .panel-title(style="padding: 0.7em 0.7em 0.7em 0.7em;")
+    79|                           i.fas(ng-class="toggle ? 'fa-angle-down' : 'fa-angle-up'")
+    80|                           a.collapse-controle.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo' style="display: inline")
+
+Unexpected token {
+    at Function (<anonymous>)
+    at assertExpression (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:30:3)
+    at Lexer.attrs (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:676:20)
+    at Lexer.next (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:939:15)
+    at Lexer.lookahead (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:113:46)
+    at Parser.lookahead (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:102:23)
+    at Parser.peek (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:79:17)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:773:22)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25) undefined
+[2018-08-14 12:59:54.185] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [31m500 [35m88 Bytes 6.617 ms - [37m::1 user@printeria.com
+[2018-08-14 13:00:05.077] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/recipe/index.jade:77
+    75|                   #accordion.panel-group.drop-accordion(role='tablist', aria-multiselectable='true' ng-repeat='p in visibleRecipes' class="ng-scope")
+    76|                     .panel.panel-default(ng-click='toggle = !toggle' data-toggle='collapse', data-parent='#accordion', href='#collapseTwo' style="cursor: pointer;")
+  > 77|                       .panel-heading(role='tab' id="{{$index}}"")
+    78|                         .panel-title(style="padding: 0.7em 0.7em 0.7em 0.7em;")
+    79|                           i.fas(ng-class="toggle ? 'fa-angle-down' : 'fa-angle-up'")
+    80|                           a.collapse-controle.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo' style="display: inline")
+
+The end of the string was reached with no closing bracket found.
+    at Function.parseMax (/Users/hizfer/Desktop/printeria2018/node_modules/character-parser/index.js:26:13)
+    at Lexer.bracketExpression (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:129:33)
+    at Lexer.attrs (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:610:24)
+    at Lexer.next (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:939:15)
+    at Lexer.lookahead (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:113:46)
+    at Parser.lookahead (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:102:23)
+    at Parser.peek (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:79:17)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:773:22)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:838:24)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:252:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25) undefined
+[2018-08-14 13:00:05.078] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [31m500 [35m88 Bytes 13.484 ms - [37m::1 user@printeria.com
+[2018-08-14 13:00:09.578] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 95.116 ms - [37m::1 user@printeria.com
+[2018-08-14 13:00:09.896] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.594 ms - [37m::1 user@printeria.com
+[2018-08-14 13:02:48.966] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 156.741 ms - [37m::1 user@printeria.com
+[2018-08-14 13:03:05.715] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 97.235 ms - [37m::1 user@printeria.com
+[2018-08-14 13:03:20.148] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 155.025 ms - [37m::1 user@printeria.com
+[2018-08-14 13:03:29.075] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.903 ms - [37m::1 user@printeria.com
+[2018-08-14 13:03:29.560] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.066 ms - [37m::1 user@printeria.com
+[2018-08-14 13:16:47.358] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/inventory [32m200 [35m- 273.276 ms - [37m::1 user@printeria.com
+[2018-08-14 13:16:47.656] [INFO] access - [90mGET /api/inventory/ [32m200 [35m- 7.856 ms - [37m::1 user@printeria.com
+[2018-08-14 13:19:52.846] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 170.102 ms - [37m::1 user@printeria.com
+[2018-08-14 13:19:53.054] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 12.094 ms - [37m::1 user@printeria.com
+[2018-08-14 13:19:53.692] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/inventory [32m200 [35m- 146.146 ms - [37m::1 user@printeria.com
+[2018-08-14 13:19:53.885] [INFO] access - [90mGET /api/inventory/ [36m304 [35m- 5.285 ms - [37m::1 user@printeria.com
+[2018-08-14 13:25:21.944] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 197.912 ms - [37m::1 user@printeria.com
+[2018-08-14 13:25:22.182] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.527 ms - [37m::1 user@printeria.com
+[2018-08-14 13:27:47.492] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 97.128 ms - [37m::1 user@printeria.com
+[2018-08-14 13:27:47.821] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.110 ms - [37m::1 user@printeria.com
+[2018-08-14 13:31:51.253] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 158.018 ms - [37m::1 user@printeria.com
+[2018-08-14 13:31:51.472] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.557 ms - [37m::1 user@printeria.com
+[2018-08-14 13:34:50.726] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 95.919 ms - [37m::1 user@printeria.com
+[2018-08-14 13:34:51.218] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.644 ms - [37m::1 user@printeria.com
+[2018-08-14 13:36:18.145] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 164.919 ms - [37m::1 user@printeria.com
+[2018-08-14 13:36:18.641] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.828 ms - [37m::1 user@printeria.com
+[2018-08-14 13:36:45.393] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 92.579 ms - [37m::1 user@printeria.com
+[2018-08-14 13:36:45.642] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 15.590 ms - [37m::1 user@printeria.com
+[2018-08-14 13:38:00.934] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 154.075 ms - [37m::1 user@printeria.com
+[2018-08-14 13:38:01.204] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 17.669 ms - [37m::1 user@printeria.com
+[2018-08-14 13:39:15.024] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 87.726 ms - [37m::1 user@printeria.com
+[2018-08-14 13:39:15.387] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 12.058 ms - [37m::1 user@printeria.com
+[2018-08-14 13:40:24.824] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe/5b7291b29378dd0540612192 [32m200 [35m- 121.372 ms - [37m::1 user@printeria.com
+[2018-08-14 13:40:25.019] [INFO] access - [90mGET /api/recipes/5b7291b29378dd0540612192 [32m200 [35m439 Bytes 4.905 ms - [37m::1 user@printeria.com
+[2018-08-14 13:40:29.021] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe/5b7291b29378dd0540612192 [32m200 [35m- 70.706 ms - [37m::1 user@printeria.com
+[2018-08-14 13:40:29.185] [INFO] access - [90mGET /api/recipes/5b7291b29378dd0540612192 [36m304 [35m- 4.848 ms - [37m::1 user@printeria.com
+[2018-08-14 13:41:58.105] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 83.203 ms - [37m::1 user@printeria.com
+[2018-08-14 13:41:58.437] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 16.132 ms - [37m::1 user@printeria.com
+[2018-08-14 13:42:12.770] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe/5b7291b29378dd0540612192 [32m200 [35m- 110.570 ms - [37m::1 user@printeria.com
+[2018-08-14 13:42:12.982] [INFO] access - [90mGET /api/recipes/5b7291b29378dd0540612192 [32m200 [35m439 Bytes 4.066 ms - [37m::1 user@printeria.com
+[2018-08-14 13:49:16.723] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 107.478 ms - [37m::1 user@printeria.com
+[2018-08-14 13:49:17.070] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 15.453 ms - [37m::1 user@printeria.com
+[2018-08-14 13:52:01.317] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 195.530 ms - [37m::1 user@printeria.com
+[2018-08-14 13:52:01.636] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 17.546 ms - [37m::1 user@printeria.com
+[2018-08-14 18:22:07.385] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 210.971 ms - [37m::1 user@printeria.com
+[2018-08-14 18:22:07.970] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 25.809 ms - [37m::1 user@printeria.com
+[2018-08-14 18:23:06.306] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 165.093 ms - [37m::1 user@printeria.com
+[2018-08-14 18:23:06.380] [INFO] access - [90mGET /robots.txt [33m404 [35m- 66.977 ms - [37m::1 user@printeria.com
+[2018-08-14 18:23:06.584] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 14.691 ms - [37m::1 user@printeria.com

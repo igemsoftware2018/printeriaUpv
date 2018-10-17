@@ -1,0 +1,23 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="activitiesController" ng-init="init(#{JSON.stringify(user)})" ng-cloak)
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block
+              h3.type--uppercase Activities
+              hr
+      section(style="padding:0px;")
+        .row
+          .col-md-12.col-offset-md-3(ng-repeat="activity in activities")
+            h5 {{activity.time | date:'dd/MM/yyyy hh:mm'}} - {{activity.table}} - {{activity.action}} - {{activity.description}}
+
+
+
+block footerJS  
+  script(type="text/javascript" src="/js/services/activities.js")
+  script(type="text/javascript" src="/js/controllers/activities/index.js")

@@ -1,0 +1,28 @@
+[2018-08-20 13:33:53.858] [INFO] access - [90mGET / [32m200 [35m- 184.847 ms - [37m::1 -
+[2018-08-20 13:33:55.426] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 156.577 ms - [37m::1 -
+[2018-08-20 13:33:58.949] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 60.388 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:00.328] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/historical-activities [32m200 [35m- 122.156 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:00.332] [INFO] access - [90mGET /api/cds/all [32m200 [35m- 126.490 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:00.957] [INFO] access - [90mGET /api/terminator/all [32m200 [35m819 Bytes 15.338 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:00.962] [INFO] access - [90mGET /api/rbs/all [32m200 [35m- 19.470 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:00.972] [INFO] access - [90mGET /api/promoter/all [32m200 [35m- 30.624 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:00.982] [INFO] access - [90mGET /api/job/all [32m200 [35m- 42.165 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:02.351] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 180.899 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:02.727] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 14.970 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:02.729] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 17.585 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:02.731] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 20.901 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:02.738] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 27.359 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:14.925] [INFO] access - [90mPOST /api/recipes/ [32m200 [35m439 Bytes 6.811 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:15.081] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 144.738 ms - [37m::1 user@printeria.com
+[2018-08-20 13:34:15.342] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 12.853 ms - [37m::1 user@printeria.com
+[2018-08-20 13:35:39.721] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe/5b7aa736c9a430ae0635a31e [32m200 [35m- 238.703 ms - [37m::1 user@printeria.com
+[2018-08-20 13:35:40.226] [INFO] access - [90mGET /api/recipes/5b7aa736c9a430ae0635a31e [32m200 [35m- 13.126 ms - [37m::1 user@printeria.com
+[2018-08-20 13:35:40.242] [INFO] access - [90mGET /api/job/all [36m304 [35m- 28.883 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:30.092] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/new-job [32m200 [35m- 281.859 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:30.436] [INFO] access - [90mGET /api/cds/all [36m304 [35m- 21.482 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:30.438] [INFO] access - [90mGET /api/terminator/all [36m304 [35m- 22.875 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:30.440] [INFO] access - [90mGET /api/rbs/all [36m304 [35m- 25.762 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:30.444] [INFO] access - [90mGET /api/promoter/all [36m304 [35m- 30.877 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:38.335] [INFO] access - [90mPOST /api/recipes/ [32m200 [35m448 Bytes 5.253 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:38.480] [INFO] access - [90mGET /users/5b70648c1e501845deb589e1/recipe [32m200 [35m- 137.809 ms - [37m::1 user@printeria.com
+[2018-08-20 13:37:38.711] [INFO] access - [90mGET /api/recipes/all [32m200 [35m- 14.150 ms - [37m::1 user@printeria.com

@@ -1,0 +1,1070 @@
+[2018-08-03 00:00:17.752] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 159.911 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:00:18.693] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.349 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:06:20.769] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 133.949 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:06:23.403] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 116.881 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:06:23.695] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.700 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:07:14.422] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 119.529 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:07:23.039] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 48.254 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:07:23.226] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 7.021 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:08:42.169] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 155.355 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:08:42.338] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.633 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:09:15.303] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 95.298 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:09:15.518] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 7.607 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:09:50.565] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 141.062 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:09:50.908] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.145 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:11:12.343] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 91.392 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:11:12.548] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.515 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:12:11.778] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 130.183 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:12:11.997] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.949 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:12:39.840] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 86.484 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:12:40.036] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 6.258 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:13:08.253] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 134.087 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:13:08.461] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 6.288 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:13:09.454] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 80.302 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:13:09.616] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.360 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:15:19.216] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 209.642 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:15:56.517] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 79.823 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:15:56.791] [INFO] access - [90mGET /api/job/all [36m304 [35m- 7.455 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:16:15.082] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 189.902 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:16:15.293] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.627 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:05.861] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 93.025 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:06.068] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.376 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:31.820] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 150.433 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:31.948] [INFO] access - [90mGET /robots.txt [33m404 [35m- 54.393 ms - [37m::1 -
+[2018-08-03 00:18:32.039] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.280 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:44.156] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 85.925 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:44.366] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.104 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:52.719] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 172.900 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:52.955] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.060 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:54.362] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 67.231 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:18:54.536] [INFO] access - [90mGET /api/job/all [36m304 [35m- 7.072 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:19:52.642] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 156.654 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:19:52.973] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.403 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:03.143] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 84.803 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:03.439] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.654 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:20.080] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 160.839 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:20.385] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.529 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:35.826] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 90.594 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:36.116] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.991 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:55.554] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 184.077 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:20:55.886] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.031 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:21:42.107] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 106.696 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:21:42.400] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.562 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:22:31.405] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 174.790 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:22:31.699] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.460 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:23:07.061] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 94.314 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:23:07.372] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.747 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:24:18.393] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 158.835 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:24:18.704] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.430 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:25:08.157] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 103.245 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:25:08.451] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.944 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:25:49.891] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 169.968 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:25:50.198] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.188 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:26:00.918] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 84.702 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:26:01.255] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.684 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:26:11.707] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 156.722 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:26:12.015] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.336 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:27:04.370] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 95.562 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:27:04.608] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.092 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:27:31.744] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 165.760 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:27:31.948] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.940 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:27:44.183] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 112.789 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:28:17.507] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 199.676 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:28:17.838] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.853 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:28:31.126] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 109.570 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:28:31.451] [INFO] access - [90mGET /api/job/all [36m304 [35m- 7.259 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:02.414] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 153.303 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:02.721] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.372 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:39.430] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 122.978 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:49.410] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 125.989 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:49.624] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.711 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.410] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 164.886 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.626] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 111.765 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.692] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 170.409 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.776] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 232.997 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.813] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 275.612 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.813] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 210.849 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.815] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 245.629 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.887] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 74.787 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.921] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 72.310 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.952] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 102.492 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:29:51.954] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 98.175 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.461] [INFO] access - [90mGET /robots.txt [33m404 [35m- 132.011 ms - [37m::1 -
+[2018-08-03 00:30:40.464] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 315.601 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.627] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 116.700 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.855] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 73.083 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.858] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 155.043 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.907] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 195.808 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.908] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 113.926 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.908] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 227.279 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.916] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 273.216 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.984] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 38.890 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:40.984] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 69.944 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:30:41.016] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 95.405 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:25.957] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 300.153 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.200] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 126.473 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.204] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 199.192 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.409] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 70.180 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.481] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 122.284 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.486] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 159.316 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.487] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 272.093 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.487] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 204.021 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.534] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 255.417 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.599] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 40.172 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:31:26.599] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 68.253 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.192] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 104.753 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.193] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 61.943 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.352] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 150.183 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.353] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 222.893 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.356] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 305.034 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.356] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 267.772 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.436] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 44.418 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.478] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 76.756 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.519] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 118.178 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:32:07.525] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 158.976 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:13.332] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 269.411 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:13.762] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 236.171 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:13.764] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 149.816 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:13.765] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 286.066 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:13.767] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 321.927 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:13.769] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 363.603 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:14.044] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 84.791 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:14.094] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 153.837 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:14.096] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 201.414 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:14.096] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 254.977 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:14.098] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 305.270 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.224] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 136.955 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.597] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 166.865 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.634] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 244.213 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.635] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 300.783 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.637] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 330.834 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.744] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 48.520 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.845] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 106.243 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:39.849] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 192.333 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:40.009] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 219.391 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:40.009] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 69.912 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:35:40.011] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 171.970 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.156] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 285.150 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.387] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 144.694 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.517] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 229.248 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.666] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 135.209 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.669] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 172.492 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.710] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 230.240 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.710] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 277.055 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.714] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 236.144 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.823] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 43.030 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.824] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 76.240 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:42.826] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 108.296 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.349] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 108.173 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.614] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 149.977 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.665] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 226.475 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.666] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 273.124 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.708] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 39.204 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.867] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 46.080 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.868] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 90.768 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.921] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 125.250 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.964] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 155.148 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.967] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 207.760 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:36:50.967] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 164.169 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:56.697] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 280.890 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:56.884] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 133.727 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.169] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 242.755 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.169] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 284.274 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.170] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 227.363 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.171] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 319.840 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.222] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 283.365 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.230] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 227.702 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.343] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 39.160 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.345] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 77.266 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:37:57.345] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 109.637 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.062] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 146.770 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.386] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 190.947 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.386] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 132.605 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.387] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 248.356 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.420] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 276.953 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.424] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 310.269 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.576] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 68.925 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.651] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 113.903 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.652] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 143.810 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.652] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 179.722 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:39:03.653] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 214.181 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:03.845] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 180.015 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:04.046] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.253 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:06.393] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 111.094 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:07.286] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 142.375 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:07.438] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.108 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:08.358] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 85.330 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:09.849] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 52.611 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:10.005] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.867 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:42:10.966] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 163.144 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:44:34.633] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 117.602 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:44:55.847] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 94.227 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:45:21.231] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 232.141 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:45:52.253] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 223.762 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:46:31.083] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 110.458 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:50:31.611] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 171.779 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:50:31.677] [INFO] access - [90mGET /robots.txt [33m404 [35m- 62.011 ms - [37m::1 -
+[2018-08-03 00:51:06.304] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 267.526 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:51:28.404] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 185.380 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:52:49.550] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 120.031 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:54:04.809] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 193.397 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:54:30.407] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 120.942 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:56:59.531] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 228.148 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:57:29.411] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 207.313 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:57:37.215] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 108.467 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:58:31.310] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 204.262 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:58:58.971] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 111.633 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:15.144] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 233.416 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:38.109] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 194.804 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:40.182] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 56.992 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:40.344] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.009 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:41.741] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 140.051 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:41.903] [INFO] access - [90mGET /api/job/all [36m304 [35m- 3.724 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:57.800] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 101.196 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:59.070] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 45.086 ms - [37m::1 admin@printeria.com
+[2018-08-03 00:59:59.246] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.677 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.448] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 242.422 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.605] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 114.091 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.792] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 180.244 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.792] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 220.110 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.823] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 156.604 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.826] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 189.958 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.858] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 220.052 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.861] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 99.137 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.980] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 37.059 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.981] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 116.203 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:00.982] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 70.298 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.193] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 67.640 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.195] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 139.460 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.195] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 103.726 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.318] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 40.301 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.322] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 111.039 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.365] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 78.048 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.444] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 82.842 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.444] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 122.984 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.445] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 159.134 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:00:10.498] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 54.734 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:10.805] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 288.434 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.000] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 135.778 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.156] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 200.937 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.270] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 121.298 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.271] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 158.303 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.275] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 207.550 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.277] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 267.695 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.312] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 153.859 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.413] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 37.021 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.413] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 99.919 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:11.414] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 103.318 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:22.134] [INFO] access - [90mGET / [32m200 [35m- 39.385 ms - [37m::1 -
+[2018-08-03 01:01:22.175] [INFO] access - [90mGET /js/services/teams.js [33m404 [35m- 28.780 ms - [37m::1 -
+[2018-08-03 01:01:23.157] [INFO] access - [90mGET /img/inner-6.jpg [33m404 [35m- 113.449 ms - [37m::1 -
+[2018-08-03 01:01:31.930] [INFO] access - [90mPOST /login [32m200 [35m37 Bytes 51.381 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:33.533] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 159.703 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:33.942] [INFO] access - [90mGET /api/job/all [32m200 [35m2 Bytes 4.142 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.532] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 176.647 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.738] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 91.598 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.945] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 62.757 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.945] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 101.497 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.948] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 134.332 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.950] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 166.842 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.989] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 205.685 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:37.993] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 145.600 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:38.089] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 39.335 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:38.090] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 70.158 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:01:38.092] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 95.890 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:36.717] [INFO] access - [90mGET /robots.txt [33m404 [35m- 141.004 ms - [37m::1 -
+[2018-08-03 01:02:36.720] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 375.686 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:36.938] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 158.480 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.128] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 229.945 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.174] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 128.813 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.176] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 163.702 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.177] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 192.685 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.216] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 238.341 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.221] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 151.736 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.347] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 52.387 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.348] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 93.947 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:02:37.349] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 126.571 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:05.248] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/configuration [32m200 [35m- 49.196 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:06.698] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 127.867 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.029] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 152.307 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.031] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 202.067 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.067] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 281.111 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.067] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 251.307 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.072] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 169.835 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.143] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 64.722 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.276] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 95.947 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.277] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 129.532 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.277] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 165.063 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.279] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 139.007 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:07.926] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 39.286 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:08.082] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 3.389 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:09.233] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 70.911 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:10.045] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 54.977 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:10.202] [INFO] access - [90mGET /api/job/all [36m304 [35m- 3.329 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:14.100] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 41.150 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:14.259] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 3.259 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:49.413] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 169.685 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:49.617] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.105 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:52.177] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 118.987 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:54.972] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 106.676 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:55.133] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 3.745 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.121] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 160.224 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.275] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 118.121 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.483] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 177.846 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.483] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 223.351 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.484] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 257.003 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.485] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 287.738 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.485] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 322.212 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.591] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 39.905 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.635] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 69.813 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.638] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 142.284 ms - [37m::1 admin@printeria.com
+[2018-08-03 01:03:56.638] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 101.895 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:23:50.944] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 247.023 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:34:33.935] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 175.801 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:34:34.147] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.095 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:10.139] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 129.022 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:18.070] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 127.049 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:18.238] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.853 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:21.215] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 110.138 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:21.808] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 110.798 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:21.964] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 6.058 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:35:43.317] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 115.215 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:36:09.585] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 60.649 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:36:09.790] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 6.041 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:36:27.469] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 177.897 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:55.801] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 85.650 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:55.901] [INFO] access - [90mGET /robots.txt [33m404 [35m- 89.289 ms - [37m::1 -
+[2018-08-03 09:37:56.061] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.091 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.516] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 139.288 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.734] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 119.599 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.776] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 175.325 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.814] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 212.447 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.850] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 246.661 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.852] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 280.479 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.932] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 79.836 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:57.993] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 80.879 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:58.035] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 108.943 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:58.037] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 138.694 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:58.040] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 139.678 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:58.380] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 50.981 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:58.573] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.443 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.144] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 103.663 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.264] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 39.086 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.312] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 79.630 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.371] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 116.632 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.402] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 81.603 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.402] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 149.042 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.404] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 137.602 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.491] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 62.879 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.493] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 60.200 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.495] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 87.724 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:37:59.525] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 59.104 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:27.702] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 146.912 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:27.905] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 6.041 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:35.789] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 107.135 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:35.950] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.785 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:38.387] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 142.972 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:38.552] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.440 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:40.614] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 62.526 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:39:40.774] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 7.120 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:40:23.926] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 143.854 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:40:24.126] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.195 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:40:53.059] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 123.423 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:42:46.455] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 145.764 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:42:46.678] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.641 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:42:47.826] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 103.253 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.022] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 288.687 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.360] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 127.999 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.363] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 265.711 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.365] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 296.892 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.366] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 185.439 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.366] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 225.616 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.466] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 59.499 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.471] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 92.673 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.567] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 106.930 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.567] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 78.720 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:48:43.568] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 134.753 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:11.317] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 92.950 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.214] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 140.693 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.464] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 94.068 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.464] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 140.993 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.501] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 178.656 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.501] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 210.451 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.502] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 245.124 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.676] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 46.251 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.704] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 89.631 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.704] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 127.436 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.705] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 167.981 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:38.707] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 195.226 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:40.720] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 69.518 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.473] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 271.213 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.687] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 120.225 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.689] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 179.682 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.861] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 46.986 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.866] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 83.707 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.868] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 121.049 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.869] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 171.259 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.952] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 178.143 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:52:59.952] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 138.934 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:53:00.013] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 69.127 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:53:00.014] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 61.948 ms - [37m::1 admin@printeria.com
+[2018-08-03 09:53:21.889] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 86.169 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:08.606] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 70.489 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:08.815] [INFO] access - [90mGET /api/job/all [36m304 [35m- 6.519 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:10.668] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 113.156 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:10.830] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.690 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:13.681] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 160.276 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:13.896] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 122.799 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:13.897] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 182.145 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.045] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 48.492 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.046] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 108.529 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.047] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 79.146 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.080] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 140.332 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.115] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 173.681 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.117] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 203.209 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.209] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 48.668 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:14.209] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 84.809 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:02:36.570] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 205.848 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:03:16.317] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 166.095 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:03:16.529] [INFO] access - [90mGET /api/job/all [36m304 [35m- 4.609 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:03:24.375] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 105.910 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:05:55.652] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 123.830 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:05:55.873] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.746 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:08:23.867] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 102.793 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:08:24.098] [INFO] access - [90mGET /api/job/all [36m304 [35m- 5.471 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.290] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 272.554 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.387] [INFO] access - [90mGET /robots.txt [33m404 [35m- 88.615 ms - [37m::1 -
+[2018-08-03 10:13:15.449] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 51.249 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.499] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 95.305 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.644] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 119.632 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.645] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 87.900 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.646] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 189.148 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.647] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 146.710 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.691] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 185.535 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.754] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 77.307 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.784] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 64.591 ms - [37m::1 admin@printeria.com
+[2018-08-03 10:13:15.784] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 91.754 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:48.883] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 172.312 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:48.887] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 253.491 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.054] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 58.421 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.170] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 108.839 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.173] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 165.368 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.174] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 224.075 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.174] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 279.915 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.219] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 270.062 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.303] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 87.592 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:22:49.306] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 87.344 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:16.431] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/inventory/index.jade:118
+    116|      body {font-family: Arial, Helvetica, sans-serif;}
+    117|   /* The Modal (background) */
+  > 118|     .modal {
+    119|     display: none; /* Hidden by default */
+    120|     position: fixed; /* Stay in place */
+    121|     z-index: 1; /* Sit on top */
+
+unexpected token "indent"
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:254:15)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.parseBlock (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:535:14)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:215:21)
+    at Parser.parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:122:25)
+    at parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:104:21)
+    at Object.exports.compile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:205:16)
+    at handleTemplateCache (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:174:25)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:380:10)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:370:21)
+    at View.exports.__express [as engine] (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:417:11)
+    at View.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:639:10)
+    at Function.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/response.js:960:7)
+    at /Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:90:9
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isCorrectUser (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:15:73)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isVerified (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:20:34) undefined
+[2018-08-03 11:28:16.434] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [31m500 [35m91 Bytes 129.925 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:16.434] [INFO] access - [90mGET /robots.txt [33m404 [35m- 116.390 ms - [37m::1 -
+[2018-08-03 11:28:36.793] [INFO] access - [90mGET /robots.txt [33m404 [35m- 77.334 ms - [37m::1 -
+[2018-08-03 11:28:36.798] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 253.937 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.028] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 123.913 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.032] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 188.423 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.178] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 233.021 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.218] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 283.428 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.222] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 330.227 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.223] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 253.321 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.292] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 125.561 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.296] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 110.719 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.360] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 72.591 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:28:37.360] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 68.889 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:29:02.244] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/inventory/index.jade:118
+    116|      body {font-family: Arial, Helvetica, sans-serif;}
+    117|   /* The Modal (background) */
+  > 118|     .modal {
+    119|       display: none; /* Hidden by default */
+    120|       position: fixed; /* Stay in place */
+    121|       z-index: 1; /* Sit on top */
+
+unexpected token "indent"
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:254:15)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.parseBlock (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:535:14)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:215:21)
+    at Parser.parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:122:25)
+    at parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:104:21)
+    at Object.exports.compile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:205:16)
+    at handleTemplateCache (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:174:25)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:380:10)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:370:21)
+    at View.exports.__express [as engine] (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:417:11)
+    at View.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:639:10)
+    at Function.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/response.js:960:7)
+    at /Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:90:9
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isCorrectUser (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:15:73)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isVerified (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:20:34) undefined
+[2018-08-03 11:29:02.247] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [31m500 [35m91 Bytes 15.359 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:29:40.650] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/inventory/index.jade:118
+    116|      body {font-family: Arial, Helvetica, sans-serif;}
+    117|   /* The Modal (background) */
+  > 118|     .modal {
+    119|     display: none; /* Hidden by default */
+    120|     position: fixed; /* Stay in place */
+    121|     z-index: 1; /* Sit on top */
+
+unexpected token "indent"
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:254:15)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.parseBlock (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:535:14)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:215:21)
+    at Parser.parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:122:25)
+    at parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:104:21)
+    at Object.exports.compile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:205:16)
+    at handleTemplateCache (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:174:25)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:380:10)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:370:21)
+    at View.exports.__express [as engine] (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:417:11)
+    at View.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:639:10)
+    at Function.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/response.js:960:7)
+    at /Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:90:9
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isCorrectUser (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:15:73)
+    at Layer.handle [as handle_request] (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/router/route.js:131:13)
+    at isVerified (/Users/hizfer/Desktop/printeria2018/config/routes/front/vista-usuario.js:20:34) undefined
+[2018-08-03 11:29:40.652] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [31m500 [35m91 Bytes 10.863 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:33.550] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 292.987 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:33.807] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 150.172 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:33.892] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 212.787 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:33.995] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 257.279 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:33.996] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 291.345 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:33.999] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 325.738 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:34.000] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 248.405 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:34.043] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 109.756 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:34.149] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 45.561 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:34.150] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 116.993 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:30:34.150] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 108.356 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.184] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 136.517 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.370] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 131.701 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.528] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 116.533 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.529] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 76.720 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.627] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 149.283 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.679] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 185.598 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.680] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 246.017 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.688] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 186.679 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.761] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 45.215 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.795] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 77.795 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:31:10.797] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 103.557 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.266] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 281.070 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.600] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 147.316 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.601] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 214.637 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.601] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 259.532 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.602] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 289.433 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.651] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 43.935 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.875] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 83.288 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.875] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 83.322 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.876] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 180.234 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.877] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 182.123 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:05.878] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 224.836 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:14.686] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 105.531 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:14.783] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 57.945 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.000] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 61.501 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.030] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 106.844 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.031] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 136.888 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.031] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 167.702 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.032] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 201.107 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.033] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 231.364 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.121] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 35.888 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.170] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 83.896 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:15.178] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 132.874 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:50.649] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 291.392 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:50.911] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 151.498 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:50.914] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 221.690 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.051] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 50.886 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.054] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 96.569 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.106] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 132.850 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.193] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 187.685 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.195] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 232.971 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.198] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 147.191 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.267] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 41.454 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:32:51.267] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 70.193 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:33:55.333] [ERROR] access - Error: /Users/hizfer/Desktop/printeria2018/app/views/vista-usuario/inventory/index.jade:499
+    497|   btn.onclick = function() {
+    498|   modal.style.display = "block";
+  > 499|   }
+    500|   // When the user clicks on <span> (x), close the modal
+    501|   span.onclick = function() {
+    502|   modal.style.display = "none";
+
+unexpected text }
+  /
+    at Lexer.fail (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:887:11)
+    at Lexer.next (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:947:15)
+    at Lexer.lookahead (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/lexer.js:113:46)
+    at Parser.lookahead (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:102:23)
+    at Parser.peek (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:79:17)
+    at Parser.tag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:832:30)
+    at Parser.parseTag (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:211:21)
+    at Parser.block (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:729:25)
+    at Parser.parseBlock (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:535:14)
+    at Parser.parseExpr (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:215:21)
+    at Parser.parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/parser.js:122:25)
+    at parse (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:104:21)
+    at Object.exports.compile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:205:16)
+    at handleTemplateCache (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:174:25)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:380:10)
+    at Object.exports.renderFile (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:370:21)
+    at View.exports.__express [as engine] (/Users/hizfer/Desktop/printeria2018/node_modules/jade/lib/index.js:417:11)
+    at View.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:639:10)
+    at Function.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/hizfer/Desktop/printeria2018/node_modules/express/lib/response.js:960:7) undefined
+[2018-08-03 11:33:55.335] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [31m500 [35m91 Bytes 51.485 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.540] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 276.858 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.719] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 132.567 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.872] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 200.748 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.926] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 244.602 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.981] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 157.360 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.983] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 211.992 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:15.988] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 264.346 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:16.028] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 150.253 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:16.136] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 43.430 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:16.136] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 109.283 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:34:16.137] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 111.613 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:04.610] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 131.002 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:04.864] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 145.465 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:04.868] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 202.462 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.034] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 54.181 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.036] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 90.783 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.037] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 127.754 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.095] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 167.521 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.098] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 223.361 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.139] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 103.232 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.201] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 69.877 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:05.201] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 63.309 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:40.669] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 290.545 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:40.913] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 141.794 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.025] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 201.108 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.081] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 278.530 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.081] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 244.535 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.084] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 361.279 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.085] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 307.835 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.170] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 42.521 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.232] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 80.011 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.233] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 109.325 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:36:41.234] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 139.337 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:28.683] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 128.755 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:28.900] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 108.740 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:28.942] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 165.446 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.010] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 207.429 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.063] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 240.757 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.066] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 269.677 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.071] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 322.923 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.143] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 97.249 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.145] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 76.663 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.205] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 65.289 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:37:29.205] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 130.848 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.424] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 280.541 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.424] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 335.019 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.426] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 379.494 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.426] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 197.731 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.427] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 411.101 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.432] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 459.221 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.478] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 38.842 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.534] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 92.293 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.608] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 93.720 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:39:39.609] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 130.722 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.021] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 295.081 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.231] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 145.866 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.473] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 220.491 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.474] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 297.541 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.474] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 260.625 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.477] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 336.681 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.479] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 244.805 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.642] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 41.063 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.642] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 81.010 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.643] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 115.428 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:21.645] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 152.159 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.409] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 127.768 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.655] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 103.372 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.693] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 205.004 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.694] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 162.899 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.695] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 238.297 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.825] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 35.684 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.828] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 125.022 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.828] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 73.691 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.923] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 94.648 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.924] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 151.140 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:49.924] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 193.034 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.168] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 105.411 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.300] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 39.604 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.330] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 67.073 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.334] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 94.208 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.335] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 123.367 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.400] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 65.363 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.401] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 93.156 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.512] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 75.017 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.512] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 146.256 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.544] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 116.454 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:41:54.546] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 142.918 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:12.687] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 297.563 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:12.893] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 113.459 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:12.937] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 171.561 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:12.941] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 213.222 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.079] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 81.890 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.120] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 86.379 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.120] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 138.854 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.152] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 178.468 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.183] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 173.331 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.185] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 103.051 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:13.216] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 62.109 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:21.959] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 111.141 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.116] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 108.517 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.317] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 165.431 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.318] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 206.445 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.318] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 239.158 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.318] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 271.459 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.321] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 206.013 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.360] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 38.146 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.467] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 67.215 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.467] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 96.306 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:42:22.470] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 135.932 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.483] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 151.209 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.687] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 88.309 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.786] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 153.108 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.788] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 201.607 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.828] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 251.537 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.829] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 299.733 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.833] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 339.551 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.903] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 39.007 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.904] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 69.482 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:43:35.955] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 51.537 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.265] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 293.275 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.415] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 114.908 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.559] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 67.208 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.635] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 111.336 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.638] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 143.687 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.691] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 178.749 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.691] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 218.321 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.695] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 270.308 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.793] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 41.459 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.794] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 70.485 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:06.795] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 97.651 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:52.649] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 137.060 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:52.849] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 112.158 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:52.896] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 165.931 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:52.897] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 210.320 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.062] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 41.537 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.104] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 108.496 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.104] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 69.636 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.137] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 160.176 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.139] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 200.327 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.140] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 232.955 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:44:53.173] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 31.136 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:26.942] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 288.220 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.160] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 121.318 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.276] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 186.496 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.276] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 227.257 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.330] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 263.337 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.333] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 295.293 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.335] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 349.033 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.444] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 34.265 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.446] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 70.414 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.447] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 98.717 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:45:27.478] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 99.600 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:35.699] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 128.947 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:35.948] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 114.771 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:35.988] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 213.976 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:35.990] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 176.246 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.044] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 249.819 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.048] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 193.484 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.188] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 40.049 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.217] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 78.848 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.217] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 104.329 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.218] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 131.645 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:36.218] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 158.875 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.432] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 39.944 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.434] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 70.926 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.434] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 102.541 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.475] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 75.289 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.613] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 39.179 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.613] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 72.412 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.615] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 135.815 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.616] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 106.714 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.726] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 71.530 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:46:40.727] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 242.286 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:55.731] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 293.226 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.085] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 139.622 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.139] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 199.787 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.141] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 243.970 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.142] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 278.518 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.144] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 305.082 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.148] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 358.877 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.283] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 73.302 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.283] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 36.942 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.283] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 130.775 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:47:56.284] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 103.462 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.029] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 134.998 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.172] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 107.525 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.231] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 57.639 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.389] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 100.811 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.437] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 137.886 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.439] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 119.541 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.440] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 159.816 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.441] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 206.024 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.479] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 163.287 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.537] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 58.506 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:12.537] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 67.041 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:28.971] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 277.374 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.112] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 111.480 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.219] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 58.571 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.224] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 104.662 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.367] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 46.785 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.368] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 122.697 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.368] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 111.387 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.371] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 146.899 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.441] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 113.977 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.472] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 72.552 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:49:29.474] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 61.617 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.199] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 265.440 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.468] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 120.311 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.469] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 184.517 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.471] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 219.398 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.542] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 255.103 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.544] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 286.778 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.718] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 60.139 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.749] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 140.533 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.750] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 168.599 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.750] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 108.690 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:21.751] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 195.933 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.662] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 50.755 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.663] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 88.750 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.671] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 137.031 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.812] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 59.988 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.812] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 147.956 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.812] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 105.673 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.902] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 50.862 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.937] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 91.530 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.938] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 122.512 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:50:49.966] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 62.465 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.310] [INFO] access - [90mGET /robots.txt [33m404 [35m- 31.993 ms - [37m::1 -
+[2018-08-03 11:51:17.313] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 177.102 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.478] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 127.917 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.599] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 73.147 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.682] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 119.434 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.791] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 83.427 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.797] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 125.909 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.799] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 184.693 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.800] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 190.762 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.835] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 92.624 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.903] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 67.495 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:17.906] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 70.399 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:43.856] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 128.622 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.147] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 123.944 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.150] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 196.091 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.151] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 246.286 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.271] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 278.779 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.274] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 118.687 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.277] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 122.584 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.384] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 129.518 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.386] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 79.182 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.387] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 109.109 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:51:44.424] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 107.109 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.112] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 121.612 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.197] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 43.562 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.420] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 77.697 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.450] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 116.005 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.450] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 155.411 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.452] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 205.275 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.452] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 179.390 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.455] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 233.705 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.589] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 51.897 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.591] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 98.001 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:01.591] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 129.249 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.556] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 130.269 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.832] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 127.993 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.835] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 229.419 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.835] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 190.770 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.966] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 145.211 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.968] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 170.418 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:29.968] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 179.470 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:30.074] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 102.378 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:30.076] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 74.264 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:30.078] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 105.732 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:52:30.113] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 68.044 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:14.888] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 128.562 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.126] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 106.406 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.126] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 163.806 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.130] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 202.812 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.170] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 36.696 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.374] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 111.092 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.374] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 74.255 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.375] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 161.677 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.375] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 163.241 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.376] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 207.693 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:53:15.405] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 28.763 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:11.783] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 126.781 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.049] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 100.879 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.050] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 154.006 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.133] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 190.165 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.135] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 224.475 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.137] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 306.103 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.137] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 254.515 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.182] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 41.221 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.276] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 37.238 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.277] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 93.429 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:12.277] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 68.867 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:22.669] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 105.833 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:22.898] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 151.424 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:22.898] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 99.085 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:22.899] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 192.367 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:22.939] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 81.075 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:23.106] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 33.663 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:23.108] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 73.688 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:23.109] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 107.577 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:23.111] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 166.797 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:23.112] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 134.439 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:54:23.158] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 81.325 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.590] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 126.556 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.787] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 105.617 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.831] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 159.290 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.928] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 200.931 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.931] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 133.609 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.932] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 196.246 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:41.932] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 163.440 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:42.038] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 51.983 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:42.101] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 97.111 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:42.102] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 131.000 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:55:42.102] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 160.128 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:19.956] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 126.790 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.193] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 161.315 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.193] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 198.243 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.194] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 109.642 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.267] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 38.616 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.269] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 69.411 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.415] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 60.244 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.446] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 106.593 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.476] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 144.375 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.477] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 175.316 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:20.478] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 200.492 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.165] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 124.503 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.404] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 104.016 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.406] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 162.480 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.406] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 204.723 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.485] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 70.173 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.485] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 42.369 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.657] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 84.824 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.657] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 171.064 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.658] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 176.633 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.662] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 208.183 ms - [37m::1 admin@printeria.com
+[2018-08-03 11:56:41.694] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 33.985 ms - [37m::1 admin@printeria.com
+[2018-08-03 13:27:42.960] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 58.348 ms - [37m::1 admin@printeria.com
+[2018-08-03 13:27:43.178] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 3.560 ms - [37m::1 admin@printeria.com
+[2018-08-03 13:41:33.664] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 90.912 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.073] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 268.609 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.225] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 103.656 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.384] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 157.680 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.386] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 199.730 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.440] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 132.934 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.443] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 161.819 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.444] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 216.320 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.479] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 92.426 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.584] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 41.682 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.588] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 106.076 ms - [37m::1 admin@printeria.com
+[2018-08-03 16:45:27.589] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 107.047 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.364] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 56.218 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.507] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 48.108 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.564] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 134.884 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.564] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 83.223 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.627] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 193.892 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.693] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 254.539 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.698] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 279.461 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.841] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 66.127 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.842] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 173.340 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:00:57.842] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 148.024 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:34.190] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/inventory [32m200 [35m- 606.714 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:34.649] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/bootstrap.css [33m404 [35m- 310.846 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.123] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/socicon.css [33m404 [35m- 474.261 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.125] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/stack-interface.css [33m404 [35m- 639.245 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.126] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/lightbox.min.css [33m404 [35m- 568.552 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.132] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/flickity.css [33m404 [35m- 397.339 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.135] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/iconsmind.css [33m404 [35m- 468.832 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.275] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/jquery.steps.css [33m404 [35m- 211.249 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.569] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/theme.css [33m404 [35m- 115.709 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.572] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/css/custom.css [33m404 [35m- 227.691 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:35.574] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/font-awesome.min.css [33m404 [35m- 313.703 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:37.955] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 112.147 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:26:38.245] [INFO] access - [90mGET /robots.txt [33m404 [35m- 108.541 ms - [37m::1 -
+[2018-08-03 17:26:38.709] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 5.902 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:26.474] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 98.410 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:42.951] [INFO] access - [90mPOST /api/recipes/ [32m200 [35m372 Bytes 153.946 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:43.043] [INFO] access - [90mPOST /api/job/ [32m200 [35m372 Bytes 86.368 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:43.202] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/historical-activities [32m200 [35m- 148.020 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:43.404] [INFO] access - [90mGET /api/job/all [32m200 [35m390 Bytes 5.088 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:49.746] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 64.211 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:31:49.915] [INFO] access - [90mGET /api/recipes/all [32m200 [35m390 Bytes 5.234 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:26.654] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 198.950 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:26.899] [INFO] access - [90mGET /api/users/ [32m200 [35m384 Bytes 10.259 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:27.045] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 111.739 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:30.594] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/configuration [32m200 [35m- 77.270 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:35.831] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 79.104 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:36.004] [INFO] access - [90mGET /api/users/ [32m200 [35m384 Bytes 5.364 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:36.132] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 98.001 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:39.467] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/recipe [32m200 [35m- 77.813 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:32:39.623] [INFO] access - [90mGET /api/recipes/all [36m304 [35m- 4.143 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:33:06.313] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 110.203 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:15.881] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 168.759 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:16.095] [INFO] access - [90mGET /api/users/ [32m200 [35m384 Bytes 4.931 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:16.186] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 45.877 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:17.200] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/configuration [32m200 [35m- 111.793 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:24.469] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 85.787 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:24.636] [INFO] access - [90mGET /api/users/ [32m200 [35m384 Bytes 4.412 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:34:24.710] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 45.069 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:07.370] [INFO] access - [90mPOST /api/users/ [32m200 [35m377 Bytes 2017.030 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:07.520] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 136.271 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:07.732] [INFO] access - [90mGET /api/users/ [32m200 [35m762 Bytes 5.545 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:07.826] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 47.464 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:11.706] [INFO] access - [90mPUT /api/users/5b647629f130382410050e59 [32m200 [35m378 Bytes 7.140 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:11.860] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 145.900 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:12.027] [INFO] access - [90mGET /api/users/ [32m200 [35m763 Bytes 5.425 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:12.106] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 44.686 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:13.031] [INFO] access - [90mPUT /api/users/5b647629f130382410050e59 [32m200 [35m377 Bytes 4.396 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:13.110] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/admin-users [32m200 [35m- 70.507 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:13.269] [INFO] access - [90mGET /api/users/ [32m200 [35m762 Bytes 4.085 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:13.339] [INFO] access - [90mGET /images/default-profile.png [33m404 [35m- 37.344 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:35:57.548] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/configuration [32m200 [35m- 144.917 ms - [37m::1 admin@printeria.com
+[2018-08-03 17:57:10.185] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 137.414 ms - [37m::1 admin@printeria.com
+[2018-08-03 18:07:37.105] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 191.345 ms - [37m::1 admin@printeria.com
+[2018-08-03 18:08:57.025] [INFO] access - [90mGET /users/5b5592f3bb4ea8290feb284a/new-job [32m200 [35m- 110.622 ms - [37m::1 admin@printeria.com
+[2018-08-03 19:50:34.031] [INFO] access - [90mGET /robots.txt [33m404 [35m- 184.368 ms - [37m::1 -

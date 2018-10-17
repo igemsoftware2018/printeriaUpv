@@ -1,0 +1,284 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  .maindiv(ng-controller="newjobController" ng-init="init(#{JSON.stringify(idJob)})" ng-cloak)
+    include ./sections/modal_info_promoters.jade
+    include ./sections/modal_info_rbs.jade
+    include ./sections/modal_info_cds.jade
+    include ./sections/modal_info_terminator.jade
+    include ./sections/modal_modeling.jade
+    include ./sections/recipe_modal_name.jade
+    include ./sections/recipePrint_modal_name.jade
+    include ./../inventory/sections/modal_promoters.jade
+    include ./../inventory/sections/modal_rbs.jade
+    include ./../inventory/sections/modal_cds.jade
+    include ./../inventory/sections/modal_terminator.jade
+
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.mb20.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block(style="margin-bottom:0px;")
+              .col-xs-9(style="padding:0px;")
+                h3.type--uppercase(ng-show="!show_edit_job && !show_edit_recipe") New Job
+                h3.type--uppercase(ng-show="show_edit_job") Job: 
+                  em {{job.name}} | OWNER: {{job.owner}}
+                h3.type--uppercase(ng-show="show_edit_recipe") Recipe: 
+                  em {{job.name}} | OWNER: {{job.owner}}
+              .col-xs-12(style="padding:0px;")
+                hr
+                  
+      section(style="padding:0px;")
+        .row.mb20
+          .col-md-4
+            h5 Name: 
+            input.form-control(type='text', placeholder='Your name' ng-model="job.name")
+            h5(style="padding-top: 10px;") Author: 
+            input.form-control(ng-disabled="true" class="disabled" type='text', placeholder='Author of the experiment' ng-model="user.username")
+          .col-md-8
+            h5 Description:
+            textarea.form-control(rows='6' type='text',  placeholder='Description of your experiment' ng-model="job.description")
+        .row.mb20
+            .col-md-3
+              .pricing-1.boxed.boxed--border(style='height: 420px; padding: 0%;')
+                div(style='margin: 0px 10px;')
+                  img(alt='logo', src='/images/promoterIcon.png', style='margin-left: auto; margin-right: auto; display: block; height: 50px;margin-bottom: 0px;')
+
+                  h5.boxheader Promoters
+                  hr(style='padding-bottom:15px')
+                div(style='margin: 0px 10px;')
+                  input.ng-valid.ng-touched.ng-dirty.ng-valid-parse.ng-empty(type='text', placeholder='Search...', ng-change='searchPromotor()', ng-model='searchValuePromotor', style='padding-right: 50%;')
+                div(style='margin: 10px 10px;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 250px;')
+                    ul(style='padding-top: 17px;')
+                      form
+                        .row.mb20
+                          .col-md-12.indi-wrap(ng-repeat="p in promoters")
+                            .input-radio
+                              input(ng-click="changeelement('Promoters', p)" type='radio', name='radio', value='{{p.name}}' id='{{p.name}}', ng-checked="job.Promoters == p._id")
+                              label(for='{{p.name}}')
+                            span.radiolabel(style="word-break: break-word;") {{p.name}} ({{p.quantity}}  &micro;l)
+                            i.fas.fa-info-circle(style='font-size: 18px; right: 19px;color: #ffc600;position: absolute;margin-top: 2%;margin-left: 9%; cursor:pointer' data-toggle='modal', data-target='#ModalInfoPromoter' ng-click='modalPromoter(p._id)')
+                    div
+                      a.btn.btn--primary-1.btn-blue(data-toggle='modal', data-target='#ModalAddPromoter')
+                        span.btn__text + New part 
+
+               
+            .col-md-3
+              .pricing-1.boxed.boxed--border(style='height: 420px; padding: 0%;')
+                div(style='margin: 0px 10px;')
+                  img(alt='logo', src='/images/rbsIcon.png', style='                margin-left: auto;                margin-right: auto;                display: block;                height: 50px;margin-bottom: 0px;;')
+                  h5.boxheader RBS
+                  hr(style='padding-bottom:15px')
+                div(style='margin: 0px 10px;')
+                  input.ng-valid.ng-touched.ng-dirty.ng-valid-parse.ng-empty(type='text', placeholder='Search...', ng-change='searchRBS()', ng-model='searchValueRBS', style='padding-right: 50%;')
+                div(style='margin: 10px 10px;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 250px;')
+                    ul(style='padding-top: 17px;')
+                      form
+                        .row.mb20
+                          .col-md-12(ng-repeat="p in rbss")
+                            .input-radio
+                              input(ng-click="changeelement('RBS', p)" type='radio', name='radio', value='{{p.name}}' id='{{p.name}}', ng-checked="job.RBS == p._id")
+                              label(for='{{p.name}}')
+                            span.radiolabel {{p.name}} ({{p.quantity}}  &micro;l)
+                            i.fas.fa-info-circle(style='font-size: 18px; right: 19px;color: #ffc600;position: absolute;margin-top: 2%;margin-left: 9%; cursor:pointer' data-toggle='modal', data-target='#ModalInfoRbs' ng-click='modalRbs(p._id)')
+                    div
+                      a.btn.btn--primary-1.btn-blue(data-toggle='modal', data-target='#ModalAddRbs')
+                        span.btn__text + New part 
+
+            .col-md-3
+              .pricing-1.boxed.boxed--border(style='height: 420px; padding: 0%;')
+                div(style='margin: 0px 10px;')
+                  img(alt='logo', src='/images/cdsIcon.png', style='                margin-left: auto;                margin-right: auto;                display: block;                height: 50px;margin-bottom: 0px;;')
+                  h5.boxheader CDS
+                  hr(style='padding-bottom:15px')
+                div(style='margin: 0px 10px;')
+                  input.ng-valid.ng-touched.ng-dirty.ng-valid-parse.ng-empty(type='text', placeholder='Search...', ng-change='searchCDS()', ng-model='searchValueCDS', style='padding-right: 50%;')
+                div(style='margin: 10px 10px;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 250px;')
+                    ul(style='padding-top: 17px;')
+                      form
+                        .row.mb20
+                          .col-md-12(ng-repeat="p in cdss")
+                            .input-radio
+                              input(ng-click="changeelement('CDS', p)" type='radio', name='radio', value='{{p.name}}' id='{{p.name}}', ng-checked="job.CDS == p._id")
+                              label(for='{{p.name}}')
+                            span.radiolabel {{p.name}} ({{p.quantity}}  &micro;l)
+                            i.fas.fa-info-circle(style='font-size: 18px; right: 19px;color: #ffc600;position: absolute;margin-top: 2%;margin-left: 9%; cursor:pointer' data-toggle='modal', data-target='#ModalInfoCds' ng-click='modalCds(p._id)')
+                    div
+                      a.btn.btn--primary-1.btn-blue(data-toggle='modal', data-target='#ModalAddCds')
+                        span.btn__text + New part 
+
+            .col-md-3
+              .pricing-1.boxed.boxed--border(style='height: 420px; padding: 0%;')
+                div(style='margin: 0px 10px;')
+                  img(alt='logo', src='/images/terminatorIcon.png', style='                margin-left: auto;                margin-right: auto;                display: block;                height: 50px;margin-bottom: 0px;;')
+                  h5.boxheader Terminators
+                  hr(style='padding-bottom:15px')
+                div(style='margin: 0px 10px;')
+                  input.ng-valid.ng-touched.ng-dirty.ng-valid-parse.ng-empty(type='text', placeholder='Search...', ng-change='searchTerminator()', ng-model='searchValueTerminator', style='padding-right: 50%;')
+                div(style='margin: 10px 10px;')
+                  nav(style='overflow-y: scroll; overflow-x: hidden; height: 250px;')
+                    ul(style='padding-top: 17px;')
+                      form
+                        .row.mb20
+                          .col-md-12(ng-repeat="p in terminators")
+                            .input-radio
+                              input(ng-click="changeelement('Terminators', p)" type='radio', name='radio', value='{{p.name}}' id='{{p.name}}', ng-checked="job.Terminators == p._id")
+                              label(for='{{p.name}}')
+                            span.radiolabel {{p.name}} ({{p.quantity}}  &micro;l)
+                            i.fas.fa-info-circle(style='font-size: 18px; right: 19px;color: #ffc600;position: absolute;margin-top: 2%;margin-left: 9%; cursor:pointer' data-toggle='modal', data-target='#ModalInfoTerminator' ng-click='modalTerminator(p._id)')
+                    div
+                      a.btn.btn--primary-1.btn-blue(data-toggle='modal', data-target='#ModalAddTerminator')
+                        span.btn__text + New part 
+      section(style="padding:10px 0px;" ng-show="show_error_part")
+        .alert.alert-mini.alert-danger.margin-bottom-30
+          strong The part you wanted to create already exists!
+          |   Select it from the list or change its name.
+
+      section(style='padding: 1.5em;')
+        .row.justify-content-center
+          img(alt='logo', src='/images/promoterSBOL.png', style='margin-left: 0;margin-right: 0;height: 6em;margin-bottom: 0px;position: relative;top: 2em;left: 2em;z-index: 1;', ng-show="show_SBOL_promoter")
+          img(alt='logo', src='/images/rbsSBOL.png', style='margin-left: 0;margin-right: 0;height: 5em;margin-bottom: 0px;position: relative;top: 2.9em;z-index: 1;', ng-show="show_SBOL_rbs")
+          img(alt='logo', src='/images/cdsSBOL.png', style='margin-left: 0;margin-right: 0;height: 5em;margin-bottom: 0px;position: relative;top: 4.1em;z-index: 1;', ng-show="show_SBOL_cds")
+          img(alt='logo', src='/images/terminatorSBOL.png', style='margin-left: 0;margin-right: 0;height: 6em;margin-bottom: 0px;position: relative;top: 1.9em;right: 2em;z-index: 1;', ng-show="show_SBOL_terminator")
+        .row(style='justify-content: center;')
+          img(alt='logo', src='/images/lineaSBOL.png', style='margin-left: 0;margin-right: 0;height: 0.5em;margin-bottom: 0px;/* width: 34%; */top: 0.3em;position: relative;z-index: 0;', ng-show="show_SBOL_promoter || show_SBOL_rbs || show_SBOL_cds || show_SBOL_terminator")
+        br
+        br
+        .row.justify-content-center.sbolRow
+          h4.sbolElement(ng-show="show_SBOL_promoter", style="padding-left: 1em; padding-right: 1em") {{auxPromoter.name}}
+          h4.sbolElement(ng-show="show_SBOL_rbs", style="padding-left: 1em; padding-right: 1em") {{auxRbs.name}}
+          h4.sbolElement(ng-show="show_SBOL_cds", style="padding-left: 1em; padding-right: 1em") {{auxCds.name}}
+          h4.sbolElement(ng-show="show_SBOL_terminator", style="padding-left: 1em; padding-right: 1em") {{auxTerminator.name}}
+
+
+
+
+      section(style="padding-bottom: 3em;")
+        div(style="padding: 0px; text-align: right;")
+          a.btn.btn--lg.btn-yel.btn-help.buttons(ng-click="show_avanzado = !show_avanzado")
+                  span.btn__text(ng-show="show_avanzado" style="font-size:1.3em; color: white; font-weight: 900;") Less Options
+                  span.btn__text(ng-show="!show_avanzado" style="font-size:1.3em; color: white; font-weight: 900;") More Options
+                  
+      include ./sections/showAvanzado.jade
+      br
+      br
+      include ./sections/showModeling.jade
+      
+
+      section(style="padding:10px 0px;" ng-show="show_error")
+        .alert.alert-mini.alert-danger.margin-bottom-30
+          //- strong Oh snap!
+          //- |  Some fields are empty
+          strong Oh Snap!
+          p(style="margin-bottom: 0;") Some fields are empty. For #[strong printing a job] or #[strong saving a recipe], these fields have to be filled:
+          ul(style="list-style-type: circle; padding-left: 2em; margin-bottom: 0;")
+            li Name
+            li Description
+          p(style="margin-bottom: 0;") And these parts have to be selected:
+          ul(style="list-style-type: circle; padding-left: 2em; margin-bottom: 0;")
+            li Promoter
+            li RBS
+            li CDS
+            li Terminator
+          p(style="margin-bottom: 0;") In case you want to change the temperature values, you can do so by clicking in the #[strong "more options"] button
+      section(style="padding:10px 0px;" ng-show="show_error_modeling")
+        .alert.alert-mini.alert-danger.margin-bottom-30
+          //- strong Oh snap!
+          //- |  Some fields are empty
+          strong Oh Snap!
+          p(style="margin-bottom: 0;") Some fields are empty. To #[strong model a job], these fields have to be filled:
+          ul(style="list-style-type: circle; padding-left: 2em; margin-bottom: 0;")
+            li Name
+            li Description
+          p(style="margin-bottom: 0;") And these parts have to be selected:
+          ul(style="list-style-type: circle; padding-left: 2em; margin-bottom: 0;")
+            li Promoter
+            li RBS
+            li CDS
+            li Terminator
+
+      section(style="padding:10px 0px;" ng-show="show_missing")
+        .alert.alert-mini.alert-danger.margin-bottom-30
+          //- strong Oh snap!
+          //- |  Some fields are empty
+          strong Oh Snap!
+          p(style="margin-bottom: 0;") Some of the parts are #[strong not available] in the inventory or its cartridge might be #[strong empty]:
+          ul(style="list-style-type: circle; padding-left: 2em; margin-bottom: 0;")
+            li(ng-show="missingP") Promoter: {{auxPromoter.name}}
+            li(ng-show="missingR") Rbs: {{auxRbs.name}}
+            li(ng-show="missingC") Cds: {{auxCds.name}}
+            li(ng-show="missingT") Terminator: {{auxTerminator.name}}
+          a(ng-click="getURLLogged('inventory')") Check the inventory &gt;
+
+      section(style="padding:30px 0px;" ng-show="!show_edit_job && !show_edit_recipe")
+        .boxed.text-center
+          div(style="padding:10px 0px;")
+            a.btn.btn--primary.btn--icon.btn-yel.buttons(data-toggle='modal', data-target='#ModalModeling')
+              span.btn__text
+                i.fas.fa-flask
+                |  Show modeling results
+            a.btn.btn--primary.btn--icon.btn-red.buttons(ng-click="saveRecipe()")
+              span.btn__text
+                i.far.fa-save
+                | Save
+            a.btn.btn--primary.btn--icon.btn-red.buttons(ng-click="printJob()")
+              span.btn__text
+                i.fas.fa-palette
+                |  Print
+            a.btn.btn--primary.btn--icon.btn-blue.buttons(ng-click="saveRecipeAndPrintJob()")
+              span.btn__text
+                div
+                  i.far.fa-bookmark
+                | Print and save
+            
+      section(style="padding:30px 0px;" ng-show="show_edit_job")
+        .boxed.text-center
+          div(style="padding:10px 0px;")
+            a.btn.btn--primary.btn--icon.btn-blue.buttons(ng-click="saveChanges()")
+              span.btn__text
+                i.fas.fa-palette
+                |  Save Changes
+            a.btn.btn--primary.btn--icon.btn-yel.buttons(ng-click="showModelingResults()")
+              span.btn__text
+                i.fas.fa-flask
+                |  Show modeling results
+
+      section(style="padding:30px 0px;" ng-show="show_edit_recipe")
+        .boxed.text-center
+          div(style="padding:10px 0px;")
+            a.btn.btn--primary.btn--icon.btn-yel.buttons(data-toggle='modal', data-target='#ModalModeling')
+              span.btn__text
+                i.fas.fa-flask
+                |  Show modeling results
+            a.btn.btn--primary.btn--icon.btn-red.buttons(data-toggle='modal', data-target='#recipe_modal_name')
+              span.btn__text
+                i.far.fa-save
+                | Save
+            a.btn.btn--primary.btn--icon.btn-red.buttons(ng-click="printJobFromRecipe()")
+              span.btn__text
+                i.fas.fa-palette
+                |  Print
+            a.btn.btn--primary.btn--icon.btn-blue.buttons(data-toggle='modal', data-target='#recipePrint_modal_name')
+              span.btn__text
+                div
+                  i.far.fa-bookmark
+                | Print and save
+
+
+block footerJS
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/services/job-recipes.js")
+  script(type="text/javascript" src="/js/services/promoters.js")
+  script(type="text/javascript" src="/js/services/rbss.js")
+  script(type="text/javascript" src="/js/services/cdss.js")
+  script(type="text/javascript" src="/js/services/terminators.js")
+  script(type="text/javascript" src="/js/services/inventory.js")
+  script(src='https://code.highcharts.com/modules/data.js')
+  script(src='https://code.highcharts.com/modules/exporting.js')
+  script(type="text/javascript" src="/js/controllers/new-job/index.js")
+

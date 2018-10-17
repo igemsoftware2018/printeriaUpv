@@ -1,0 +1,33 @@
+// Modal
+#ModalModeling.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document' style="max-width: 800px;")
+    .modal-content
+      .modal-header(style="justify-content: center; padding-top: 1em; padding-bottom: 3em;")
+        h5.type--uppercase(style="text-align: center; font-size: 17px;") Modeling Parameters
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        form.ng-pristine.ng-valid
+          .row(style='margin-right: 10px; margin-left: 10px;')
+            .col-md-6(ng-show="auxPromoter.type == 'mi_araC'")
+              h5 L-arabinose concentration (% mg/mL)
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='number', placeholder='value', ng-model="modeling_arabinose")
+            .col-md-6(ng-show="auxPromoter.type == 'mi_luxR'")
+              h5 AHL Concentration (nM)
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='number', placeholder='value', ng-model="modeling_ahl")
+            .col-md-6
+              h5 Dilution rate µ (min<sup>-1</sup>)
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='number', placeholder='value', ng-model="modeling_mu")
+            .col-md-6
+              h5 Plasmid copy Number C<sub>n</sub> (Number of Plasmids)
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='number', placeholder='value', ng-model="modeling_cn")
+            .col-md-6
+              h5 Maximum growth capacity K<sub>max</sub> (Number of Cells)
+              input.ng-pristine.ng-untouched.ng-valid.ng-empty(type='number', placeholder='value', ng-model="modeling_kmax")
+      .modal-footer(style='justify-content: center')
+        //- section(style="padding:10px 0px;" ng-show="show_error2")
+        //- .alert.alert-mini.alert-danger.margin-bottom-30
+        //-   strong Oh snap!
+        //-   |   Incorrect!
+        button.btn.btn--primary.type--uppercase(type='button', data-dismiss='modal', ng-click="showModelingResults()", style='color: white; font-weight: 900; min-width: 200px;') Model
+

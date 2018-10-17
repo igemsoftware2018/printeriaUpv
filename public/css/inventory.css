@@ -1,0 +1,64 @@
+.circle-container {
+  position: relative;
+  width: 30em;
+  height: 30em;
+  padding: 2.8em;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+  background-image: url(/images/rueda3.png) !important;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.circle-container a {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 2em; height: 2em;
+  margin: -1em;
+}
+
+.rueda .input-radio label{
+  background-color: #fbfbfb;
+}
+
+.circle-container img { display: block; width: 50%; }
+
+.deg0 { transform: rotate(0deg) translate(12em) rotate(-0deg); } /* 12em = half the width of the wrapper */
+.deg14-4 { transform: rotate(14.4deg) translate(12em) rotate(-14.4deg); }
+.deg28-8 { transform: rotate(28.8deg) translate(12em) rotate(-28.8deg); }
+.deg43-2 { transform: rotate(43.2deg) translate(12em) rotate(-43.2deg); }
+.deg57-6 { transform: rotate(57.6deg) translate(12em) rotate(-57.6deg); }
+.deg72 { transform: rotate(72deg) translate(12em) rotate(-72deg); }
+.deg86-4 { transform: rotate(86.4deg) translate(12em) rotate(-86.4deg); }
+.deg100-8 { transform: rotate(100.8deg) translate(12em) rotate(-100.8deg); }
+.deg115-2 { transform: rotate(115.2deg) translate(12em) rotate(-115.2deg); }
+.deg129-6 { transform: rotate(129.6deg) translate(12em) rotate(-129.6deg); }
+.deg144 { transform: rotate(144deg) translate(12em) rotate(-144deg); }
+.deg158-4 { transform: rotate(158.4deg) translate(12em) rotate(-158.4deg); }
+.deg172-8 { transform: rotate(172.8deg) translate(12em) rotate(-172.8deg); }
+.deg187-2 { transform: rotate(187.2deg) translate(12em) rotate(-187.2deg); }
+.deg201-6 { transform: rotate(201.6deg) translate(12em) rotate(-201.6deg); }
+.deg216 { transform: rotate(216deg) translate(12em) rotate(-216deg); }
+.deg230-4 { transform: rotate(230.4deg) translate(12em) rotate(-230.4deg); }
+.deg244-8 { transform: rotate(244.8deg) translate(12em) rotate(-244.8deg); }
+.deg259-2 { transform: rotate(259.2deg) translate(12em) rotate(-259.2deg); }
+.deg273-6 { transform: rotate(273.6deg) translate(12em) rotate(-273.6deg); }
+.deg288 { transform: rotate(288deg) translate(12em) rotate(-288deg); }
+.deg302-4 { transform: rotate(302.4deg) translate(12em) rotate(-302.4deg); }
+.deg316-8 { transform: rotate(316.8deg) translate(12em) rotate(-316.8deg); }
+.deg331-2 { transform: rotate(331.2deg) translate(12em) rotate(-331.2deg); }
+.deg345-6 { transform: rotate(345.6deg) translate(12em) rotate(-345.6deg); }
+
+
+
+/*Legend*/
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 20px; height: 20px; margin: 2px; border-radius: 25px;}
+.radiovoid { background-color: #c1c1c1 !important;}
+.radioempty { background-color: #c1c1c1 !important;}
+.radiofull { background-color: #444041 !important;}
+.input-radio input:checked + label { background-color: #3a90c5 !important; border-color: #fff;}

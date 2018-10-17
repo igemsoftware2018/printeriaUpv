@@ -1,0 +1,89 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Printeria
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    block tophead
+
+    //- PRINTERIA DEPENDENCIAS
+    link(rel="stylesheet", href="/components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/components/toastr/toastr.css")
+    link(rel='stylesheet', href='/components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css')
+
+    link(rel='stylesheet', type='text/css', media='all', href='/Stack 2.0.2/css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', media='all', href='/Stack 2.0.2/css/stack-interface.css')
+    link(rel='stylesheet', type='text/css', media='all', href='/Stack 2.0.2/css/socicon.css')
+    link(rel='stylesheet', type='text/css', media='all', href='/Stack 2.0.2/css/iconsmind.css')
+    link(rel='stylesheet', type='text/css', media='all', href='/Stack 2.0.2/css/theme.css')
+
+    //- PRINTERIA STYLES
+    link(rel='stylesheet', type='text/css', media='all', href='/css/custom.css')
+
+    block subhead
+
+  body(data-smooth-scroll-offset='64' ng-app="printeriaApp" ng-controller="commonController" ng-cloak)
+    a#start
+    .nav-container
+      .bar.bar--sm.visible-xs
+        .container
+          .row(style="margin-bottom:0px;")
+            .col-3.col-md-2
+              //a(ng-click="getURLLogged('')")
+              a
+                img.logo.logo-dark(alt='logo', src='/images/logo.png')
+                img.logo.logo-light(alt='logo', src='/images/logo.png')
+            .col-9.col-md-10.text-right
+              a.hamburger-toggle(href='#', data-toggle-class='#menu1;hidden-xs')
+                i.icon.icon--sm.stack-interface.stack-menu
+      nav#menu1.bar.bar--sm.bar-1.hidden-xs(data-scroll-class='366px:pos-fixed')
+        .container
+          .row(style="margin-bottom:0px;")
+            .col-lg-1.col-md-2.hidden-xs
+              .bar__module
+                //a(ng-click="getURLLogged('')")
+                a
+                  img.logo.logo-dark(alt='logo', src='/images/logo.png')
+                  img.logo.logo-light(alt='logo', src='/images/logo.png')
+              // end module
+            include ./_sections/navbar.jade
+            
+    .main-container(ng-init="initController(#{JSON.stringify(user)})")
+      block content
+
+  block blockFooter
+    include _sections/footer.jade
+    a.back-to-top.inner-link(href='#start', data-scroll-class='100vh:active')
+      i.stack-interface.stack-up-open-big
+  
+    //- PRINTERIA DEPENDENCIAS
+    script(src="/components/angular/angular.min.js")
+    script(src="/components/jquery/dist/jquery.min.js")
+    script(src="/components/bootstrap/dist/js/bootstrap.min.js")
+    script(src="/components/toastr/toastr.min.js")
+    script(src='/components/highcharts/highcharts.js')
+    script(src='/components/highcharts/highcharts-more.js')
+    script(src='https://code.highcharts.com/modules/data.js')
+    script(src='https://code.highcharts.com/modules/exporting.js')
+
+    //- My configuration
+    script(src='/js/ready.js')
+    script(src="/js/app.js")
+      
+    script(src='/js/controllers/common.js')
+          
+    script(src='/Stack 2.0.2/js/jquery-3.1.1.min.js')
+    script(src='/Stack 2.0.2/js/typed.min.js')
+    script(src='/Stack 2.0.2/js/isotope.min.js')
+    script(src='/Stack 2.0.2/js/granim.min.js')
+    script(src='/Stack 2.0.2/js/smooth-scroll.min.js')
+    script(src='/Stack 2.0.2/js/countdown.min.js')
+    script(src='/Stack 2.0.2/js/datepicker.js')
+    script(src='/Stack 2.0.2/js/lightbox.min.js')
+    script(src='/Stack 2.0.2/js/easypiechart.min.js')
+    script(src='/Stack 2.0.2/js/flickity.min.js')
+    script(src='/Stack 2.0.2/js/jquery.steps.min.js') 
+    script(src='/Stack 2.0.2/js/scripts.js')
+      
+    block footerJS

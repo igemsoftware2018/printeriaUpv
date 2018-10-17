@@ -1,0 +1,111 @@
+extends ../../layout
+
+block subhead
+
+block content
+  div(ng-controller="adminUsersController" ng-init="init()" ng-cloak)
+    include sections/modal-edit-user
+    section(ng-show="superadminUsers.length > 1")
+      .container
+        .row
+          .col-xs-12
+            h4 Superadmin
+          .col-xs-12
+            .table-responsive
+              table.table.table-bordered.table-striped
+                thead
+                  tr
+                    th(style="font-size: 12px") 
+                    th(style="font-size: 12px") Username
+                    th(style="font-size: 12px") Email
+                    th(style="font-size: 12px") Creation Date
+                    th(style="font-size: 12px") Last login Date
+                    th(style="font-size: 12px") Status
+                    th(style="font-size: 12px")
+                tbody
+                  tr(ng-repeat="user in superadminUsers")
+                    td(style="font-size: 12px")
+                      img(ng-src="{{user.personalInfo.image}}" style="height:30px;")
+                    td(style="font-size: 12px") 
+                      strong @{{user.username}}
+                    td(style="font-size: 12px") {{user.email}}
+                    td(style="font-size: 12px") {{user.creationDate| date:'MM/dd/yyyy hh:mm'}}
+                    td(style="font-size: 12px") {{user.lastLogin| date:'MM/dd/yyyy hh:mm'}}
+                    td(style="font-size: 12px")
+                      span.label.label-success(ng-show="user.verified") Verified 
+                      span.label.label-info(ng-show="!user.verified") Not verified 
+                    td(style="font-size: 12px; text-align:right")
+                      button.btn.btn-warning(style="width: 35px; height:20px; padding:0px;padding-left:6px" data-toggle='modal' data-target='#editUserPermission' ng-click="setEditableUser(user)")
+                        i(class="fa fa-edit")
+  
+    section
+      .container
+        .row
+          .col-xs-12
+            h4 Admins
+          .col-xs-12
+            .table-responsive
+              table.table.table-bordered.table-striped
+                thead
+                  tr
+                    th(style="font-size: 12px") 
+                    th(style="font-size: 12px") Username
+                    th(style="font-size: 12px") Email
+                    th(style="font-size: 12px") Creation Date
+                    th(style="font-size: 12px") Last login Date
+                    th(style="font-size: 12px") Status
+                    th(style="font-size: 12px")
+                tbody    
+                  tr(ng-repeat="user in adminUsers")
+                    td(style="font-size: 12px")
+                      img(ng-src="{{user.personalInfo.image}}" style="height:30px;")
+                    td(style="font-size: 12px") 
+                      strong @{{user.username}}
+                    td(style="font-size: 12px") {{user.email}}
+                    td(style="font-size: 12px") {{user.creationDate| date:'MM/dd/yyyy hh:mm'}}
+                    td(style="font-size: 12px") {{user.lastLogin| date:'MM/dd/yyyy hh:mm'}}
+                    td(style="font-size: 12px")
+                      span.label.label-success(ng-show="user.verified") Verified 
+                      span.label.label-info(ng-show="!user.verified") Not verified 
+                    td(style="font-size: 12px; text-align:right")
+                      button.btn.btn-warning(style="width: 35px; height:20px; padding:0px;padding-left:6px" data-toggle='modal' data-target='#editUserPermission' ng-click="setEditableUser(user)")
+                        i(class="fa fa-edit")
+                          
+    section
+      .container
+        .row
+          .col-xs-12
+            h4 Users
+          .col-xs-12
+            .table-responsive
+              table.table.table-bordered.table-striped
+                thead
+                  tr
+                    th(style="font-size: 12px") 
+                    th(style="font-size: 12px") Username
+                    th(style="font-size: 12px") Email
+                    th(style="font-size: 12px") Creation Date
+                    th(style="font-size: 12px") Last login Date
+                    th(style="font-size: 12px") Status
+                    th(style="font-size: 12px")
+                tbody    
+                  tr(ng-repeat="user in users")
+                    td(style="font-size: 12px")
+                      img(ng-src="{{user.personalInfo.image}}" style="height:30px;")
+                    td(style="font-size: 12px") 
+                      strong @{{user.username}}
+                    td(style="font-size: 12px") {{user.email}}
+                    td(style="font-size: 12px") {{user.creationDate| date:'MM/dd/yyyy hh:mm'}}
+                    td(style="font-size: 12px") {{user.lastLogin| date:'MM/dd/yyyy hh:mm'}}
+                    td(style="font-size: 12px")
+                      span.label.label-success(ng-show="user.verified") Verified 
+                      span.label.label-info(ng-show="!user.verified") Not verified 
+                    td(style="font-size: 12px; text-align:right")
+                      button.btn.btn-warning(style="width: 35px; height:20px; padding:0px;padding-left:6px" data-toggle='modal' data-target='#editUserPermission' ng-click="setEditableUser(user)")
+                        i(class="fa fa-edit")
+  
+      
+
+block footerJS
+  script(type="text/javascript" src="/js/services/user.js")
+  script(type="text/javascript" src="/js/controllers/manage-users/index.js")

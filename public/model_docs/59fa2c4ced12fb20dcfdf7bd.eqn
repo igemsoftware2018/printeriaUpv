@@ -1,0 +1,15 @@
+parameter Cnaaa=0;
+parameter k_baaa=0;
+parameter k_uaaa=0;
+parameter k_maaa=0;
+parameter d_maaa=0;
+parameter k_aaa=0;
+parameter CrnaPOLfreeaaa=0;
+parameter Kmaaae=k_maaa/(1+(1/CrnaPOLfreeaaa)*((k_uaaa + k_maaa)/k_baaa));
+parameter kaaae=k_aaa*(Kmaaae/d_maaa);
+
+
+null => aaa; kaaae*Cnaaa
+aaa -> null; d_aaa=null;
+
+

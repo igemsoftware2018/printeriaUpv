@@ -1,0 +1,15 @@
+parameter Cn1111=0;
+parameter k_b1111=0;
+parameter k_u1111=0;
+parameter k_m1111=0;
+parameter d_m1111=0;
+parameter k_1111=0;
+parameter CrnaPOLfree1111=0;
+parameter Km1111e=k_m1111/(1+(1/CrnaPOLfree1111)*((k_u1111 + k_m1111)/k_b1111));
+parameter k1111e=k_1111*(Km1111e/d_m1111);
+
+
+null => 1111; k1111e*Cn1111
+1111 -> null; d_1111=null;
+
+

@@ -1,0 +1,184 @@
+section(style="padding:0px;" ng-show="allJobs.length != 0" id="printTable")
+  .row.mb20.justify-content-center
+    .col-md-12.col-lg-12
+      div(style="width: 100%;")
+        h5(style="display: inline-block; width: 10%; padding-right:10px; text-align: right")
+          | Search
+        div(style="display: inline-block; width: 65%;")
+          input(type='text', placeholder='Search...', ng-change="search()",ng-model='searchValue')
+        div(style="display: inline-block; width: 15%; padding-left: 2em;")
+          a.btn.btn--lg.btn-yel.btn-help(ng-click="show_avanzado = !show_avanzado" style="margin-top: 0;")
+            span.btn__text(ng-show="show_avanzado" style="font-size:1.3em; color: white; font-weight: 900;") Simple Search
+            span.btn__text(ng-show="!show_avanzado" style="font-size:1.3em; color: white; font-weight: 900;") Advanced Search
+
+  .row.mb20.justify-content-center
+    .col-md-12.col-lg-12
+      div(style="width: 100%;")
+        div(style="display: inline-block; width: 25%;")
+          a.btn.btn--lg.btn-yel.btn-help(ng-click="recetasEjecutadas()" style="margin-top: 0;")
+            span.btn__text(ng-show="show_ejecutadas" style="font-size:1.3em; color: white; font-weight: 900;") Executed recipes ON
+            span.btn__text(ng-show="!show_ejecutadas" style="font-size:1.3em; color: white; font-weight: 900;") Executed recipes OFF
+        div(style="display: inline-block; width: 25%;")
+          a.btn.btn--lg.btn-yel.btn-help(ng-click="coincidenciasReceta()" style="margin-top: 0;")
+            span.btn__text(ng-show="show_coincidencias" style="font-size:1.3em; color: white; font-weight: 900;") Similar recipes ON
+            span.btn__text(ng-show="!show_coincidencias" style="font-size:1.3em; color: white; font-weight: 900;") Similar recipes OFF
+        div(style="display: inline-block; width: 25%;")
+          a.btn.btn--lg.btn-yel.btn-help(ng-click="show_otras = !show_otras" style="margin-top: 0;")
+            span.btn__text(ng-show="show_otras" style="font-size:1.3em; color: white; font-weight: 900;") Other Printerias ON
+            span.btn__text(ng-show="!show_otras" style="font-size:1.3em; color: white; font-weight: 900;") Other Printerias OFF
+
+  .row.mb20.justify-content-center
+    .col-md-12.col-lg-12
+      div(ng-show='show_avanzado')
+        .container
+          .row.mb10
+            .col-md-4
+              h5 Experiment Name: 
+              input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Experiment name', ng-model='advancedName')
+              h5(style='padding-top: 10px;') Author: 
+              input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Author of the experiment', ng-model='advancedAuthor')
+            .col-md-8
+              h5 Description:
+              textarea.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(rows='5', type='text', placeholder='Description of your experiment', ng-model='advancedDescription')            
+          .row
+            .col-md-3
+              h5 Promoter:
+              input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Promoter name', ng-model='advancedPromoter')
+              h5(style='padding-top: 10px;')
+                | Parameters
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='advancedPromoterCategory')
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedPromoterLengthBP')
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Type', ng-model='advancedPromoterType')
+            .col-md-3
+              h5 Rbs:
+              input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Rbs name', ng-model='advancedRbs')
+              h5(style='padding-top: 10px;')
+                | Parameters
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='advancedRbsCategory')
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedRbsLengthBP')
+            .col-md-3
+              h5 Cds:
+              input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Cds name', ng-model='advancedCds')
+              h5(style='padding-top: 10px;')
+                | Parameters
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Type', ng-model='advancedCdsType')
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedCdsLengthBP')
+            .col-md-3
+              h5 Terminator:
+              input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Terminator name', ng-model='advancedTerminator')
+              h5(style='padding-top: 10px;')
+                | Parameters
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Category', ng-model='advancedTerminatorCategory')
+                input.form-control.ng-pristine.ng-untouched.ng-valid.ng-empty(type='text', placeholder='Length BP', ng-model='advancedTerminatorLengthBP')
+          .row
+            .col-md-12(style='text-align: center;')
+              a.btn.btn--primary.btn--icon.btn-blue(ng-click='advancedSearch()', style='\
+              width: 176px;')
+                span.btn__text
+                  i.far.fa-search(style='\
+                  font-size: 15px;')
+                  | Search
+
+
+  .row.mb20.justify-content-center
+    .col-md-12.col-lg-12
+      div
+        table.border--round.table--alternate-row.tableHa.tablePhones(style="overflow: hidden;")
+          thead
+            tr
+              th.thHa(style='background: #3e90c5; color: #ffffff') Creation Date
+              th.thHa(style='background: #3e90c5; color: #ffffff') Experiment
+              th.thHa(style='background: #3e90c5; color: #ffffff') Author
+              th.thHa(style='background: #3e90c5; color: #ffffff') Promoters
+              th.thHa(style='background: #3e90c5; color: #ffffff') RBS
+              th.thHa(style='background: #3e90c5; color: #ffffff') CDS
+              th.thHa(style='background: #3e90c5; color: #ffffff') Terminators
+              th(style='background: #3e90c5; color: #ffffff') Options
+
+          tbody(ng-show="show_ejecutadas")
+            tr(ng-repeat="job in visibleJobs")
+              td.tdHa.tdHa2 {{job.creationDate | date:'dd/MM hh:mm'}}
+              td.tdHa {{job.name}}
+              td.tdHa {{job.owner}}
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.promoterObj.name}} - {{job.promoterObj.category}} - {{job.promoterObj.lengthBP}} - {{job.promoterObj.type}} ({{job.promoterObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.rbsObj.name}} - {{job.rbsObj.category}} - {{job.rbsObj.lengthBP}} ({{job.rbsObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.cdsObj.name}} - {{job.cdsObj.lengthBP}} - {{job.cdsObj.type}} ({{job.cdsObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.terminatorObj.name}} - {{job.terminatorObj.category}} - {{job.terminatorObj.lengthBP}} ({{job.terminatorObj.quantity}})
+              td.tdHa2.text-center
+                div
+                  a.btn.aHa(ng-click="showJob(job._id)" style="padding: .125rem .4rem;")
+                    i.fas.fa-chart-bar.iHa
+                  a.btn.aHa(ng-click="editJob(job._id)" style="padding: .125rem .4rem; margin-left: 1em;")
+                    i.fas.fa-trash-alt.iHa
+
+          tbody(ng-show="show_coincidencias")
+            tr(ng-repeat="job in visibleJobs")
+              td.tdHa.tdHa2 {{job.creationDate | date:'dd/MM hh:mm'}}
+              td.tdHa {{job.name}}
+              td.tdHa {{job.owner}}
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.promoterObj.name}} - {{job.promoterObj.category}} - {{job.promoterObj.lengthBP}} - {{job.promoterObj.type}} ({{job.promoterObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.rbsObj.name}} - {{job.rbsObj.category}} - {{job.rbsObj.lengthBP}} ({{job.rbsObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.cdsObj.name}} - {{job.cdsObj.lengthBP}} - {{job.cdsObj.type}} ({{job.cdsObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.terminatorObj.name}} - {{job.terminatorObj.category}} - {{job.terminatorObj.lengthBP}} ({{job.terminatorObj.quantity}})
+              td.tdHa2.text-center
+                div
+                  a.btn.aHa(ng-click="showJob(job._id)" style="padding: .125rem .4rem;")
+                    i.fas.fa-chart-bar.iHa
+                  a.btn.aHa(ng-click="editJob(job._id)" style="padding: .125rem .4rem; margin-left: 1em;")
+                    i.fas.fa-trash-alt.iHa
+
+
+          tbody(ng-show="show_otras")
+            tr(ng-repeat="job in visibleJobs")
+              td.tdHa.tdHa2 {{job.creationDate | date:'dd/MM hh:mm'}}
+              td.tdHa {{job.name}}
+              td.tdHa {{job.owner}}
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.promoterObj.name}} - {{job.promoterObj.category}} - {{job.promoterObj.lengthBP}} - {{job.promoterObj.type}} ({{job.promoterObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.rbsObj.name}} - {{job.rbsObj.category}} - {{job.rbsObj.lengthBP}} ({{job.rbsObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.cdsObj.name}} - {{job.cdsObj.lengthBP}} - {{job.cdsObj.type}} ({{job.cdsObj.quantity}})
+              td.tdHa(style="overflow: hidden; word-wrap: break-word;") {{job.terminatorObj.name}} - {{job.terminatorObj.category}} - {{job.terminatorObj.lengthBP}} ({{job.terminatorObj.quantity}})
+              td.tdHa2.text-center
+                div
+                  a.btn.aHa(ng-click="showJob(job._id)" style="padding: .125rem .4rem;")
+                    i.fas.fa-chart-bar.iHa
+                  a.btn.aHa(ng-click="editJob(job._id)" style="padding: .125rem .4rem; margin-left: 1em;")
+                    i.fas.fa-trash-alt.iHa
+
+
+
+
+  .row.mb20(ng-show="show_ejecutadas")
+    .col-md-12.col-lg-12
+      center
+        .pagination.pFixed(style="justify-content: center;")
+          a.pagination__prev(ng-click="changePage(actualPage - 1)", title='Previous Page' style="cursor: pointer; padding-right: 0.5em;") 
+            i.fas.fa-angle-left
+          ol
+            li(ng-repeat="enum in numPages" ng-class="enum == actualPage ? 'pagination__current' : '' " style="cursor: pointer;" ng-click="changePage(enum)")
+                a {{enum+1}}
+          a.pagination__next(ng-click="changePage(actualPage + 1)", title='Next Page' style="cursor: pointer; padding-left: 0.5em;")
+            i.fas.fa-angle-right
+
+  .row.mb20(ng-show="show_coincidencias")
+    .col-md-12.col-lg-12
+      center
+        .pagination.pFixed(style="justify-content: center;")
+          a.pagination__prev(ng-click="changePage(actualPage - 1)", title='Previous Page' style="cursor: pointer; padding-right: 0.5em;") 
+            i.fas.fa-angle-left
+          ol
+            li(ng-repeat="enum in numPages" ng-class="enum == actualPage ? 'pagination__current' : '' " style="cursor: pointer;" ng-click="changePage(enum)")
+                a {{enum+1}}
+          a.pagination__next(ng-click="changePage(actualPage + 1)", title='Next Page' style="cursor: pointer; padding-left: 0.5em;")
+            i.fas.fa-angle-right
+
+  .row.mb20(ng-show="show_otras")
+    .col-md-12.col-lg-12
+      center
+        .pagination.pFixed(style="justify-content: center;")
+          a.pagination__prev(ng-click="changePage(actualPage - 1)", title='Previous Page' style="cursor: pointer; padding-right: 0.5em;") 
+            i.fas.fa-angle-left
+          ol
+            li(ng-repeat="enum in numPages" ng-class="enum == actualPage ? 'pagination__current' : '' " style="cursor: pointer;" ng-click="changePage(enum)")
+                a {{enum+1}}
+          a.pagination__next(ng-click="changePage(actualPage + 1)", title='Next Page' style="cursor: pointer; padding-left: 0.5em;")
+            i.fas.fa-angle-right

@@ -1,0 +1,127 @@
+section.graphs(style='padding: 1em 2em 1em 2em;  background-color:#f9f9f9; border-radius: 15px;', ng-show='show_modeling')
+    .row.mb20.justify-content-center
+      .col-md-12.col-lg-12
+        div
+          h3(style='text-align: center') Modeling Results
+          br
+          hr
+    .row.mb20.justify-content-center(id='printSection')
+      .col-md-12.col-lg-12
+        //div(style="justify-content: center")
+          .row(style="justify-content: center; margin-right: 0px; margin-left: 0px;")
+            .col-md-4(style="padding-left: 0; !important")
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Name:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{job.name}}
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Author:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{job.idUser}}
+            .col-md-8(style="padding-left: 0; !important")
+              h5(style="font-weight:600;") Description:
+              p.text-uppercase(style="font-weight: 800; color:#282828") {{job.description}}
+          br
+          .row(style="justify-content: center; margin-right: 0px;margin-left: 0px;")
+            .col-md-3(style="padding-left: 0 !important")
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Promoter:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                hr
+                br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Category:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.category}}
+              br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Base Pair Length:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.lengthBP}}
+              br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Type:
+                p.text-uppercase(style="font-weight: 800; color:#282828") Constitutive
+              br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") r:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.r}}
+              br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") dm:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.dm}}
+              br
+
+            .col-md-3(style="padding-left: 0 !important")
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") RBS:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxRbs.name}}
+                hr
+                br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Category:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxRbs.category}}
+                br
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Base Pair Length:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxRbs.lengthBP}}
+                br
+
+            .col-md-3(style="padding-left: 0 !important")
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Promoter:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                hr
+                br
+                .col-md-12(style="padding-left: 0; !important")
+                  h5(style="font-weight:600;") Category:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                br
+                .col-md-12(style="padding-left: 0; !important")
+                  h5(style="font-weight:600;") Base Pair Length:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                br
+                .col-md-12(style="padding-left: 0; !important")
+                  h5(style="font-weight:600;") Type:
+                  p.text-uppercase(style="font-weight: 800; color:#282828" ng-show="auxPromoter.type == 'mc'") Constitutive
+                  p.text-uppercase(style="font-weight: 800; color:#282828" ng-show="auxPromoter.type == 'mi_araC'") Inducible araC
+                  p.text-uppercase(style="font-weight: 800; color:#282828" ng-show="auxPromoter.type == 'mi_luxR'")  Inducible luxR
+
+            .col-md-3(style="padding-left: 0 !important")
+              .col-md-12(style="padding-left: 0; !important")
+                h5(style="font-weight:600;") Promoter:
+                p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                hr
+                br
+                .col-md-12(style="padding-left: 0; !important")
+                  h5(style="font-weight:600;") Category:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                br
+                .col-md-12(style="padding-left: 0; !important")
+                  h5(style="font-weight:600;") Base Pair Length:
+                  p.text-uppercase(style="font-weight: 800; color:#282828") {{auxPromoter.name}}
+                br
+                .col-md-12(style="padding-left: 0; !important")
+                  h5(style="font-weight:600;") Type:
+                  p.text-uppercase(style="font-weight: 800; color:#282828" ng-show="auxPromoter.type == 'mc'") Constitutive
+                  p.text-uppercase(style="font-weight: 800; color:#282828" ng-show="auxPromoter.type == 'mi_araC'") Inducible araC
+                  p.text-uppercase(style="font-weight: 800; color:#282828" ng-show="auxPromoter.type == 'mi_luxR'")  Inducible luxR
+
+          br
+              
+        div
+          .row
+            .col-md-6  
+              #container
+              br
+            .col-md-6
+              #container2
+          br
+          .row(style="justify-content: center;")
+            .col-md-6  
+              #container3
+
+
+                  br
+    .row(style="justify-content: center;" id="printButton")
+      a.btn.btn--primary.btn--icon.btn-blue(ng-click="printModeling('printSection')")
+          span.btn__text
+            div
+              i.far.fa-print
+            | Print your results

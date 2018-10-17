@@ -1,0 +1,36 @@
+extends ../../layout
+
+block subhead
+    
+block content
+  div(ng-controller="statisticsController" ng-init="init()")
+    .container
+      section(style="padding-top:10px;padding-bottom:0px;")
+        .row.justify-content-center
+          .col-md-12.col-lg-12
+            .heading-block
+              h3.type--uppercase Statistics
+              hr
+      section(style="padding:0px;")
+        .row
+          .col-md-6
+            .boxed.boxed--border.bg--secondary.boxed--lg.box-shadow
+              h5 Users
+              p
+                | Check your users interactions
+              #container(style='min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto')
+
+
+
+
+
+
+block footerJS
+  script(type="text/javascript" src="/js/services/user.js")
+  script(type="text/javascript" src="/js/services/job.js")
+  script(type="text/javascript" src="/js/services/job-recipes.js")
+  script(type="text/javascript" src="/js/services/promoters.js")
+  script(type="text/javascript" src="/js/services/rbss.js")
+  script(type="text/javascript" src="/js/services/cdss.js")
+  script(type="text/javascript" src="/js/services/terminators.js")
+  script(type="text/javascript" src="/js/controllers/statics/index.js")

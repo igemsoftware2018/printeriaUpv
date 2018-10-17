@@ -1,0 +1,9 @@
+name;description;category;type;lenghtBP;quantity;r;dm
+BBa_K2656000;Constitutive promoter derived from the T7 bacteriophage. Allows high expression of proteins.; ;mc;23;0;0;0
+BBa_K2656001;HSP promoter. The activity of this promoter increases with heat shock temperature.; ;in;98;0;0;0
+BBa_K2656002;Inducible promoter. This promoter is negative regulated by LuxR when it is responding to Acyl-homoserine-lactone produced by LuxI .; ;in;30;0;0;0
+BBa_K2656003;Inducible promoter. This promoter is negative regulated by LuxR when it is responding to Acyl-homoserine-lactone produced by LuxI .; ;in;61;0;0;0
+BBa_K2656004;Constitutive promoter.; ;mc;35;0;0;0
+BBa_K2656005;Constitutive promoter.; ;mc;35;0;0;0
+BBa_K2656006;Inducible promoter. This promoter is positively regulated by AraC when it reacts to L-arabinose.; ;in;303;0;0;0
+BBa_K2656007;Constitutive promoter.; ;mc;35;0;0;0

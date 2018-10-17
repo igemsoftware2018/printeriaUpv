@@ -1,0 +1,18 @@
+#ModalCancel.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                    .modal-dialog(role='document')
+                      .modal-content
+                        .modal-header
+                          h5#exampleModalLabel.modal-title Are you sure you want to cancel the job?
+                          button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        .modal-body
+                          form.ng-pristine.ng-valid(style='margin: auto;idth: 100%;')
+                            .row(style="justify-content: center; padding: 1em 1em 1em 1em;")
+                              .col-md-3
+                                // Button trigger modal
+                                button.btn(type='button', data-toggle='modal', data-target='#ModalAddPromoter' style="width:100%" ng-click="cancelJob(jobToCancel._id)" aria-hidden='true' aria-label='Close' data-dismiss='modal')
+                                  | Yes
+                              .col-md-3
+                                // Button trigger modal
+                                button.btn(type='button', data-toggle='modal', data-target='#ModalAddRbs' style="width:100%" aria-hidden='true' aria-label='Close' data-dismiss='modal')
+                                  | No
